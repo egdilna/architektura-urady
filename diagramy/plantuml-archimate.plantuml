@@ -1,0 +1,41 @@
+@startuml eidramecproovm
+!include <archimate/archimate>
+left to right direction
+title Požadavky a rámec pro elektronickou identifikaci u OVM
+footer 
+© 2022 Architektonické vzory, EGdílna.cz
+github.com/egdilna/architektura-urady
+end footer
+
+Business_Role(qsep, "Kvalifikovaný poskytovatel služeb s EID") 
+Business_Service(sluzbaeid, "Prokázání totožnosti s využitím elektronické identifikace") 
+Application_Component(nia, "Národní bod EID (NIA)") 
+Application_Component(qalsystemeid, "Kvalifikovaný systém elektronické identifikace") 
+Grouping(g, "Povinné požadavky souladu") {
+Motivation_Requirement(eidvsreqsouladu1, "Elektronickou identifikaci poskytuje výhradně kvalifikovaný systém") 
+Motivation_Requirement(eidvsreqsouladu2, "Elektronická identifikace je poskytována prostřednictvím NIA") 
+Motivation_Requirement(eidvsreqsouladu3, "Elektronická identifikace jednoznačně identifikuje osobu") 
+Motivation_Requirement(eidvsreqsouladu4, "Elektronická identifikace probíhá s využitím kvalifikovaného prostředku") 
+Motivation_Requirement(qseidreqsouladu1, "QSEID spravuje Kvalifikovaný správce") 
+Motivation_Requirement(qseidreqsouladu2, "QSEID splňuje technické specifikace pro EID") 
+Motivation_Requirement(qseidreqsouladu3, "QSEID poskytuje služby EID prostřednictvím NIA") 
+Motivation_Requirement(qseidreqsouladu4, "QSEID v okamžiku identifikace ověřuje osobu") 
+Motivation_Requirement(qseidreqsouladu5, "QSEID využívá jen prostředky splňující technické specifikace") 
+Motivation_Requirement(eidvsreqsouladu1, "Elektronickou identifikaci poskytuje výhradně kvalifikovaný systém") 
+Motivation_Requirement(eidvsreqsouladu2, "Elektronická identifikace je poskytována prostřednictvím NIA") 
+}
+Rel_Access(qsep, sluzbaeid)
+Rel_Serving(nia, sluzbaeid)
+Rel_Access(qsep, sluzbaeid)
+Rel_Association(qsep, eidvsreqsouladu1)
+Rel_Association(qsep, eidvsreqsouladu2)
+Rel_Association(sluzbaeid, eidvsreqsouladu1)
+Rel_Association(sluzbaeid, eidvsreqsouladu2)
+Rel_Association(sluzbaeid, eidvsreqsouladu3)
+Rel_Association(sluzbaeid, eidvsreqsouladu4)
+Rel_Association(qalsystemeid, qseidreqsouladu1)
+Rel_Association(qalsystemeid, qseidreqsouladu2)
+Rel_Association(qalsystemeid, qseidreqsouladu3)
+Rel_Association(qalsystemeid, qseidreqsouladu4)
+Rel_Association(qalsystemeid, qseidreqsouladu5)
+@enduml
