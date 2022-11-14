@@ -1,3 +1,38 @@
+@startuml spolecneevidencecoajak
+!include <archimate/archimate>
+left to right direction
+title Typizované společné evidence v úřadu
+footer 
+© 2022 Architektonické vzory, EGdílna.cz
+github.com/egdilna/architektura-urady
+end footer
+Grouping(groupingspolecneevidence, "Společné evidence") {
+Application_Component(es, "Evidence subjektů") 
+Application_Component(edu, "Evidence digitálních úkonů") 
+Application_Component(epds, "Evidence poskytování digitálních služeb") 
+}
+Application_DataObject(subjekteviddo, "Subjekt evidovaný v informačním systému") 
+Application_DataObject(udajeodu, "Údaje o přijatém digitálním úkonu") 
+Application_DataObject(osvedcenidudo, "Osvědčení o digitálním úkonu") 
+Application_DataObject(udajeoposkytds, "Údaje o poskytnutí digitální služby") 
+Application_DataObject(potvrzeniposkytds, "Potvrzení o poskytnuté digitální službě") 
+Application_DataObject(vystupdsdo, "Výstup digitální služby") 
+Application_DataObject(zaznamoosvedcenidu, "Záznam o poskytnutí osvědčení o digitálním úkonu") 
+Application_DataObject(zaznamopotvrzenids, "Záznam o poskytnutí potvrzení o poskytnuté digitální službě") 
+Application_DataObject(zaznamoposkytnutivystupuds, "Záznam o poskytnutí výstupu digitální služby") 
+
+Rel_Access(es, subjekteviddo)
+Rel_Access(edu, udajeodu)
+Rel_Access(edu, osvedcenidudo)
+Rel_Access(edu, zaznamoosvedcenidu)
+Rel_Access(epds, udajeoposkytds)
+Rel_Access(epds, potvrzeniposkytds)
+Rel_Access(epds, vystupdsdo)
+Rel_Access(epds, zaznamopotvrzenids)
+Rel_Access(epds, zaznamoposkytnutivystupuds)
+@enduml
+
+
 @startuml eidramecproovm
 !include <archimate/archimate>
 left to right direction
