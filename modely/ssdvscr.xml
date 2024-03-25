@@ -1,0 +1,876 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model xmlns="http://www.opengroup.org/xsd/archimate/3.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.opengroup.org/xsd/archimate/3.0/ http://www.opengroup.org/xsd/archimate/3.1/archimate3_Diagram.xsd" identifier="id-05cf5d53cd4a455cb37b37aed89990f6">
+  <name xml:lang="cs">Strategie správy dat VS ČR</name>
+  <elements>
+    <element identifier="ovm" xsi:type="BusinessActor">
+      <name xml:lang="cs">Orgán veřejné moci</name>
+      <documentation xml:lang="cs">Subjekt, který je orgánem veřejné moci. Definuje se proto, že díky jeho OVMství má nějaké role, povinnosti a práva.</documentation>
+    </element>
+    <element identifier="stratsprd" xsi:type="Contract">
+      <name xml:lang="cs">Strategie pro správu dat VS 2024-2030</name>
+      <documentation xml:lang="cs">Strategický dokument vlády pro realizaci správné správy dat v rámci celé veřejné správy</documentation>
+    </element>
+    <element identifier="dia" xsi:type="BusinessActor">
+      <name xml:lang="cs">Digitální a informační agentura</name>
+      <documentation xml:lang="cs">Digitální a informační agentura (DIA) je ústřední správní úřad pro řízení a koordinaci EG a ICT. Přebrala pravomoci a povinnosti Ministerstva vnitra, správy základních registrů a další.</documentation>
+    </element>
+    <element identifier="stratsprdco111" xsi:type="Goal">
+      <name xml:lang="cs">Opatření 1.1.1 Stanovit odpovědnost za data úřadu a jejich správu</name>
+    </element>
+    <element identifier="stratsprdco112" xsi:type="Goal">
+      <name xml:lang="cs">Opatření 1.1.2 Vydat a v praxi uplatňovat interní pravidla pro správu dat</name>
+    </element>
+    <element identifier="stratsprdco121" xsi:type="Goal">
+      <name xml:lang="cs">Opatření 1.2.1 Zmapovat a prioritizovat věcné oblasti dat</name>
+    </element>
+    <element identifier="stratsprdco122" xsi:type="Goal">
+      <name xml:lang="cs">Opatření 1.2.2 Stanovit a řídit datové potřeby v prioritních oblastech</name>
+    </element>
+    <element identifier="stratsprdco123" xsi:type="Goal">
+      <name xml:lang="cs">Opatření 1.2.3 Formulovat v rámci Informační koncepce úřadu strategii v oblasti správy dat</name>
+    </element>
+    <element identifier="stratsprdco131" xsi:type="Goal">
+      <name xml:lang="cs">Opatření 1.3.1 Popsat data a definovat jejich význam</name>
+    </element>
+    <element identifier="stratsprdco132" xsi:type="Goal">
+      <name xml:lang="cs">Opatření 1.3.2 Vytvořit a využívat lokální katalog dat a předávat jeho obsah do národního katalogu dat</name>
+    </element>
+    <element identifier="stratsprdco133" xsi:type="Goal">
+      <name xml:lang="cs">Opatření 1.3.3 Rozlišit kategorie dat a přizpůsobit procesy správy dat jejich specifikům</name>
+    </element>
+    <element identifier="stratsprdco141" xsi:type="Goal">
+      <name xml:lang="cs">Opatření 1.4.1 Vytvořit v úřadu podmínky pro poskytnutí dat jiným úřadům</name>
+    </element>
+    <element identifier="stratsprdco142" xsi:type="Goal">
+      <name xml:lang="cs">Opatření 1.4.2 Zohledňovat při zadávání a řešení změn IS dopady na data a jejich správu</name>
+    </element>
+    <element identifier="stratsprdco151" xsi:type="Goal">
+      <name xml:lang="cs">Opatření 1.5.1 Zavést v úřadu základní postupy pro zajištění kvality dat</name>
+    </element>
+    <element identifier="stratsprdco152" xsi:type="Goal">
+      <name xml:lang="cs">Opatření 1.5.2 Zavést v úřadu základní řízení rizik v oblasti dat</name>
+    </element>
+    <element identifier="stratsprdco311" xsi:type="Goal">
+      <name xml:lang="cs">Opatření 3.1.1 Vytvořit služby pro poskytnutí dat jiným úřadům</name>
+    </element>
+    <element identifier="stratsprdco312" xsi:type="Goal">
+      <name xml:lang="cs">Opatření 3.1.2 Využívat při digitalizaci služeb možnost získání dat od jiných úřadů</name>
+    </element>
+    <element identifier="stratsprdco423" xsi:type="Goal">
+      <name xml:lang="cs">Opatření 4.2.3 Připravit se v rámci úřadů na zajištění řízeného přístupu</name>
+    </element>
+    <element identifier="stratsprdco431" xsi:type="Goal">
+      <name xml:lang="cs">Opatření 4.3.1 Připravit centrální koncepční a architektonické návrhy pro služby datových analýz</name>
+    </element>
+    <element identifier="stratsprdco432" xsi:type="Goal">
+      <name xml:lang="cs">Opatření 4.3.2 Formulovat v rámci Informační koncepce úřadu strategii analytické práce s daty</name>
+    </element>
+    <element identifier="stratsprdco100" xsi:type="Goal">
+      <name xml:lang="cs">Strategický cíl SC1. Vytvoření prostředí pro kvalitní správu dat v jednotlivých úřadech</name>
+      <documentation xml:lang="cs">Všechny úřady, které mají ve své správě data důležitá pro poskytování služeb občanům a řízení veřejné správy, pečují o tato data v souladu s definovaným standardem kvalitní správy dat ve veřejné správě.</documentation>
+    </element>
+    <element identifier="stratsprdco110" xsi:type="Goal">
+      <name xml:lang="cs">Specifický cíl 1.1 Vytvoření organizačních a kompetenčních předpokladů pro správu dat</name>
+      <documentation xml:lang="cs">Tento cíl míří na organizační, procesní a kompetenční zajištění správného chování, rozhodování a kontroly v oblasti péče o data tak, aby byla chráněna jejich důvěryhodnost a hodnota. Klíčovým úkolem na cestě k jeho dosažení je jasně stanovit odpovědnosti za data a jejich správu. Systematická pozornost věnovaná samostatně tématu dat je pro velkou většinu úřadů něčím zcela novým. Aktivity popsané a navrhované v této strategii proto míří na dlouhodobou „kulturní změnu“ celkového vztahu úřadu k datům, která se neobejde bez silné a vytrvalé podpory jeho nejvyššího vedení (přenesené skrze nižší úrovně vedení ve výsledku až na řadové pracovníky). Prvním nutným předpokladem pro zahájení práce na naplňování minimálního standardu je proto nominace člena nejvyššího vedení úřadu, který si vezme prosazování kvalitní správy dat napříč úřadem „za své“ a najde v úřadu vhodné lidi pro obsazení dalších rolí souvisejících se správou dat. Jejich fungování může být zpočátku neformální a závislé na konzultační podpoře DIA, časem by ale mělo přejít do rutinní podoby a být formalizováno explicitní definicí rolí a jejich odpovědností zakotvenou v interních pravidlech úřadu.</documentation>
+    </element>
+    <element identifier="stratsprdco120" xsi:type="Goal">
+      <name xml:lang="cs">Specifický cíl 1.2 Řízení datových potřeb a priorit</name>
+      <documentation xml:lang="cs">Tento cíl míří na zmapování relevantních oblastí dat v organizaci a jejich prioritizaci, identifikaci příležitostí a potřeb v těchto oblastech, definici a prioritizaci požadavků na datová řešení a vytvoření plánu aktivit směřujících k jejich naplnění. Výsledkem bude správné směrování úsilí a efektivní využívání zdrojů při správě dat. Klíčovým úkolem na cestě k dosažení tohoto cíle je zmapovat a prioritizovat oblasti dat spravovaných úřadem. Bude nutné získat základní přehled o všech datech spravovaných úřadem a vymezit tzv. věcné oblasti dat, na které bude vázána působnost některých rolí. Vzhledem k velkému rozsahu agend a poskytovaných služeb u většiny ministerstev a velkých centrálních úřadů bude nutné určit oblasti, které jsou z hlediska rozvoje správy dat prioritní, tzn. je v nich největší potřeba sdílení a využívání dat. Správné směrování úsilí do oblastí s největším relativním přínosem dobré správy dat a postupné iterativní rozšiřování záběru na další oblasti je dobrou praxí a de facto i nutností pro dosažení viditelných výsledků do konce r. 2025.</documentation>
+    </element>
+    <element identifier="stratsprdco130" xsi:type="Goal">
+      <name xml:lang="cs">Specifický cíl 1.3 Zajištění dohledatelnosti, srozumitelnosti a kategorizace dat</name>
+      <documentation xml:lang="cs">Tento cíl míří na inventarizaci, evidenci, kategorizace, popis, definici a modelování dat, ale také datových toků a všech IT komponent zapojených do řešení datových potřeb (primárních systémů, datových úložišť, datových sad a rozhraní, nástrojů pro ETL, analýzu a prezentaci dat). Ve výsledku budou mít úřady přehled o datech a datových tocích nezbytný pro dohledatelnost, efektivní správu a využívání dat, přičemž bude díky dobře popsanému významu dat maximalizována pravděpodobnost jejich správné interpretace. Klíčovým úkolem na cestě k dosažení tohoto cíle je inventarizovat a popsat data (iterativně po oblastech v pořadí stanoveném podle priorit). Aktivity budou směřovat k detailnímu popisu dat, který je klíčový pro dohledatelnost, správné pochopení a tím pádem i další využitelnost dat. Výsledkem těchto aktivit bude postupně rozšiřovaný systematický přehled o struktuře a významu spravovaných dat v jednotné podobě (tzv. lokálního katalogu dat), která umožní efektivně zjistit, jaká data spravuje daný úřad a (v sumě všech takto postupujících úřadů) veřejná správa jako celek (v tzv. národním katalogu dat). Každý z 32 vybraných úřadů musí vytvořit kompletní popis dat minimálně v prioritních oblastech, aby prokázal svou kompetenci postupovat tímto způsobem v dalších oblastech.</documentation>
+    </element>
+    <element identifier="stratsprdco140" xsi:type="Goal">
+      <name xml:lang="cs">Specifický cíl 1.4 Vytváření podmínek pro správu dat v rámci řešených změn informačních systémů</name>
+      <documentation xml:lang="cs">Tento cíl míří na integraci správy dat do procesů vývoje/rozvoje informačních systémů (IS) tak, aby všechny řešené a připravované změny IS systematicky přispívaly k vytvoření co nejlepších podmínek pro další práci s daty a jejich sdílení napříč veřejnou správou. Souběžně s popisováním dat (viz předchozí specifický cíl), které bude probíhat kontinuálně v delším časovém úseku, úřad zakomponuje do svých procesů a řídících dokumentů základní pravidla odrážející dobrou praxi v oblasti správy dat, pragmaticky uzpůsobená jeho potřebám a specifikům. Mezi prvními by mělo jít o sadu pravidel pro řízení změn informačních systémů, protože změnové aktivity mířící na implementaci/úpravy primárních systémů shromažďujících a uchovávajících data představují největší a často prakticky jedinou příležitost ke skokovému vylepšení předpokladů pro práci s daty v úřadu (a naopak je zde největší riziko vleklých a těžko odstranitelných problémů v případě zanedbání některých principů, např. datové suverenity a nezávislosti na dodavatelích).</documentation>
+    </element>
+    <element identifier="stratsprdco150" xsi:type="Goal">
+      <name xml:lang="cs">Specifický cíl 1.5 Zajištění kvality, bezpečnosti a provozní efektivity v oblasti dat</name>
+      <documentation xml:lang="cs">Tento cíl míří na zajištění pravidel, podmínek a zdrojů pro efektivní provozování datových řešení (reálné získávání/vytváření, ukládání, zpracování a zpřístupňování konkrétních dat), zajištění jejich dostupnosti, bezpečnosti, kvality a interoperability. Pokud by úřad neměl zajištěna kompletní, kvalitní a důvěryhodná data, pak by neměl co nabídnout pro sdílení mezi úřady při výkonu agend veřejné správy, pro tvorbu datových produktů (reportů, analýz, odpovědí na dotazy apod.), pro podporu informovaného rozhodování ve veřejné správě a pro zpřístupnění veřejnosti.</documentation>
+    </element>
+    <element identifier="stratsprdco200" xsi:type="Goal">
+      <name xml:lang="cs">Strategický cíl SC2. Zajištění centrální podpory a celkového prostředí pro správu dat</name>
+      <documentation xml:lang="cs">Digitální a informační agentura (DIA) je všeobecně uznávaným koordinačním a metodickým centrem pro oblast správy, sdílení a využívání dat ve veřejné správě. Poskytuje v této oblasti kvalitní a vysoce ceněné služby ostatním složkám státu a rozvíjí v datové oblasti dlouhodobé oboustranně prospěšné partnerské vztahy se subjekty a experty z akademické i komerční sféry. Je hodnocena podle úrovně poskytovaných služeb a disponuje také potřebnými mocenskými nástroji k prosazení povinností v této oblasti</documentation>
+    </element>
+    <element identifier="stratsprdco210" xsi:type="Goal">
+      <name xml:lang="cs">Specifický cíl 2.1 Zajištění legislativní, metodické a znalostní báze pro správu dat</name>
+      <documentation xml:lang="cs">Tento cíl míří na vznik zákona o správě dat veřejného sektoru, jakožto závazného a vymahatelného právního rámce pro práci s daty ve veřejné správě. Mimo jiné i na základě tohoto zákona bude DIA dále zajišťovat tvorbu metodických a podpůrných materiálů pro kvalitní správu dat. Ty bude spolu s dalšími relevantními informacemi systematicky shromažďovat a spravovat v podobě znalostní báze pro kvalitní správu dat.</documentation>
+    </element>
+    <element identifier="stratsprdco220" xsi:type="Goal">
+      <name xml:lang="cs">Specifický cíl 2.2 Konzultační a praktická podpora jednotlivých úřadů při zavádění správy dat</name>
+      <documentation xml:lang="cs">Tento cíl směřuje k individuální cílené podpoře vybraných úřadů ze strany DIA (narozdíl od cíle předchozího, jehož výsledky jsou určeny všem plošně). DIA bude v rámci jeho naplňování dlouhodobě pracovat s jednotlivými úřady formou jejich konzultační podpory v oblasti správy dat a poskytne kapacitní podporu nezbytnou pro vytvoření popisu dat v nejprioritnějších oblastech.</documentation>
+    </element>
+    <element identifier="stratsprdco230" xsi:type="Goal">
+      <name xml:lang="cs">Specifický cíl 2.3 Vzdělávání a zprostředkování výměny zkušeností v oblasti práce s daty</name>
+      <documentation xml:lang="cs">Pro podporu kvalitní správy dat zajistí DIA školení, odborný rozvoj a osvětu v této oblasti, a to s využitím nejen vlastních kapacit, ale i s významným zapojením samotných úřadů ochotných sdílet vlastní zkušenosti, akademické sféry a dalších spolupracujících externích subjektů.</documentation>
+    </element>
+    <element identifier="stratsprdco240" xsi:type="Goal">
+      <name xml:lang="cs">Specifický cíl 2.4 Zajištění nástrojů na podporu správy dat</name>
+      <documentation xml:lang="cs">Tento cíl míří na vytvoření nástrojové podpory aktivit v oblasti správy dat tak, aby jednotlivé úřady nemusely pro naplnění některých klíčových opatření této strategie hledat či vyvíjet vlastní softwarová řešení.</documentation>
+    </element>
+    <element identifier="stratsprdco250" xsi:type="Goal">
+      <name xml:lang="cs">Specifický cíl 2.5 Fungující infrastruktura a služby pro výměnu dat ve veřejné správě</name>
+      <documentation xml:lang="cs">Současná infrastruktura Informačního systému sdílené služby byla navržena a realizována již před více než pěti lety. Pro zajištění její funkčnosti s nabývajícím objemem vyřizovaných požadavků je nutné posílení stávající technické infrastruktury v rámci existující architektury a doplnění architektury pro splnění požadavků, které vznikly v posledních letech,</documentation>
+    </element>
+    <element identifier="stratsprdco211" xsi:type="Goal">
+      <name xml:lang="cs">Opatření 2.1.1 Připravit paragrafové znění zákona o správě dat veřejného sektoru</name>
+    </element>
+    <element identifier="stratsprdco212" xsi:type="Goal">
+      <name xml:lang="cs">Opatření 2.1.2 Vytvořit metodické a podpůrné materiály pro kvalitní správu dat</name>
+    </element>
+    <element identifier="stratsprdco213" xsi:type="Goal">
+      <name xml:lang="cs">Opatření 2.1.3 Začlenit témata správy dat do Informační koncepce ČR a šablony Informační koncepce úřadu</name>
+    </element>
+    <element identifier="stratsprdco214" xsi:type="Goal">
+      <name xml:lang="cs">Opatření 2.1.4 Vytvořit a spravovat znalostní bázi pro oblast správy dat</name>
+    </element>
+    <element identifier="stratsprdco221" xsi:type="Goal">
+      <name xml:lang="cs">Opatření 2.2.1 Konzultačně podporovat úřady při zavádění opatření</name>
+    </element>
+    <element identifier="stratsprdco222" xsi:type="Goal">
+      <name xml:lang="cs">Opatření 2.2.2 Prakticky podporovat úřady při popisu dat v prioritních oblastech</name>
+    </element>
+    <element identifier="stratsprdco223" xsi:type="Goal">
+      <name xml:lang="cs">Opatření 2.2.3 Vyhodnocovat dosaženou úroveň správy dat v jednotlivých úřadech</name>
+    </element>
+    <element identifier="stratsprdco231" xsi:type="Goal">
+      <name xml:lang="cs">Opatření 2.3.1 Zajistit vytvoření a realizaci školení zaměřených na správu dat</name>
+    </element>
+    <element identifier="stratsprdco232" xsi:type="Goal">
+      <name xml:lang="cs">Opatření 2.3.2 Budovat a koordinovat pracovní skupiny a komunity zaměřené na práci s daty</name>
+    </element>
+    <element identifier="stratsprdco233" xsi:type="Goal">
+      <name xml:lang="cs">Opatření 2.3.3 Navázat a rozvíjet spolupráci s akademickou sférou při vzdělávání v oblasti dat</name>
+    </element>
+    <element identifier="stratsprdco234" xsi:type="Goal">
+      <name xml:lang="cs">Opatření 2.3.4 Vytvořit a udržovat partnerský ekosystém externích spolupracujících subjektů</name>
+    </element>
+    <element identifier="stratsprdco241" xsi:type="Goal">
+      <name xml:lang="cs">Opatření 2.4.1 Zajistit centrální evidenci datových potřeb</name>
+    </element>
+    <element identifier="stratsprdco242" xsi:type="Goal">
+      <name xml:lang="cs">Opatření 2.4.2 Připravit nástrojovou podporu pro popis dat</name>
+    </element>
+    <element identifier="stratsprdco243" xsi:type="Goal">
+      <name xml:lang="cs">Opatření 2.4.3 Zajistit nástrojovou podporu pro katalogy dat</name>
+    </element>
+    <element identifier="stratsprdco251" xsi:type="Goal">
+      <name xml:lang="cs">Opatření 2.5.1 Zajistit spolehlivé fungování služeb ISSS</name>
+    </element>
+    <element identifier="stratsprdco252" xsi:type="Goal">
+      <name xml:lang="cs">Opatření 2.5.2 Implementovat služby ISSS umožňující efektivní dávkovou výměnu dat</name>
+    </element>
+    <element identifier="stratsprdco300" xsi:type="Goal">
+      <name xml:lang="cs">Strategický cíl SC3. Sdílení dat mezi orgány veřejné správy při poskytování služeb</name>
+      <documentation xml:lang="cs">Všechny úřady, které mají ve své správě data důležitá pro poskytování služeb občanům a řízení veřejné správy, se připojily k bezpečnému, rychlému a efektivnímu sdílení dat tak, aby data vztahující se ke klientovi existující kdekoliv napříč veřejnou správou mohla být využívána při poskytování služeb tomuto klientovi a byl vždy dodržován princip „pouze jednou“.</documentation>
+    </element>
+    <element identifier="stratsprdco310" xsi:type="Goal">
+      <name xml:lang="cs">Specifický cíl 3.1 Realizace sdílení dat na úrovni jednotlivých úřadů</name>
+      <documentation xml:lang="cs">Tento cíl zahrnuje opatření, jejichž zavedením jednotlivé úřady reálně připraví svá data ke sdílení s jinými úřady a své systémy naopak k převzetí dat od jiných úřadů. Míří pouze na omezený rozsah údajů, které jsou určeny ke sdílení (tzn. jinde v rámci veřejné správy byla identifikována potřeba je přebírat). Opatření cíle míří k výměně dat mezi úřady již zavedeným mechanismem architektury veřejné správy označovaným jako propojený datový fond (PPDF), konkrétně prostřednictvím služeb Informačního systému sdílené služby (ISSS). PPDF je dlouhodobě prosazovanou koncepční cestou výměny dat mezi úřady a jako takový by měl postupně nahradit dosud používané přímé interakce při výměně údajů mezi jednotlivými agendovými informačními systémy.</documentation>
+    </element>
+    <element identifier="stratsprdco320" xsi:type="Goal">
+      <name xml:lang="cs">Specifický cíl 3.2 Centrální podpora a koordinace sdílení dat</name>
+      <documentation xml:lang="cs">Díky své nadresortní působnosti má DIA možnost identifikovat napříč úřady oblasti obsahující data, jejichž sdílení bude mít pro veřejnou správu jako celek největší přínos. Tento cíl směřuje k tomu, aby cíleným nasazením vlastních zdrojů na podporu aktivit v těchto oblastech pomohla urychlit celý proces poskytnutí dat na jedné straně (úřadem, který je spravuje) a jejich čerpání na straně druhé (jinými úřady).</documentation>
+    </element>
+    <element identifier="stratsprdco321" xsi:type="Goal">
+      <name xml:lang="cs">Opatření 3.2.1 Prakticky podporovat identifikaci a analýzu datových potřeb v prioritních oblastech</name>
+    </element>
+    <element identifier="stratsprdco322" xsi:type="Goal">
+      <name xml:lang="cs">Opatření 3.2.2 Prakticky podporovat aktivity úřadů směřující ke sdílení dat v prioritních oblastech</name>
+    </element>
+    <element identifier="stratsprdco400" xsi:type="Goal">
+      <name xml:lang="cs">Strategický cíl SC4. Vytvoření prostředí pro analytickou práci s daty veřejné správy</name>
+      <documentation xml:lang="cs">Veřejná správa má vybudovány schopnosti a zajištěny podmínky i nástroje potřebné pro hromadné analytické zpracování dat. Vytváří datové/analytické výstupy, které následně využívá pro přijímání informovaných rozhodnutí. Do zpracování dat veřejné správy jsou efektivně zapojovány externí subjekty i jednotlivci a výsledky jejich analytické práce jsou zpětně využívány ve prospěch lepšího rozhodování a řízení státu.</documentation>
+    </element>
+    <element identifier="stratsprdco410" xsi:type="Goal">
+      <name xml:lang="cs">Specifický cíl 4.1 Publikace otevřených dat</name>
+      <documentation xml:lang="cs">Tento cíl míří k naplnění zákonných povinností souvisejících s publikací otevřených dat a dále k zajištění jejich dohledatelnosti, kvality a opětovného využití.</documentation>
+    </element>
+    <element identifier="stratsprdco420" xsi:type="Goal">
+      <name xml:lang="cs">Specifický cíl 4.2 Zajištění řízeného přístupu k datům veřejné správy</name>
+      <documentation xml:lang="cs">Tento cíl směřuje k tomu, aby veřejná správa zajistila oprávněnému žadateli při splnění zákonem daných podmínek (prokázané legitimní důvody využití dat apod.) tzv. řízený přístup k datům v souladu s právními předpisy upravujícími tuto oblast (připravovaný zákon o správě dat veřejného sektoru, který je implementací nařízení o evropské správě dat - Data Governance Act).</documentation>
+    </element>
+    <element identifier="stratsprdco430" xsi:type="Goal">
+      <name xml:lang="cs">Specifický cíl 4.3 Příprava podmínek pro analytické zpracování dat na úrovni jednotlivých úřadů</name>
+      <documentation xml:lang="cs">Tento cíl navazuje na cíle a opatření Koncepce Klientsky orientovaná veřejná správa 2030 Ministerstva vnitra a směřuje k tomu, aby veřejná správa budovala svou schopnost analytické práce a rozhodování podle jejích výsledků. Viz specifický cíl 3.1 Rozšířit rozhodování a plánování na principu evidence-informed této Koncepce.</documentation>
+    </element>
+    <element identifier="stratsprdco411" xsi:type="Goal">
+      <name xml:lang="cs">Opatření 4.1.1      Publikovat veřejná data úřadu ve formě otevřených dat</name>
+    </element>
+    <element identifier="stratsprdco412" xsi:type="Goal">
+      <name xml:lang="cs">Opatření 4.1.2      Monitorovat plnění povinností v oblasti otevřených dat</name>
+    </element>
+    <element identifier="stratsprdco413" xsi:type="Goal">
+      <name xml:lang="cs">Opatření 4.1.3      Poskytovat praktickou podporu opětovného využití otevřených dat</name>
+    </element>
+    <element identifier="stratsprdco414" xsi:type="Goal">
+      <name xml:lang="cs">Opatření 4.1.4      Zajistit provoz a rozvoj Národního katalogu otevřených dat</name>
+    </element>
+    <element identifier="stratsprdco421" xsi:type="Goal">
+      <name xml:lang="cs">Opatření 4.2.1 Připravit legislativní, metodické a procesní předpoklady pro řízený přístup</name>
+    </element>
+    <element identifier="stratsprdco422" xsi:type="Goal">
+      <name xml:lang="cs">Opatření 4.2.2 Naplnit roli Jednotného informačního místa pro řízený přístup</name>
+    </element>
+    <element identifier="stratsprdco424" xsi:type="Goal">
+      <name xml:lang="cs">Opatření 4.2.4 Zajistit odbornou a technickou podporu řízeného přístupu</name>
+    </element>
+    <element identifier="stratsprdco425" xsi:type="Goal">
+      <name xml:lang="cs">Opatření 4.2.5 Zajistit provoz a rozvoj portálu pro řízený přístup</name>
+    </element>
+  </elements>
+  <relationships>
+    <relationship identifier="ovmstratsprd" source="ovm" target="stratsprd" xsi:type="Association">
+      <name xml:lang="cs">naplňuje</name>
+    </relationship>
+    <relationship identifier="ovmstratsprdco111" source="ovm" target="stratsprdco111" xsi:type="Association">
+      <name xml:lang="cs">naplňuje</name>
+    </relationship>
+    <relationship identifier="ovmstratsprdco112" source="ovm" target="stratsprdco112" xsi:type="Association">
+      <name xml:lang="cs">naplňuje</name>
+    </relationship>
+    <relationship identifier="ovmstratsprdco121" source="ovm" target="stratsprdco121" xsi:type="Association">
+      <name xml:lang="cs">naplňuje</name>
+    </relationship>
+    <relationship identifier="ovmstratsprdco122" source="ovm" target="stratsprdco122" xsi:type="Association">
+      <name xml:lang="cs">naplňuje</name>
+    </relationship>
+    <relationship identifier="ovmstratsprdco123" source="ovm" target="stratsprdco123" xsi:type="Association">
+      <name xml:lang="cs">naplňuje</name>
+    </relationship>
+    <relationship identifier="ovmstratsprdco131" source="ovm" target="stratsprdco131" xsi:type="Association">
+      <name xml:lang="cs">naplňuje</name>
+    </relationship>
+    <relationship identifier="ovmstratsprdco132" source="ovm" target="stratsprdco132" xsi:type="Association">
+      <name xml:lang="cs">naplňuje</name>
+    </relationship>
+    <relationship identifier="ovmstratsprdco133" source="ovm" target="stratsprdco133" xsi:type="Association">
+      <name xml:lang="cs">naplňuje</name>
+    </relationship>
+    <relationship identifier="ovmstratsprdco141" source="ovm" target="stratsprdco141" xsi:type="Association">
+      <name xml:lang="cs">naplňuje</name>
+    </relationship>
+    <relationship identifier="ovmstratsprdco142" source="ovm" target="stratsprdco142" xsi:type="Association">
+      <name xml:lang="cs">naplňuje</name>
+    </relationship>
+    <relationship identifier="ovmstratsprdco151" source="ovm" target="stratsprdco151" xsi:type="Association">
+      <name xml:lang="cs">naplňuje</name>
+    </relationship>
+    <relationship identifier="ovmstratsprdco152" source="ovm" target="stratsprdco152" xsi:type="Association">
+      <name xml:lang="cs">naplňuje</name>
+    </relationship>
+    <relationship identifier="ovmstratsprdco311" source="ovm" target="stratsprdco311" xsi:type="Association">
+      <name xml:lang="cs">naplňuje</name>
+    </relationship>
+    <relationship identifier="ovmstratsprdco312" source="ovm" target="stratsprdco312" xsi:type="Association">
+      <name xml:lang="cs">naplňuje</name>
+    </relationship>
+    <relationship identifier="ovmstratsprdco423" source="ovm" target="stratsprdco423" xsi:type="Association">
+      <name xml:lang="cs">naplňuje</name>
+    </relationship>
+    <relationship identifier="ovmstratsprdco431" source="ovm" target="stratsprdco431" xsi:type="Association">
+      <name xml:lang="cs">naplňuje</name>
+    </relationship>
+    <relationship identifier="ovmstratsprdco432" source="ovm" target="stratsprdco432" xsi:type="Association">
+      <name xml:lang="cs">naplňuje</name>
+    </relationship>
+    <relationship identifier="diastratsprd" source="dia" target="stratsprd" xsi:type="Association">
+      <name xml:lang="cs">vydává</name>
+    </relationship>
+    <relationship identifier="stratsprdco100stratsprdco110" source="stratsprdco100" target="stratsprdco110" xsi:type="Composition">
+      <name xml:lang="cs">obsahuje</name>
+    </relationship>
+    <relationship identifier="stratsprdco100stratsprdco120" source="stratsprdco100" target="stratsprdco120" xsi:type="Composition">
+      <name xml:lang="cs">obsahuje</name>
+    </relationship>
+    <relationship identifier="stratsprdco100stratsprdco130" source="stratsprdco100" target="stratsprdco130" xsi:type="Composition">
+      <name xml:lang="cs">obsahuje</name>
+    </relationship>
+    <relationship identifier="stratsprdco100stratsprdco140" source="stratsprdco100" target="stratsprdco140" xsi:type="Composition">
+      <name xml:lang="cs">obsahuje</name>
+    </relationship>
+    <relationship identifier="stratsprdco100stratsprdco150" source="stratsprdco100" target="stratsprdco150" xsi:type="Composition">
+      <name xml:lang="cs">obsahuje</name>
+    </relationship>
+    <relationship identifier="stratsprdco110stratsprdco111" source="stratsprdco110" target="stratsprdco111" xsi:type="Composition">
+      <name xml:lang="cs">obsahuje</name>
+    </relationship>
+    <relationship identifier="stratsprdco110stratsprdco112" source="stratsprdco110" target="stratsprdco112" xsi:type="Composition">
+      <name xml:lang="cs">obsahuje</name>
+    </relationship>
+    <relationship identifier="stratsprdco120stratsprdco121" source="stratsprdco120" target="stratsprdco121" xsi:type="Composition">
+      <name xml:lang="cs">obsahuje</name>
+    </relationship>
+    <relationship identifier="stratsprdco120stratsprdco122" source="stratsprdco120" target="stratsprdco122" xsi:type="Composition">
+      <name xml:lang="cs">obsahuje</name>
+    </relationship>
+    <relationship identifier="stratsprdco120stratsprdco123" source="stratsprdco120" target="stratsprdco123" xsi:type="Composition">
+      <name xml:lang="cs">obsahuje</name>
+    </relationship>
+    <relationship identifier="stratsprdco130stratsprdco131" source="stratsprdco130" target="stratsprdco131" xsi:type="Composition">
+      <name xml:lang="cs">obsahuje</name>
+    </relationship>
+    <relationship identifier="stratsprdco130stratsprdco132" source="stratsprdco130" target="stratsprdco132" xsi:type="Composition">
+      <name xml:lang="cs">obsahuje</name>
+    </relationship>
+    <relationship identifier="stratsprdco130stratsprdco133" source="stratsprdco130" target="stratsprdco133" xsi:type="Composition">
+      <name xml:lang="cs">obsahuje</name>
+    </relationship>
+    <relationship identifier="stratsprdco140stratsprdco141" source="stratsprdco140" target="stratsprdco141" xsi:type="Composition">
+      <name xml:lang="cs">obsahuje</name>
+    </relationship>
+    <relationship identifier="stratsprdco140stratsprdco142" source="stratsprdco140" target="stratsprdco142" xsi:type="Composition">
+      <name xml:lang="cs">obsahuje</name>
+    </relationship>
+    <relationship identifier="stratsprdco150stratsprdco151" source="stratsprdco150" target="stratsprdco151" xsi:type="Composition">
+      <name xml:lang="cs">obsahuje</name>
+    </relationship>
+    <relationship identifier="stratsprdco150stratsprdco152" source="stratsprdco150" target="stratsprdco152" xsi:type="Composition">
+      <name xml:lang="cs">obsahuje</name>
+    </relationship>
+    <relationship identifier="stratsprdco200stratsprdco210" source="stratsprdco200" target="stratsprdco210" xsi:type="Composition">
+      <name xml:lang="cs">obsahuje</name>
+    </relationship>
+    <relationship identifier="stratsprdco200stratsprdco220" source="stratsprdco200" target="stratsprdco220" xsi:type="Composition">
+      <name xml:lang="cs">obsahuje</name>
+    </relationship>
+    <relationship identifier="stratsprdco200stratsprdco230" source="stratsprdco200" target="stratsprdco230" xsi:type="Composition">
+      <name xml:lang="cs">obsahuje</name>
+    </relationship>
+    <relationship identifier="stratsprdco200stratsprdco240" source="stratsprdco200" target="stratsprdco240" xsi:type="Composition">
+      <name xml:lang="cs">obsahuje</name>
+    </relationship>
+    <relationship identifier="stratsprdco200stratsprdco250" source="stratsprdco200" target="stratsprdco250" xsi:type="Composition">
+      <name xml:lang="cs">obsahuje</name>
+    </relationship>
+    <relationship identifier="stratsprdco210stratsprdco211" source="stratsprdco210" target="stratsprdco211" xsi:type="Composition">
+      <name xml:lang="cs">obsahuje</name>
+    </relationship>
+    <relationship identifier="stratsprdco210stratsprdco212" source="stratsprdco210" target="stratsprdco212" xsi:type="Composition">
+      <name xml:lang="cs">obsahuje</name>
+    </relationship>
+    <relationship identifier="stratsprdco210stratsprdco213" source="stratsprdco210" target="stratsprdco213" xsi:type="Composition">
+      <name xml:lang="cs">obsahuje</name>
+    </relationship>
+    <relationship identifier="stratsprdco210stratsprdco214" source="stratsprdco210" target="stratsprdco214" xsi:type="Composition">
+      <name xml:lang="cs">obsahuje</name>
+    </relationship>
+    <relationship identifier="stratsprdco220stratsprdco221" source="stratsprdco220" target="stratsprdco221" xsi:type="Composition">
+      <name xml:lang="cs">obsahuje</name>
+    </relationship>
+    <relationship identifier="stratsprdco220stratsprdco222" source="stratsprdco220" target="stratsprdco222" xsi:type="Composition">
+      <name xml:lang="cs">obsahuje</name>
+    </relationship>
+    <relationship identifier="stratsprdco220stratsprdco223" source="stratsprdco220" target="stratsprdco223" xsi:type="Composition">
+      <name xml:lang="cs">obsahuje</name>
+    </relationship>
+    <relationship identifier="stratsprdco230stratsprdco231" source="stratsprdco230" target="stratsprdco231" xsi:type="Composition">
+      <name xml:lang="cs">obsahuje</name>
+    </relationship>
+    <relationship identifier="stratsprdco230stratsprdco232" source="stratsprdco230" target="stratsprdco232" xsi:type="Composition">
+      <name xml:lang="cs">obsahuje</name>
+    </relationship>
+    <relationship identifier="stratsprdco230stratsprdco233" source="stratsprdco230" target="stratsprdco233" xsi:type="Composition">
+      <name xml:lang="cs">obsahuje</name>
+    </relationship>
+    <relationship identifier="stratsprdco230stratsprdco234" source="stratsprdco230" target="stratsprdco234" xsi:type="Composition">
+      <name xml:lang="cs">obsahuje</name>
+    </relationship>
+    <relationship identifier="stratsprdco240stratsprdco241" source="stratsprdco240" target="stratsprdco241" xsi:type="Composition">
+      <name xml:lang="cs">obsahuje</name>
+    </relationship>
+    <relationship identifier="stratsprdco240stratsprdco242" source="stratsprdco240" target="stratsprdco242" xsi:type="Composition">
+      <name xml:lang="cs">obsahuje</name>
+    </relationship>
+    <relationship identifier="stratsprdco240stratsprdco243" source="stratsprdco240" target="stratsprdco243" xsi:type="Composition">
+      <name xml:lang="cs">obsahuje</name>
+    </relationship>
+    <relationship identifier="stratsprdco250stratsprdco251" source="stratsprdco250" target="stratsprdco251" xsi:type="Composition">
+      <name xml:lang="cs">obsahuje</name>
+    </relationship>
+    <relationship identifier="stratsprdco250stratsprdco252" source="stratsprdco250" target="stratsprdco252" xsi:type="Composition">
+      <name xml:lang="cs">obsahuje</name>
+    </relationship>
+    <relationship identifier="stratsprdco300stratsprdco310" source="stratsprdco300" target="stratsprdco310" xsi:type="Composition">
+      <name xml:lang="cs">obsahuje</name>
+    </relationship>
+    <relationship identifier="stratsprdco300stratsprdco320" source="stratsprdco300" target="stratsprdco320" xsi:type="Composition">
+      <name xml:lang="cs">obsahuje</name>
+    </relationship>
+    <relationship identifier="stratsprdco310stratsprdco311" source="stratsprdco310" target="stratsprdco311" xsi:type="Composition">
+      <name xml:lang="cs">obsahuje</name>
+    </relationship>
+    <relationship identifier="stratsprdco310stratsprdco312" source="stratsprdco310" target="stratsprdco312" xsi:type="Composition">
+      <name xml:lang="cs">obsahuje</name>
+    </relationship>
+    <relationship identifier="stratsprdco320stratsprdco321" source="stratsprdco320" target="stratsprdco321" xsi:type="Composition">
+      <name xml:lang="cs">obsahuje</name>
+    </relationship>
+    <relationship identifier="stratsprdco320stratsprdco322" source="stratsprdco320" target="stratsprdco322" xsi:type="Composition">
+      <name xml:lang="cs">obsahuje</name>
+    </relationship>
+    <relationship identifier="stratsprdco400stratsprdco410" source="stratsprdco400" target="stratsprdco410" xsi:type="Composition">
+      <name xml:lang="cs">obsahuje</name>
+    </relationship>
+    <relationship identifier="stratsprdco400stratsprdco420" source="stratsprdco400" target="stratsprdco420" xsi:type="Composition">
+      <name xml:lang="cs">obsahuje</name>
+    </relationship>
+    <relationship identifier="stratsprdco400stratsprdco430" source="stratsprdco400" target="stratsprdco430" xsi:type="Composition">
+      <name xml:lang="cs">obsahuje</name>
+    </relationship>
+    <relationship identifier="stratsprdco410stratsprdco411" source="stratsprdco410" target="stratsprdco411" xsi:type="Composition">
+      <name xml:lang="cs">obsahuje</name>
+    </relationship>
+    <relationship identifier="stratsprdco410stratsprdco412" source="stratsprdco410" target="stratsprdco412" xsi:type="Composition">
+      <name xml:lang="cs">obsahuje</name>
+    </relationship>
+    <relationship identifier="stratsprdco410stratsprdco413" source="stratsprdco410" target="stratsprdco413" xsi:type="Composition">
+      <name xml:lang="cs">obsahuje</name>
+    </relationship>
+    <relationship identifier="stratsprdco410stratsprdco414" source="stratsprdco410" target="stratsprdco414" xsi:type="Composition">
+      <name xml:lang="cs">obsahuje</name>
+    </relationship>
+    <relationship identifier="stratsprdco420stratsprdco421" source="stratsprdco420" target="stratsprdco421" xsi:type="Composition">
+      <name xml:lang="cs">obsahuje</name>
+    </relationship>
+    <relationship identifier="stratsprdco420stratsprdco422" source="stratsprdco420" target="stratsprdco422" xsi:type="Composition">
+      <name xml:lang="cs">obsahuje</name>
+    </relationship>
+    <relationship identifier="stratsprdco420stratsprdco423" source="stratsprdco420" target="stratsprdco423" xsi:type="Composition">
+      <name xml:lang="cs">obsahuje</name>
+    </relationship>
+    <relationship identifier="stratsprdco420stratsprdco424" source="stratsprdco420" target="stratsprdco424" xsi:type="Composition">
+      <name xml:lang="cs">obsahuje</name>
+    </relationship>
+    <relationship identifier="stratsprdco420stratsprdco425" source="stratsprdco420" target="stratsprdco425" xsi:type="Composition">
+      <name xml:lang="cs">obsahuje</name>
+    </relationship>
+    <relationship identifier="stratsprdco430stratsprdco431" source="stratsprdco430" target="stratsprdco431" xsi:type="Composition">
+      <name xml:lang="cs">obsahuje</name>
+    </relationship>
+    <relationship identifier="stratsprdco430stratsprdco432" source="stratsprdco430" target="stratsprdco432" xsi:type="Composition">
+      <name xml:lang="cs">obsahuje</name>
+    </relationship>
+    <relationship identifier="stratsprdstratsprdco100" source="stratsprd" target="stratsprdco100" xsi:type="Realization">
+      <name xml:lang="cs">definuje</name>
+    </relationship>
+    <relationship identifier="stratsprdstratsprdco110" source="stratsprd" target="stratsprdco110" xsi:type="Realization">
+      <name xml:lang="cs">definuje</name>
+    </relationship>
+    <relationship identifier="stratsprdstratsprdco111" source="stratsprd" target="stratsprdco111" xsi:type="Realization">
+      <name xml:lang="cs">definuje</name>
+    </relationship>
+    <relationship identifier="stratsprdstratsprdco112" source="stratsprd" target="stratsprdco112" xsi:type="Realization">
+      <name xml:lang="cs">definuje</name>
+    </relationship>
+    <relationship identifier="stratsprdstratsprdco120" source="stratsprd" target="stratsprdco120" xsi:type="Realization">
+      <name xml:lang="cs">definuje</name>
+    </relationship>
+    <relationship identifier="stratsprdstratsprdco121" source="stratsprd" target="stratsprdco121" xsi:type="Realization">
+      <name xml:lang="cs">definuje</name>
+    </relationship>
+    <relationship identifier="stratsprdstratsprdco122" source="stratsprd" target="stratsprdco122" xsi:type="Realization">
+      <name xml:lang="cs">definuje</name>
+    </relationship>
+    <relationship identifier="stratsprdstratsprdco123" source="stratsprd" target="stratsprdco123" xsi:type="Realization">
+      <name xml:lang="cs">definuje</name>
+    </relationship>
+    <relationship identifier="stratsprdstratsprdco130" source="stratsprd" target="stratsprdco130" xsi:type="Realization">
+      <name xml:lang="cs">definuje</name>
+    </relationship>
+    <relationship identifier="stratsprdstratsprdco131" source="stratsprd" target="stratsprdco131" xsi:type="Realization">
+      <name xml:lang="cs">definuje</name>
+    </relationship>
+    <relationship identifier="stratsprdstratsprdco132" source="stratsprd" target="stratsprdco132" xsi:type="Realization">
+      <name xml:lang="cs">definuje</name>
+    </relationship>
+    <relationship identifier="stratsprdstratsprdco133" source="stratsprd" target="stratsprdco133" xsi:type="Realization">
+      <name xml:lang="cs">definuje</name>
+    </relationship>
+    <relationship identifier="stratsprdstratsprdco140" source="stratsprd" target="stratsprdco140" xsi:type="Realization">
+      <name xml:lang="cs">definuje</name>
+    </relationship>
+    <relationship identifier="stratsprdstratsprdco141" source="stratsprd" target="stratsprdco141" xsi:type="Realization">
+      <name xml:lang="cs">definuje</name>
+    </relationship>
+    <relationship identifier="stratsprdstratsprdco142" source="stratsprd" target="stratsprdco142" xsi:type="Realization">
+      <name xml:lang="cs">definuje</name>
+    </relationship>
+    <relationship identifier="stratsprdstratsprdco150" source="stratsprd" target="stratsprdco150" xsi:type="Realization">
+      <name xml:lang="cs">definuje</name>
+    </relationship>
+    <relationship identifier="stratsprdstratsprdco151" source="stratsprd" target="stratsprdco151" xsi:type="Realization">
+      <name xml:lang="cs">definuje</name>
+    </relationship>
+    <relationship identifier="stratsprdstratsprdco152" source="stratsprd" target="stratsprdco152" xsi:type="Realization">
+      <name xml:lang="cs">definuje</name>
+    </relationship>
+    <relationship identifier="stratsprdstratsprdco200" source="stratsprd" target="stratsprdco200" xsi:type="Realization">
+      <name xml:lang="cs">definuje</name>
+    </relationship>
+    <relationship identifier="stratsprdstratsprdco210" source="stratsprd" target="stratsprdco210" xsi:type="Realization">
+      <name xml:lang="cs">definuje</name>
+    </relationship>
+    <relationship identifier="stratsprdstratsprdco211" source="stratsprd" target="stratsprdco211" xsi:type="Realization">
+      <name xml:lang="cs">definuje</name>
+    </relationship>
+    <relationship identifier="stratsprdstratsprdco212" source="stratsprd" target="stratsprdco212" xsi:type="Realization">
+      <name xml:lang="cs">definuje</name>
+    </relationship>
+    <relationship identifier="stratsprdstratsprdco213" source="stratsprd" target="stratsprdco213" xsi:type="Realization">
+      <name xml:lang="cs">definuje</name>
+    </relationship>
+    <relationship identifier="stratsprdstratsprdco214" source="stratsprd" target="stratsprdco214" xsi:type="Realization">
+      <name xml:lang="cs">definuje</name>
+    </relationship>
+    <relationship identifier="stratsprdstratsprdco220" source="stratsprd" target="stratsprdco220" xsi:type="Realization">
+      <name xml:lang="cs">definuje</name>
+    </relationship>
+    <relationship identifier="stratsprdstratsprdco221" source="stratsprd" target="stratsprdco221" xsi:type="Realization">
+      <name xml:lang="cs">definuje</name>
+    </relationship>
+    <relationship identifier="stratsprdstratsprdco222" source="stratsprd" target="stratsprdco222" xsi:type="Realization">
+      <name xml:lang="cs">definuje</name>
+    </relationship>
+    <relationship identifier="stratsprdstratsprdco223" source="stratsprd" target="stratsprdco223" xsi:type="Realization">
+      <name xml:lang="cs">definuje</name>
+    </relationship>
+    <relationship identifier="stratsprdstratsprdco230" source="stratsprd" target="stratsprdco230" xsi:type="Realization">
+      <name xml:lang="cs">definuje</name>
+    </relationship>
+    <relationship identifier="stratsprdstratsprdco231" source="stratsprd" target="stratsprdco231" xsi:type="Realization">
+      <name xml:lang="cs">definuje</name>
+    </relationship>
+    <relationship identifier="stratsprdstratsprdco232" source="stratsprd" target="stratsprdco232" xsi:type="Realization">
+      <name xml:lang="cs">definuje</name>
+    </relationship>
+    <relationship identifier="stratsprdstratsprdco233" source="stratsprd" target="stratsprdco233" xsi:type="Realization">
+      <name xml:lang="cs">definuje</name>
+    </relationship>
+    <relationship identifier="stratsprdstratsprdco234" source="stratsprd" target="stratsprdco234" xsi:type="Realization">
+      <name xml:lang="cs">definuje</name>
+    </relationship>
+    <relationship identifier="stratsprdstratsprdco240" source="stratsprd" target="stratsprdco240" xsi:type="Realization">
+      <name xml:lang="cs">definuje</name>
+    </relationship>
+    <relationship identifier="stratsprdstratsprdco241" source="stratsprd" target="stratsprdco241" xsi:type="Realization">
+      <name xml:lang="cs">definuje</name>
+    </relationship>
+    <relationship identifier="stratsprdstratsprdco242" source="stratsprd" target="stratsprdco242" xsi:type="Realization">
+      <name xml:lang="cs">definuje</name>
+    </relationship>
+    <relationship identifier="stratsprdstratsprdco243" source="stratsprd" target="stratsprdco243" xsi:type="Realization">
+      <name xml:lang="cs">definuje</name>
+    </relationship>
+    <relationship identifier="stratsprdstratsprdco250" source="stratsprd" target="stratsprdco250" xsi:type="Realization">
+      <name xml:lang="cs">definuje</name>
+    </relationship>
+    <relationship identifier="stratsprdstratsprdco251" source="stratsprd" target="stratsprdco251" xsi:type="Realization">
+      <name xml:lang="cs">definuje</name>
+    </relationship>
+    <relationship identifier="stratsprdstratsprdco252" source="stratsprd" target="stratsprdco252" xsi:type="Realization">
+      <name xml:lang="cs">definuje</name>
+    </relationship>
+    <relationship identifier="stratsprdstratsprdco300" source="stratsprd" target="stratsprdco300" xsi:type="Realization">
+      <name xml:lang="cs">definuje</name>
+    </relationship>
+    <relationship identifier="stratsprdstratsprdco310" source="stratsprd" target="stratsprdco310" xsi:type="Realization">
+      <name xml:lang="cs">definuje</name>
+    </relationship>
+    <relationship identifier="stratsprdstratsprdco311" source="stratsprd" target="stratsprdco311" xsi:type="Realization">
+      <name xml:lang="cs">definuje</name>
+    </relationship>
+    <relationship identifier="stratsprdstratsprdco312" source="stratsprd" target="stratsprdco312" xsi:type="Realization">
+      <name xml:lang="cs">definuje</name>
+    </relationship>
+    <relationship identifier="stratsprdstratsprdco320" source="stratsprd" target="stratsprdco320" xsi:type="Realization">
+      <name xml:lang="cs">definuje</name>
+    </relationship>
+    <relationship identifier="stratsprdstratsprdco321" source="stratsprd" target="stratsprdco321" xsi:type="Realization">
+      <name xml:lang="cs">definuje</name>
+    </relationship>
+    <relationship identifier="stratsprdstratsprdco322" source="stratsprd" target="stratsprdco322" xsi:type="Realization">
+      <name xml:lang="cs">definuje</name>
+    </relationship>
+    <relationship identifier="stratsprdstratsprdco400" source="stratsprd" target="stratsprdco400" xsi:type="Realization">
+      <name xml:lang="cs">definuje</name>
+    </relationship>
+    <relationship identifier="stratsprdstratsprdco410" source="stratsprd" target="stratsprdco410" xsi:type="Realization">
+      <name xml:lang="cs">definuje</name>
+    </relationship>
+    <relationship identifier="stratsprdstratsprdco411" source="stratsprd" target="stratsprdco411" xsi:type="Realization">
+      <name xml:lang="cs">definuje</name>
+    </relationship>
+    <relationship identifier="stratsprdstratsprdco412" source="stratsprd" target="stratsprdco412" xsi:type="Realization">
+      <name xml:lang="cs">definuje</name>
+    </relationship>
+    <relationship identifier="stratsprdstratsprdco413" source="stratsprd" target="stratsprdco413" xsi:type="Realization">
+      <name xml:lang="cs">definuje</name>
+    </relationship>
+    <relationship identifier="stratsprdstratsprdco414" source="stratsprd" target="stratsprdco414" xsi:type="Realization">
+      <name xml:lang="cs">definuje</name>
+    </relationship>
+    <relationship identifier="stratsprdstratsprdco420" source="stratsprd" target="stratsprdco420" xsi:type="Realization">
+      <name xml:lang="cs">definuje</name>
+    </relationship>
+    <relationship identifier="stratsprdstratsprdco421" source="stratsprd" target="stratsprdco421" xsi:type="Realization">
+      <name xml:lang="cs">definuje</name>
+    </relationship>
+    <relationship identifier="stratsprdstratsprdco422" source="stratsprd" target="stratsprdco422" xsi:type="Realization">
+      <name xml:lang="cs">definuje</name>
+    </relationship>
+    <relationship identifier="stratsprdstratsprdco423" source="stratsprd" target="stratsprdco423" xsi:type="Realization">
+      <name xml:lang="cs">definuje</name>
+    </relationship>
+    <relationship identifier="stratsprdstratsprdco424" source="stratsprd" target="stratsprdco424" xsi:type="Realization">
+      <name xml:lang="cs">definuje</name>
+    </relationship>
+    <relationship identifier="stratsprdstratsprdco425" source="stratsprd" target="stratsprdco425" xsi:type="Realization">
+      <name xml:lang="cs">definuje</name>
+    </relationship>
+    <relationship identifier="stratsprdstratsprdco430" source="stratsprd" target="stratsprdco430" xsi:type="Realization">
+      <name xml:lang="cs">definuje</name>
+    </relationship>
+    <relationship identifier="stratsprdstratsprdco431" source="stratsprd" target="stratsprdco431" xsi:type="Realization">
+      <name xml:lang="cs">definuje</name>
+    </relationship>
+    <relationship identifier="stratsprdstratsprdco432" source="stratsprd" target="stratsprdco432" xsi:type="Realization">
+      <name xml:lang="cs">definuje</name>
+    </relationship>
+  </relationships>
+  <organizations>
+    <item>
+      <label xml:lang="cs">Business</label>
+      <item identifierRef="ovm" />
+      <item identifierRef="stratsprd" />
+      <item identifierRef="dia" />
+    </item>
+    <item>
+      <label xml:lang="cs">Motivation</label>
+      <item identifierRef="stratsprdco111" />
+      <item identifierRef="stratsprdco112" />
+      <item identifierRef="stratsprdco121" />
+      <item identifierRef="stratsprdco122" />
+      <item identifierRef="stratsprdco123" />
+      <item identifierRef="stratsprdco131" />
+      <item identifierRef="stratsprdco132" />
+      <item identifierRef="stratsprdco133" />
+      <item identifierRef="stratsprdco141" />
+      <item identifierRef="stratsprdco142" />
+      <item identifierRef="stratsprdco151" />
+      <item identifierRef="stratsprdco152" />
+      <item identifierRef="stratsprdco311" />
+      <item identifierRef="stratsprdco312" />
+      <item identifierRef="stratsprdco423" />
+      <item identifierRef="stratsprdco431" />
+      <item identifierRef="stratsprdco432" />
+      <item identifierRef="stratsprdco100" />
+      <item identifierRef="stratsprdco110" />
+      <item identifierRef="stratsprdco120" />
+      <item identifierRef="stratsprdco130" />
+      <item identifierRef="stratsprdco140" />
+      <item identifierRef="stratsprdco150" />
+      <item identifierRef="stratsprdco200" />
+      <item identifierRef="stratsprdco210" />
+      <item identifierRef="stratsprdco220" />
+      <item identifierRef="stratsprdco230" />
+      <item identifierRef="stratsprdco240" />
+      <item identifierRef="stratsprdco250" />
+      <item identifierRef="stratsprdco211" />
+      <item identifierRef="stratsprdco212" />
+      <item identifierRef="stratsprdco213" />
+      <item identifierRef="stratsprdco214" />
+      <item identifierRef="stratsprdco221" />
+      <item identifierRef="stratsprdco222" />
+      <item identifierRef="stratsprdco223" />
+      <item identifierRef="stratsprdco231" />
+      <item identifierRef="stratsprdco232" />
+      <item identifierRef="stratsprdco233" />
+      <item identifierRef="stratsprdco234" />
+      <item identifierRef="stratsprdco241" />
+      <item identifierRef="stratsprdco242" />
+      <item identifierRef="stratsprdco243" />
+      <item identifierRef="stratsprdco251" />
+      <item identifierRef="stratsprdco252" />
+      <item identifierRef="stratsprdco300" />
+      <item identifierRef="stratsprdco310" />
+      <item identifierRef="stratsprdco320" />
+      <item identifierRef="stratsprdco321" />
+      <item identifierRef="stratsprdco322" />
+      <item identifierRef="stratsprdco400" />
+      <item identifierRef="stratsprdco410" />
+      <item identifierRef="stratsprdco420" />
+      <item identifierRef="stratsprdco430" />
+      <item identifierRef="stratsprdco411" />
+      <item identifierRef="stratsprdco412" />
+      <item identifierRef="stratsprdco413" />
+      <item identifierRef="stratsprdco414" />
+      <item identifierRef="stratsprdco421" />
+      <item identifierRef="stratsprdco422" />
+      <item identifierRef="stratsprdco424" />
+      <item identifierRef="stratsprdco425" />
+    </item>
+    <item>
+      <label xml:lang="cs">Relations</label>
+      <item identifierRef="ovmstratsprd" />
+      <item identifierRef="ovmstratsprdco111" />
+      <item identifierRef="ovmstratsprdco112" />
+      <item identifierRef="ovmstratsprdco121" />
+      <item identifierRef="ovmstratsprdco122" />
+      <item identifierRef="ovmstratsprdco123" />
+      <item identifierRef="ovmstratsprdco131" />
+      <item identifierRef="ovmstratsprdco132" />
+      <item identifierRef="ovmstratsprdco133" />
+      <item identifierRef="ovmstratsprdco141" />
+      <item identifierRef="ovmstratsprdco142" />
+      <item identifierRef="ovmstratsprdco151" />
+      <item identifierRef="ovmstratsprdco152" />
+      <item identifierRef="ovmstratsprdco311" />
+      <item identifierRef="ovmstratsprdco312" />
+      <item identifierRef="ovmstratsprdco423" />
+      <item identifierRef="ovmstratsprdco431" />
+      <item identifierRef="ovmstratsprdco432" />
+      <item identifierRef="diastratsprd" />
+      <item identifierRef="stratsprdco100stratsprdco110" />
+      <item identifierRef="stratsprdco100stratsprdco120" />
+      <item identifierRef="stratsprdco100stratsprdco130" />
+      <item identifierRef="stratsprdco100stratsprdco140" />
+      <item identifierRef="stratsprdco100stratsprdco150" />
+      <item identifierRef="stratsprdco110stratsprdco111" />
+      <item identifierRef="stratsprdco110stratsprdco112" />
+      <item identifierRef="stratsprdco120stratsprdco121" />
+      <item identifierRef="stratsprdco120stratsprdco122" />
+      <item identifierRef="stratsprdco120stratsprdco123" />
+      <item identifierRef="stratsprdco130stratsprdco131" />
+      <item identifierRef="stratsprdco130stratsprdco132" />
+      <item identifierRef="stratsprdco130stratsprdco133" />
+      <item identifierRef="stratsprdco140stratsprdco141" />
+      <item identifierRef="stratsprdco140stratsprdco142" />
+      <item identifierRef="stratsprdco150stratsprdco151" />
+      <item identifierRef="stratsprdco150stratsprdco152" />
+      <item identifierRef="stratsprdco200stratsprdco210" />
+      <item identifierRef="stratsprdco200stratsprdco220" />
+      <item identifierRef="stratsprdco200stratsprdco230" />
+      <item identifierRef="stratsprdco200stratsprdco240" />
+      <item identifierRef="stratsprdco200stratsprdco250" />
+      <item identifierRef="stratsprdco210stratsprdco211" />
+      <item identifierRef="stratsprdco210stratsprdco212" />
+      <item identifierRef="stratsprdco210stratsprdco213" />
+      <item identifierRef="stratsprdco210stratsprdco214" />
+      <item identifierRef="stratsprdco220stratsprdco221" />
+      <item identifierRef="stratsprdco220stratsprdco222" />
+      <item identifierRef="stratsprdco220stratsprdco223" />
+      <item identifierRef="stratsprdco230stratsprdco231" />
+      <item identifierRef="stratsprdco230stratsprdco232" />
+      <item identifierRef="stratsprdco230stratsprdco233" />
+      <item identifierRef="stratsprdco230stratsprdco234" />
+      <item identifierRef="stratsprdco240stratsprdco241" />
+      <item identifierRef="stratsprdco240stratsprdco242" />
+      <item identifierRef="stratsprdco240stratsprdco243" />
+      <item identifierRef="stratsprdco250stratsprdco251" />
+      <item identifierRef="stratsprdco250stratsprdco252" />
+      <item identifierRef="stratsprdco300stratsprdco310" />
+      <item identifierRef="stratsprdco300stratsprdco320" />
+      <item identifierRef="stratsprdco310stratsprdco311" />
+      <item identifierRef="stratsprdco310stratsprdco312" />
+      <item identifierRef="stratsprdco320stratsprdco321" />
+      <item identifierRef="stratsprdco320stratsprdco322" />
+      <item identifierRef="stratsprdco400stratsprdco410" />
+      <item identifierRef="stratsprdco400stratsprdco420" />
+      <item identifierRef="stratsprdco400stratsprdco430" />
+      <item identifierRef="stratsprdco410stratsprdco411" />
+      <item identifierRef="stratsprdco410stratsprdco412" />
+      <item identifierRef="stratsprdco410stratsprdco413" />
+      <item identifierRef="stratsprdco410stratsprdco414" />
+      <item identifierRef="stratsprdco420stratsprdco421" />
+      <item identifierRef="stratsprdco420stratsprdco422" />
+      <item identifierRef="stratsprdco420stratsprdco423" />
+      <item identifierRef="stratsprdco420stratsprdco424" />
+      <item identifierRef="stratsprdco420stratsprdco425" />
+      <item identifierRef="stratsprdco430stratsprdco431" />
+      <item identifierRef="stratsprdco430stratsprdco432" />
+      <item identifierRef="stratsprdstratsprdco100" />
+      <item identifierRef="stratsprdstratsprdco110" />
+      <item identifierRef="stratsprdstratsprdco111" />
+      <item identifierRef="stratsprdstratsprdco112" />
+      <item identifierRef="stratsprdstratsprdco120" />
+      <item identifierRef="stratsprdstratsprdco121" />
+      <item identifierRef="stratsprdstratsprdco122" />
+      <item identifierRef="stratsprdstratsprdco123" />
+      <item identifierRef="stratsprdstratsprdco130" />
+      <item identifierRef="stratsprdstratsprdco131" />
+      <item identifierRef="stratsprdstratsprdco132" />
+      <item identifierRef="stratsprdstratsprdco133" />
+      <item identifierRef="stratsprdstratsprdco140" />
+      <item identifierRef="stratsprdstratsprdco141" />
+      <item identifierRef="stratsprdstratsprdco142" />
+      <item identifierRef="stratsprdstratsprdco150" />
+      <item identifierRef="stratsprdstratsprdco151" />
+      <item identifierRef="stratsprdstratsprdco152" />
+      <item identifierRef="stratsprdstratsprdco200" />
+      <item identifierRef="stratsprdstratsprdco210" />
+      <item identifierRef="stratsprdstratsprdco211" />
+      <item identifierRef="stratsprdstratsprdco212" />
+      <item identifierRef="stratsprdstratsprdco213" />
+      <item identifierRef="stratsprdstratsprdco214" />
+      <item identifierRef="stratsprdstratsprdco220" />
+      <item identifierRef="stratsprdstratsprdco221" />
+      <item identifierRef="stratsprdstratsprdco222" />
+      <item identifierRef="stratsprdstratsprdco223" />
+      <item identifierRef="stratsprdstratsprdco230" />
+      <item identifierRef="stratsprdstratsprdco231" />
+      <item identifierRef="stratsprdstratsprdco232" />
+      <item identifierRef="stratsprdstratsprdco233" />
+      <item identifierRef="stratsprdstratsprdco234" />
+      <item identifierRef="stratsprdstratsprdco240" />
+      <item identifierRef="stratsprdstratsprdco241" />
+      <item identifierRef="stratsprdstratsprdco242" />
+      <item identifierRef="stratsprdstratsprdco243" />
+      <item identifierRef="stratsprdstratsprdco250" />
+      <item identifierRef="stratsprdstratsprdco251" />
+      <item identifierRef="stratsprdstratsprdco252" />
+      <item identifierRef="stratsprdstratsprdco300" />
+      <item identifierRef="stratsprdstratsprdco310" />
+      <item identifierRef="stratsprdstratsprdco311" />
+      <item identifierRef="stratsprdstratsprdco312" />
+      <item identifierRef="stratsprdstratsprdco320" />
+      <item identifierRef="stratsprdstratsprdco321" />
+      <item identifierRef="stratsprdstratsprdco322" />
+      <item identifierRef="stratsprdstratsprdco400" />
+      <item identifierRef="stratsprdstratsprdco410" />
+      <item identifierRef="stratsprdstratsprdco411" />
+      <item identifierRef="stratsprdstratsprdco412" />
+      <item identifierRef="stratsprdstratsprdco413" />
+      <item identifierRef="stratsprdstratsprdco414" />
+      <item identifierRef="stratsprdstratsprdco420" />
+      <item identifierRef="stratsprdstratsprdco421" />
+      <item identifierRef="stratsprdstratsprdco422" />
+      <item identifierRef="stratsprdstratsprdco423" />
+      <item identifierRef="stratsprdstratsprdco424" />
+      <item identifierRef="stratsprdstratsprdco425" />
+      <item identifierRef="stratsprdstratsprdco430" />
+      <item identifierRef="stratsprdstratsprdco431" />
+      <item identifierRef="stratsprdstratsprdco432" />
+    </item>
+    <item>
+      <label xml:lang="cs">Views</label>
+      <item identifierRef="id-69342b44b3e4424d8316a21e4346aa09" />
+      <item identifierRef="id-3cde5d6772814837a2b421694e2b5c66" />
+      <item identifierRef="id-1b1e0d1e39bd4f7184c08e60af72cbcb" />
+    </item>
+  </organizations>
+  <views>
+    <diagrams>
+      <view identifier="id-69342b44b3e4424d8316a21e4346aa09" xsi:type="Diagram">
+        <name xml:lang="cs">SSD - Struktura cílů strategie</name>
+      </view>
+      <view identifier="id-3cde5d6772814837a2b421694e2b5c66" xsi:type="Diagram">
+        <name xml:lang="cs">SSD - Opatření strategie v kontextu</name>
+      </view>
+      <view identifier="id-1b1e0d1e39bd4f7184c08e60af72cbcb" xsi:type="Diagram">
+        <name xml:lang="cs">Opatření SSD jež realizuje úřad</name>
+      </view>
+    </diagrams>
+  </views>
+</model>
