@@ -2,6 +2,10 @@
 <model xmlns="http://www.opengroup.org/xsd/archimate/3.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.opengroup.org/xsd/archimate/3.0/ http://www.opengroup.org/xsd/archimate/3.1/archimate3_Diagram.xsd" identifier="id-05cf5d53cd4a455cb37b37aed89990f6">
   <name xml:lang="cs">Strategie správy dat VS ČR</name>
   <elements>
+    <element identifier="dia" xsi:type="BusinessActor">
+      <name xml:lang="cs">Digitální a informační agentura</name>
+      <documentation xml:lang="cs">Digitální a informační agentura (DIA) je ústřední správní úřad pro řízení a koordinaci EG a ICT. Přebrala pravomoci a povinnosti Ministerstva vnitra, správy základních registrů a další.</documentation>
+    </element>
     <element identifier="ovm" xsi:type="BusinessActor">
       <name xml:lang="cs">Orgán veřejné moci</name>
       <documentation xml:lang="cs">Subjekt, který je orgánem veřejné moci. Definuje se proto, že díky jeho OVMství má nějaké role, povinnosti a práva.</documentation>
@@ -10,15 +14,23 @@
       <name xml:lang="cs">Strategie pro správu dat VS 2024-2030</name>
       <documentation xml:lang="cs">Strategický dokument vlády pro realizaci správné správy dat v rámci celé veřejné správy</documentation>
     </element>
-    <element identifier="dia" xsi:type="BusinessActor">
-      <name xml:lang="cs">Digitální a informační agentura</name>
-      <documentation xml:lang="cs">Digitální a informační agentura (DIA) je ústřední správní úřad pro řízení a koordinaci EG a ICT. Přebrala pravomoci a povinnosti Ministerstva vnitra, správy základních registrů a další.</documentation>
+    <element identifier="stratsprdco100" xsi:type="Goal">
+      <name xml:lang="cs">Strategický cíl SC1. Vytvoření prostředí pro kvalitní správu dat v jednotlivých úřadech</name>
+      <documentation xml:lang="cs">Všechny úřady, které mají ve své správě data důležitá pro poskytování služeb občanům a řízení veřejné správy, pečují o tato data v souladu s definovaným standardem kvalitní správy dat ve veřejné správě.</documentation>
+    </element>
+    <element identifier="stratsprdco110" xsi:type="Goal">
+      <name xml:lang="cs">Specifický cíl 1.1 Vytvoření organizačních a kompetenčních předpokladů pro správu dat</name>
+      <documentation xml:lang="cs">Tento cíl míří na organizační, procesní a kompetenční zajištění správného chování, rozhodování a kontroly v oblasti péče o data tak, aby byla chráněna jejich důvěryhodnost a hodnota. Klíčovým úkolem na cestě k jeho dosažení je jasně stanovit odpovědnosti za data a jejich správu. Systematická pozornost věnovaná samostatně tématu dat je pro velkou většinu úřadů něčím zcela novým. Aktivity popsané a navrhované v této strategii proto míří na dlouhodobou „kulturní změnu“ celkového vztahu úřadu k datům, která se neobejde bez silné a vytrvalé podpory jeho nejvyššího vedení (přenesené skrze nižší úrovně vedení ve výsledku až na řadové pracovníky). Prvním nutným předpokladem pro zahájení práce na naplňování minimálního standardu je proto nominace člena nejvyššího vedení úřadu, který si vezme prosazování kvalitní správy dat napříč úřadem „za své“ a najde v úřadu vhodné lidi pro obsazení dalších rolí souvisejících se správou dat. Jejich fungování může být zpočátku neformální a závislé na konzultační podpoře DIA, časem by ale mělo přejít do rutinní podoby a být formalizováno explicitní definicí rolí a jejich odpovědností zakotvenou v interních pravidlech úřadu.</documentation>
     </element>
     <element identifier="stratsprdco111" xsi:type="Goal">
       <name xml:lang="cs">Opatření 1.1.1 Stanovit odpovědnost za data úřadu a jejich správu</name>
     </element>
     <element identifier="stratsprdco112" xsi:type="Goal">
       <name xml:lang="cs">Opatření 1.1.2 Vydat a v praxi uplatňovat interní pravidla pro správu dat</name>
+    </element>
+    <element identifier="stratsprdco120" xsi:type="Goal">
+      <name xml:lang="cs">Specifický cíl 1.2 Řízení datových potřeb a priorit</name>
+      <documentation xml:lang="cs">Tento cíl míří na zmapování relevantních oblastí dat v organizaci a jejich prioritizaci, identifikaci příležitostí a potřeb v těchto oblastech, definici a prioritizaci požadavků na datová řešení a vytvoření plánu aktivit směřujících k jejich naplnění. Výsledkem bude správné směrování úsilí a efektivní využívání zdrojů při správě dat. Klíčovým úkolem na cestě k dosažení tohoto cíle je zmapovat a prioritizovat oblasti dat spravovaných úřadem. Bude nutné získat základní přehled o všech datech spravovaných úřadem a vymezit tzv. věcné oblasti dat, na které bude vázána působnost některých rolí. Vzhledem k velkému rozsahu agend a poskytovaných služeb u většiny ministerstev a velkých centrálních úřadů bude nutné určit oblasti, které jsou z hlediska rozvoje správy dat prioritní, tzn. je v nich největší potřeba sdílení a využívání dat. Správné směrování úsilí do oblastí s největším relativním přínosem dobré správy dat a postupné iterativní rozšiřování záběru na další oblasti je dobrou praxí a de facto i nutností pro dosažení viditelných výsledků do konce r. 2025.</documentation>
     </element>
     <element identifier="stratsprdco121" xsi:type="Goal">
       <name xml:lang="cs">Opatření 1.2.1 Zmapovat a prioritizovat věcné oblasti dat</name>
@@ -29,6 +41,10 @@
     <element identifier="stratsprdco123" xsi:type="Goal">
       <name xml:lang="cs">Opatření 1.2.3 Formulovat v rámci Informační koncepce úřadu strategii v oblasti správy dat</name>
     </element>
+    <element identifier="stratsprdco130" xsi:type="Goal">
+      <name xml:lang="cs">Specifický cíl 1.3 Zajištění dohledatelnosti, srozumitelnosti a kategorizace dat</name>
+      <documentation xml:lang="cs">Tento cíl míří na inventarizaci, evidenci, kategorizace, popis, definici a modelování dat, ale také datových toků a všech IT komponent zapojených do řešení datových potřeb (primárních systémů, datových úložišť, datových sad a rozhraní, nástrojů pro ETL, analýzu a prezentaci dat). Ve výsledku budou mít úřady přehled o datech a datových tocích nezbytný pro dohledatelnost, efektivní správu a využívání dat, přičemž bude díky dobře popsanému významu dat maximalizována pravděpodobnost jejich správné interpretace. Klíčovým úkolem na cestě k dosažení tohoto cíle je inventarizovat a popsat data (iterativně po oblastech v pořadí stanoveném podle priorit). Aktivity budou směřovat k detailnímu popisu dat, který je klíčový pro dohledatelnost, správné pochopení a tím pádem i další využitelnost dat. Výsledkem těchto aktivit bude postupně rozšiřovaný systematický přehled o struktuře a významu spravovaných dat v jednotné podobě (tzv. lokálního katalogu dat), která umožní efektivně zjistit, jaká data spravuje daný úřad a (v sumě všech takto postupujících úřadů) veřejná správa jako celek (v tzv. národním katalogu dat). Každý z 32 vybraných úřadů musí vytvořit kompletní popis dat minimálně v prioritních oblastech, aby prokázal svou kompetenci postupovat tímto způsobem v dalších oblastech.</documentation>
+    </element>
     <element identifier="stratsprdco131" xsi:type="Goal">
       <name xml:lang="cs">Opatření 1.3.1 Popsat data a definovat jejich význam</name>
     </element>
@@ -38,56 +54,25 @@
     <element identifier="stratsprdco133" xsi:type="Goal">
       <name xml:lang="cs">Opatření 1.3.3 Rozlišit kategorie dat a přizpůsobit procesy správy dat jejich specifikům</name>
     </element>
+    <element identifier="stratsprdco140" xsi:type="Goal">
+      <name xml:lang="cs">Specifický cíl 1.4 Vytváření podmínek pro správu dat v rámci řešených změn informačních systémů</name>
+      <documentation xml:lang="cs">Tento cíl míří na integraci správy dat do procesů vývoje/rozvoje informačních systémů (IS) tak, aby všechny řešené a připravované změny IS systematicky přispívaly k vytvoření co nejlepších podmínek pro další práci s daty a jejich sdílení napříč veřejnou správou. Souběžně s popisováním dat (viz předchozí specifický cíl), které bude probíhat kontinuálně v delším časovém úseku, úřad zakomponuje do svých procesů a řídících dokumentů základní pravidla odrážející dobrou praxi v oblasti správy dat, pragmaticky uzpůsobená jeho potřebám a specifikům. Mezi prvními by mělo jít o sadu pravidel pro řízení změn informačních systémů, protože změnové aktivity mířící na implementaci/úpravy primárních systémů shromažďujících a uchovávajících data představují největší a často prakticky jedinou příležitost ke skokovému vylepšení předpokladů pro práci s daty v úřadu (a naopak je zde největší riziko vleklých a těžko odstranitelných problémů v případě zanedbání některých principů, např. datové suverenity a nezávislosti na dodavatelích).</documentation>
+    </element>
     <element identifier="stratsprdco141" xsi:type="Goal">
       <name xml:lang="cs">Opatření 1.4.1 Vytvořit v úřadu podmínky pro poskytnutí dat jiným úřadům</name>
     </element>
     <element identifier="stratsprdco142" xsi:type="Goal">
       <name xml:lang="cs">Opatření 1.4.2 Zohledňovat při zadávání a řešení změn IS dopady na data a jejich správu</name>
     </element>
+    <element identifier="stratsprdco150" xsi:type="Goal">
+      <name xml:lang="cs">Specifický cíl 1.5 Zajištění kvality, bezpečnosti a provozní efektivity v oblasti dat</name>
+      <documentation xml:lang="cs">Tento cíl míří na zajištění pravidel, podmínek a zdrojů pro efektivní provozování datových řešení (reálné získávání/vytváření, ukládání, zpracování a zpřístupňování konkrétních dat), zajištění jejich dostupnosti, bezpečnosti, kvality a interoperability. Pokud by úřad neměl zajištěna kompletní, kvalitní a důvěryhodná data, pak by neměl co nabídnout pro sdílení mezi úřady při výkonu agend veřejné správy, pro tvorbu datových produktů (reportů, analýz, odpovědí na dotazy apod.), pro podporu informovaného rozhodování ve veřejné správě a pro zpřístupnění veřejnosti.</documentation>
+    </element>
     <element identifier="stratsprdco151" xsi:type="Goal">
       <name xml:lang="cs">Opatření 1.5.1 Zavést v úřadu základní postupy pro zajištění kvality dat</name>
     </element>
     <element identifier="stratsprdco152" xsi:type="Goal">
       <name xml:lang="cs">Opatření 1.5.2 Zavést v úřadu základní řízení rizik v oblasti dat</name>
-    </element>
-    <element identifier="stratsprdco311" xsi:type="Goal">
-      <name xml:lang="cs">Opatření 3.1.1 Vytvořit služby pro poskytnutí dat jiným úřadům</name>
-    </element>
-    <element identifier="stratsprdco312" xsi:type="Goal">
-      <name xml:lang="cs">Opatření 3.1.2 Využívat při digitalizaci služeb možnost získání dat od jiných úřadů</name>
-    </element>
-    <element identifier="stratsprdco423" xsi:type="Goal">
-      <name xml:lang="cs">Opatření 4.2.3 Připravit se v rámci úřadů na zajištění řízeného přístupu</name>
-    </element>
-    <element identifier="stratsprdco431" xsi:type="Goal">
-      <name xml:lang="cs">Opatření 4.3.1 Připravit centrální koncepční a architektonické návrhy pro služby datových analýz</name>
-    </element>
-    <element identifier="stratsprdco432" xsi:type="Goal">
-      <name xml:lang="cs">Opatření 4.3.2 Formulovat v rámci Informační koncepce úřadu strategii analytické práce s daty</name>
-    </element>
-    <element identifier="stratsprdco100" xsi:type="Goal">
-      <name xml:lang="cs">Strategický cíl SC1. Vytvoření prostředí pro kvalitní správu dat v jednotlivých úřadech</name>
-      <documentation xml:lang="cs">Všechny úřady, které mají ve své správě data důležitá pro poskytování služeb občanům a řízení veřejné správy, pečují o tato data v souladu s definovaným standardem kvalitní správy dat ve veřejné správě.</documentation>
-    </element>
-    <element identifier="stratsprdco110" xsi:type="Goal">
-      <name xml:lang="cs">Specifický cíl 1.1 Vytvoření organizačních a kompetenčních předpokladů pro správu dat</name>
-      <documentation xml:lang="cs">Tento cíl míří na organizační, procesní a kompetenční zajištění správného chování, rozhodování a kontroly v oblasti péče o data tak, aby byla chráněna jejich důvěryhodnost a hodnota. Klíčovým úkolem na cestě k jeho dosažení je jasně stanovit odpovědnosti za data a jejich správu. Systematická pozornost věnovaná samostatně tématu dat je pro velkou většinu úřadů něčím zcela novým. Aktivity popsané a navrhované v této strategii proto míří na dlouhodobou „kulturní změnu“ celkového vztahu úřadu k datům, která se neobejde bez silné a vytrvalé podpory jeho nejvyššího vedení (přenesené skrze nižší úrovně vedení ve výsledku až na řadové pracovníky). Prvním nutným předpokladem pro zahájení práce na naplňování minimálního standardu je proto nominace člena nejvyššího vedení úřadu, který si vezme prosazování kvalitní správy dat napříč úřadem „za své“ a najde v úřadu vhodné lidi pro obsazení dalších rolí souvisejících se správou dat. Jejich fungování může být zpočátku neformální a závislé na konzultační podpoře DIA, časem by ale mělo přejít do rutinní podoby a být formalizováno explicitní definicí rolí a jejich odpovědností zakotvenou v interních pravidlech úřadu.</documentation>
-    </element>
-    <element identifier="stratsprdco120" xsi:type="Goal">
-      <name xml:lang="cs">Specifický cíl 1.2 Řízení datových potřeb a priorit</name>
-      <documentation xml:lang="cs">Tento cíl míří na zmapování relevantních oblastí dat v organizaci a jejich prioritizaci, identifikaci příležitostí a potřeb v těchto oblastech, definici a prioritizaci požadavků na datová řešení a vytvoření plánu aktivit směřujících k jejich naplnění. Výsledkem bude správné směrování úsilí a efektivní využívání zdrojů při správě dat. Klíčovým úkolem na cestě k dosažení tohoto cíle je zmapovat a prioritizovat oblasti dat spravovaných úřadem. Bude nutné získat základní přehled o všech datech spravovaných úřadem a vymezit tzv. věcné oblasti dat, na které bude vázána působnost některých rolí. Vzhledem k velkému rozsahu agend a poskytovaných služeb u většiny ministerstev a velkých centrálních úřadů bude nutné určit oblasti, které jsou z hlediska rozvoje správy dat prioritní, tzn. je v nich největší potřeba sdílení a využívání dat. Správné směrování úsilí do oblastí s největším relativním přínosem dobré správy dat a postupné iterativní rozšiřování záběru na další oblasti je dobrou praxí a de facto i nutností pro dosažení viditelných výsledků do konce r. 2025.</documentation>
-    </element>
-    <element identifier="stratsprdco130" xsi:type="Goal">
-      <name xml:lang="cs">Specifický cíl 1.3 Zajištění dohledatelnosti, srozumitelnosti a kategorizace dat</name>
-      <documentation xml:lang="cs">Tento cíl míří na inventarizaci, evidenci, kategorizace, popis, definici a modelování dat, ale také datových toků a všech IT komponent zapojených do řešení datových potřeb (primárních systémů, datových úložišť, datových sad a rozhraní, nástrojů pro ETL, analýzu a prezentaci dat). Ve výsledku budou mít úřady přehled o datech a datových tocích nezbytný pro dohledatelnost, efektivní správu a využívání dat, přičemž bude díky dobře popsanému významu dat maximalizována pravděpodobnost jejich správné interpretace. Klíčovým úkolem na cestě k dosažení tohoto cíle je inventarizovat a popsat data (iterativně po oblastech v pořadí stanoveném podle priorit). Aktivity budou směřovat k detailnímu popisu dat, který je klíčový pro dohledatelnost, správné pochopení a tím pádem i další využitelnost dat. Výsledkem těchto aktivit bude postupně rozšiřovaný systematický přehled o struktuře a významu spravovaných dat v jednotné podobě (tzv. lokálního katalogu dat), která umožní efektivně zjistit, jaká data spravuje daný úřad a (v sumě všech takto postupujících úřadů) veřejná správa jako celek (v tzv. národním katalogu dat). Každý z 32 vybraných úřadů musí vytvořit kompletní popis dat minimálně v prioritních oblastech, aby prokázal svou kompetenci postupovat tímto způsobem v dalších oblastech.</documentation>
-    </element>
-    <element identifier="stratsprdco140" xsi:type="Goal">
-      <name xml:lang="cs">Specifický cíl 1.4 Vytváření podmínek pro správu dat v rámci řešených změn informačních systémů</name>
-      <documentation xml:lang="cs">Tento cíl míří na integraci správy dat do procesů vývoje/rozvoje informačních systémů (IS) tak, aby všechny řešené a připravované změny IS systematicky přispívaly k vytvoření co nejlepších podmínek pro další práci s daty a jejich sdílení napříč veřejnou správou. Souběžně s popisováním dat (viz předchozí specifický cíl), které bude probíhat kontinuálně v delším časovém úseku, úřad zakomponuje do svých procesů a řídících dokumentů základní pravidla odrážející dobrou praxi v oblasti správy dat, pragmaticky uzpůsobená jeho potřebám a specifikům. Mezi prvními by mělo jít o sadu pravidel pro řízení změn informačních systémů, protože změnové aktivity mířící na implementaci/úpravy primárních systémů shromažďujících a uchovávajících data představují největší a často prakticky jedinou příležitost ke skokovému vylepšení předpokladů pro práci s daty v úřadu (a naopak je zde největší riziko vleklých a těžko odstranitelných problémů v případě zanedbání některých principů, např. datové suverenity a nezávislosti na dodavatelích).</documentation>
-    </element>
-    <element identifier="stratsprdco150" xsi:type="Goal">
-      <name xml:lang="cs">Specifický cíl 1.5 Zajištění kvality, bezpečnosti a provozní efektivity v oblasti dat</name>
-      <documentation xml:lang="cs">Tento cíl míří na zajištění pravidel, podmínek a zdrojů pro efektivní provozování datových řešení (reálné získávání/vytváření, ukládání, zpracování a zpřístupňování konkrétních dat), zajištění jejich dostupnosti, bezpečnosti, kvality a interoperability. Pokud by úřad neměl zajištěna kompletní, kvalitní a důvěryhodná data, pak by neměl co nabídnout pro sdílení mezi úřady při výkonu agend veřejné správy, pro tvorbu datových produktů (reportů, analýz, odpovědí na dotazy apod.), pro podporu informovaného rozhodování ve veřejné správě a pro zpřístupnění veřejnosti.</documentation>
     </element>
     <element identifier="stratsprdco200" xsi:type="Goal">
       <name xml:lang="cs">Strategický cíl SC2. Zajištění centrální podpory a celkového prostředí pro správu dat</name>
@@ -96,22 +81,6 @@
     <element identifier="stratsprdco210" xsi:type="Goal">
       <name xml:lang="cs">Specifický cíl 2.1 Zajištění legislativní, metodické a znalostní báze pro správu dat</name>
       <documentation xml:lang="cs">Tento cíl míří na vznik zákona o správě dat veřejného sektoru, jakožto závazného a vymahatelného právního rámce pro práci s daty ve veřejné správě. Mimo jiné i na základě tohoto zákona bude DIA dále zajišťovat tvorbu metodických a podpůrných materiálů pro kvalitní správu dat. Ty bude spolu s dalšími relevantními informacemi systematicky shromažďovat a spravovat v podobě znalostní báze pro kvalitní správu dat.</documentation>
-    </element>
-    <element identifier="stratsprdco220" xsi:type="Goal">
-      <name xml:lang="cs">Specifický cíl 2.2 Konzultační a praktická podpora jednotlivých úřadů při zavádění správy dat</name>
-      <documentation xml:lang="cs">Tento cíl směřuje k individuální cílené podpoře vybraných úřadů ze strany DIA (narozdíl od cíle předchozího, jehož výsledky jsou určeny všem plošně). DIA bude v rámci jeho naplňování dlouhodobě pracovat s jednotlivými úřady formou jejich konzultační podpory v oblasti správy dat a poskytne kapacitní podporu nezbytnou pro vytvoření popisu dat v nejprioritnějších oblastech.</documentation>
-    </element>
-    <element identifier="stratsprdco230" xsi:type="Goal">
-      <name xml:lang="cs">Specifický cíl 2.3 Vzdělávání a zprostředkování výměny zkušeností v oblasti práce s daty</name>
-      <documentation xml:lang="cs">Pro podporu kvalitní správy dat zajistí DIA školení, odborný rozvoj a osvětu v této oblasti, a to s využitím nejen vlastních kapacit, ale i s významným zapojením samotných úřadů ochotných sdílet vlastní zkušenosti, akademické sféry a dalších spolupracujících externích subjektů.</documentation>
-    </element>
-    <element identifier="stratsprdco240" xsi:type="Goal">
-      <name xml:lang="cs">Specifický cíl 2.4 Zajištění nástrojů na podporu správy dat</name>
-      <documentation xml:lang="cs">Tento cíl míří na vytvoření nástrojové podpory aktivit v oblasti správy dat tak, aby jednotlivé úřady nemusely pro naplnění některých klíčových opatření této strategie hledat či vyvíjet vlastní softwarová řešení.</documentation>
-    </element>
-    <element identifier="stratsprdco250" xsi:type="Goal">
-      <name xml:lang="cs">Specifický cíl 2.5 Fungující infrastruktura a služby pro výměnu dat ve veřejné správě</name>
-      <documentation xml:lang="cs">Současná infrastruktura Informačního systému sdílené služby byla navržena a realizována již před více než pěti lety. Pro zajištění její funkčnosti s nabývajícím objemem vyřizovaných požadavků je nutné posílení stávající technické infrastruktury v rámci existující architektury a doplnění architektury pro splnění požadavků, které vznikly v posledních letech,</documentation>
     </element>
     <element identifier="stratsprdco211" xsi:type="Goal">
       <name xml:lang="cs">Opatření 2.1.1 Připravit paragrafové znění zákona o správě dat veřejného sektoru</name>
@@ -125,6 +94,10 @@
     <element identifier="stratsprdco214" xsi:type="Goal">
       <name xml:lang="cs">Opatření 2.1.4 Vytvořit a spravovat znalostní bázi pro oblast správy dat</name>
     </element>
+    <element identifier="stratsprdco220" xsi:type="Goal">
+      <name xml:lang="cs">Specifický cíl 2.2 Konzultační a praktická podpora jednotlivých úřadů při zavádění správy dat</name>
+      <documentation xml:lang="cs">Tento cíl směřuje k individuální cílené podpoře vybraných úřadů ze strany DIA (narozdíl od cíle předchozího, jehož výsledky jsou určeny všem plošně). DIA bude v rámci jeho naplňování dlouhodobě pracovat s jednotlivými úřady formou jejich konzultační podpory v oblasti správy dat a poskytne kapacitní podporu nezbytnou pro vytvoření popisu dat v nejprioritnějších oblastech.</documentation>
+    </element>
     <element identifier="stratsprdco221" xsi:type="Goal">
       <name xml:lang="cs">Opatření 2.2.1 Konzultačně podporovat úřady při zavádění opatření</name>
     </element>
@@ -133,6 +106,10 @@
     </element>
     <element identifier="stratsprdco223" xsi:type="Goal">
       <name xml:lang="cs">Opatření 2.2.3 Vyhodnocovat dosaženou úroveň správy dat v jednotlivých úřadech</name>
+    </element>
+    <element identifier="stratsprdco230" xsi:type="Goal">
+      <name xml:lang="cs">Specifický cíl 2.3 Vzdělávání a zprostředkování výměny zkušeností v oblasti práce s daty</name>
+      <documentation xml:lang="cs">Pro podporu kvalitní správy dat zajistí DIA školení, odborný rozvoj a osvětu v této oblasti, a to s využitím nejen vlastních kapacit, ale i s významným zapojením samotných úřadů ochotných sdílet vlastní zkušenosti, akademické sféry a dalších spolupracujících externích subjektů.</documentation>
     </element>
     <element identifier="stratsprdco231" xsi:type="Goal">
       <name xml:lang="cs">Opatření 2.3.1 Zajistit vytvoření a realizaci školení zaměřených na správu dat</name>
@@ -146,6 +123,10 @@
     <element identifier="stratsprdco234" xsi:type="Goal">
       <name xml:lang="cs">Opatření 2.3.4 Vytvořit a udržovat partnerský ekosystém externích spolupracujících subjektů</name>
     </element>
+    <element identifier="stratsprdco240" xsi:type="Goal">
+      <name xml:lang="cs">Specifický cíl 2.4 Zajištění nástrojů na podporu správy dat</name>
+      <documentation xml:lang="cs">Tento cíl míří na vytvoření nástrojové podpory aktivit v oblasti správy dat tak, aby jednotlivé úřady nemusely pro naplnění některých klíčových opatření této strategie hledat či vyvíjet vlastní softwarová řešení.</documentation>
+    </element>
     <element identifier="stratsprdco241" xsi:type="Goal">
       <name xml:lang="cs">Opatření 2.4.1 Zajistit centrální evidenci datových potřeb</name>
     </element>
@@ -154,6 +135,10 @@
     </element>
     <element identifier="stratsprdco243" xsi:type="Goal">
       <name xml:lang="cs">Opatření 2.4.3 Zajistit nástrojovou podporu pro katalogy dat</name>
+    </element>
+    <element identifier="stratsprdco250" xsi:type="Goal">
+      <name xml:lang="cs">Specifický cíl 2.5 Fungující infrastruktura a služby pro výměnu dat ve veřejné správě</name>
+      <documentation xml:lang="cs">Současná infrastruktura Informačního systému sdílené služby byla navržena a realizována již před více než pěti lety. Pro zajištění její funkčnosti s nabývajícím objemem vyřizovaných požadavků je nutné posílení stávající technické infrastruktury v rámci existující architektury a doplnění architektury pro splnění požadavků, které vznikly v posledních letech,</documentation>
     </element>
     <element identifier="stratsprdco251" xsi:type="Goal">
       <name xml:lang="cs">Opatření 2.5.1 Zajistit spolehlivé fungování služeb ISSS</name>
@@ -168,6 +153,12 @@
     <element identifier="stratsprdco310" xsi:type="Goal">
       <name xml:lang="cs">Specifický cíl 3.1 Realizace sdílení dat na úrovni jednotlivých úřadů</name>
       <documentation xml:lang="cs">Tento cíl zahrnuje opatření, jejichž zavedením jednotlivé úřady reálně připraví svá data ke sdílení s jinými úřady a své systémy naopak k převzetí dat od jiných úřadů. Míří pouze na omezený rozsah údajů, které jsou určeny ke sdílení (tzn. jinde v rámci veřejné správy byla identifikována potřeba je přebírat). Opatření cíle míří k výměně dat mezi úřady již zavedeným mechanismem architektury veřejné správy označovaným jako propojený datový fond (PPDF), konkrétně prostřednictvím služeb Informačního systému sdílené služby (ISSS). PPDF je dlouhodobě prosazovanou koncepční cestou výměny dat mezi úřady a jako takový by měl postupně nahradit dosud používané přímé interakce při výměně údajů mezi jednotlivými agendovými informačními systémy.</documentation>
+    </element>
+    <element identifier="stratsprdco311" xsi:type="Goal">
+      <name xml:lang="cs">Opatření 3.1.1 Vytvořit služby pro poskytnutí dat jiným úřadům</name>
+    </element>
+    <element identifier="stratsprdco312" xsi:type="Goal">
+      <name xml:lang="cs">Opatření 3.1.2 Využívat při digitalizaci služeb možnost získání dat od jiných úřadů</name>
     </element>
     <element identifier="stratsprdco320" xsi:type="Goal">
       <name xml:lang="cs">Specifický cíl 3.2 Centrální podpora a koordinace sdílení dat</name>
@@ -187,14 +178,6 @@
       <name xml:lang="cs">Specifický cíl 4.1 Publikace otevřených dat</name>
       <documentation xml:lang="cs">Tento cíl míří k naplnění zákonných povinností souvisejících s publikací otevřených dat a dále k zajištění jejich dohledatelnosti, kvality a opětovného využití.</documentation>
     </element>
-    <element identifier="stratsprdco420" xsi:type="Goal">
-      <name xml:lang="cs">Specifický cíl 4.2 Zajištění řízeného přístupu k datům veřejné správy</name>
-      <documentation xml:lang="cs">Tento cíl směřuje k tomu, aby veřejná správa zajistila oprávněnému žadateli při splnění zákonem daných podmínek (prokázané legitimní důvody využití dat apod.) tzv. řízený přístup k datům v souladu s právními předpisy upravujícími tuto oblast (připravovaný zákon o správě dat veřejného sektoru, který je implementací nařízení o evropské správě dat - Data Governance Act).</documentation>
-    </element>
-    <element identifier="stratsprdco430" xsi:type="Goal">
-      <name xml:lang="cs">Specifický cíl 4.3 Příprava podmínek pro analytické zpracování dat na úrovni jednotlivých úřadů</name>
-      <documentation xml:lang="cs">Tento cíl navazuje na cíle a opatření Koncepce Klientsky orientovaná veřejná správa 2030 Ministerstva vnitra a směřuje k tomu, aby veřejná správa budovala svou schopnost analytické práce a rozhodování podle jejích výsledků. Viz specifický cíl 3.1 Rozšířit rozhodování a plánování na principu evidence-informed této Koncepce.</documentation>
-    </element>
     <element identifier="stratsprdco411" xsi:type="Goal">
       <name xml:lang="cs">Opatření 4.1.1      Publikovat veřejná data úřadu ve formě otevřených dat</name>
     </element>
@@ -207,11 +190,18 @@
     <element identifier="stratsprdco414" xsi:type="Goal">
       <name xml:lang="cs">Opatření 4.1.4      Zajistit provoz a rozvoj Národního katalogu otevřených dat</name>
     </element>
+    <element identifier="stratsprdco420" xsi:type="Goal">
+      <name xml:lang="cs">Specifický cíl 4.2 Zajištění řízeného přístupu k datům veřejné správy</name>
+      <documentation xml:lang="cs">Tento cíl směřuje k tomu, aby veřejná správa zajistila oprávněnému žadateli při splnění zákonem daných podmínek (prokázané legitimní důvody využití dat apod.) tzv. řízený přístup k datům v souladu s právními předpisy upravujícími tuto oblast (připravovaný zákon o správě dat veřejného sektoru, který je implementací nařízení o evropské správě dat - Data Governance Act).</documentation>
+    </element>
     <element identifier="stratsprdco421" xsi:type="Goal">
       <name xml:lang="cs">Opatření 4.2.1 Připravit legislativní, metodické a procesní předpoklady pro řízený přístup</name>
     </element>
     <element identifier="stratsprdco422" xsi:type="Goal">
       <name xml:lang="cs">Opatření 4.2.2 Naplnit roli Jednotného informačního místa pro řízený přístup</name>
+    </element>
+    <element identifier="stratsprdco423" xsi:type="Goal">
+      <name xml:lang="cs">Opatření 4.2.3 Připravit se v rámci úřadů na zajištění řízeného přístupu</name>
     </element>
     <element identifier="stratsprdco424" xsi:type="Goal">
       <name xml:lang="cs">Opatření 4.2.4 Zajistit odbornou a technickou podporu řízeného přístupu</name>
@@ -219,8 +209,24 @@
     <element identifier="stratsprdco425" xsi:type="Goal">
       <name xml:lang="cs">Opatření 4.2.5 Zajistit provoz a rozvoj portálu pro řízený přístup</name>
     </element>
+    <element identifier="stratsprdco430" xsi:type="Goal">
+      <name xml:lang="cs">Specifický cíl 4.3 Příprava podmínek pro analytické zpracování dat na úrovni jednotlivých úřadů</name>
+      <documentation xml:lang="cs">Tento cíl navazuje na cíle a opatření Koncepce Klientsky orientovaná veřejná správa 2030 Ministerstva vnitra a směřuje k tomu, aby veřejná správa budovala svou schopnost analytické práce a rozhodování podle jejích výsledků. Viz specifický cíl 3.1 Rozšířit rozhodování a plánování na principu evidence-informed této Koncepce.</documentation>
+    </element>
+    <element identifier="stratsprdco431" xsi:type="Goal">
+      <name xml:lang="cs">Opatření 4.3.1 Připravit centrální koncepční a architektonické návrhy pro služby datových analýz</name>
+    </element>
+    <element identifier="stratsprdco432" xsi:type="Goal">
+      <name xml:lang="cs">Opatření 4.3.2 Formulovat v rámci Informační koncepce úřadu strategii analytické práce s daty</name>
+    </element>
   </elements>
   <relationships>
+    <relationship identifier="diastratsprd" source="dia" target="stratsprd" xsi:type="Association">
+      <name xml:lang="cs">vydává</name>
+    </relationship>
+    <relationship identifier="id-3173229d1c824777b23b4a9aa8b1eb35" source="stratsprdco110" target="stratsprdco121" xsi:type="Composition" />
+    <relationship identifier="id-906233ab857743d8913464e42a22a96b" source="stratsprdco110" target="stratsprdco122" xsi:type="Composition" />
+    <relationship identifier="id-bc343bc1f1024c42b885b3faa32452b8" source="stratsprdco110" target="stratsprdco123" xsi:type="Composition" />
     <relationship identifier="ovmstratsprd" source="ovm" target="stratsprd" xsi:type="Association">
       <name xml:lang="cs">naplňuje</name>
     </relationship>
@@ -274,9 +280,6 @@
     </relationship>
     <relationship identifier="ovmstratsprdco432" source="ovm" target="stratsprdco432" xsi:type="Association">
       <name xml:lang="cs">naplňuje</name>
-    </relationship>
-    <relationship identifier="diastratsprd" source="dia" target="stratsprd" xsi:type="Association">
-      <name xml:lang="cs">vydává</name>
     </relationship>
     <relationship identifier="stratsprdco100stratsprdco110" source="stratsprdco100" target="stratsprdco110" xsi:type="Composition">
       <name xml:lang="cs">obsahuje</name>
@@ -642,77 +645,81 @@
   <organizations>
     <item>
       <label xml:lang="cs">Business</label>
+      <item identifierRef="dia" />
       <item identifierRef="ovm" />
       <item identifierRef="stratsprd" />
-      <item identifierRef="dia" />
     </item>
     <item>
       <label xml:lang="cs">Motivation</label>
+      <item identifierRef="stratsprdco100" />
+      <item identifierRef="stratsprdco110" />
       <item identifierRef="stratsprdco111" />
       <item identifierRef="stratsprdco112" />
+      <item identifierRef="stratsprdco120" />
       <item identifierRef="stratsprdco121" />
       <item identifierRef="stratsprdco122" />
       <item identifierRef="stratsprdco123" />
+      <item identifierRef="stratsprdco130" />
       <item identifierRef="stratsprdco131" />
       <item identifierRef="stratsprdco132" />
       <item identifierRef="stratsprdco133" />
+      <item identifierRef="stratsprdco140" />
       <item identifierRef="stratsprdco141" />
       <item identifierRef="stratsprdco142" />
+      <item identifierRef="stratsprdco150" />
       <item identifierRef="stratsprdco151" />
       <item identifierRef="stratsprdco152" />
-      <item identifierRef="stratsprdco311" />
-      <item identifierRef="stratsprdco312" />
-      <item identifierRef="stratsprdco423" />
-      <item identifierRef="stratsprdco431" />
-      <item identifierRef="stratsprdco432" />
-      <item identifierRef="stratsprdco100" />
-      <item identifierRef="stratsprdco110" />
-      <item identifierRef="stratsprdco120" />
-      <item identifierRef="stratsprdco130" />
-      <item identifierRef="stratsprdco140" />
-      <item identifierRef="stratsprdco150" />
       <item identifierRef="stratsprdco200" />
       <item identifierRef="stratsprdco210" />
-      <item identifierRef="stratsprdco220" />
-      <item identifierRef="stratsprdco230" />
-      <item identifierRef="stratsprdco240" />
-      <item identifierRef="stratsprdco250" />
       <item identifierRef="stratsprdco211" />
       <item identifierRef="stratsprdco212" />
       <item identifierRef="stratsprdco213" />
       <item identifierRef="stratsprdco214" />
+      <item identifierRef="stratsprdco220" />
       <item identifierRef="stratsprdco221" />
       <item identifierRef="stratsprdco222" />
       <item identifierRef="stratsprdco223" />
+      <item identifierRef="stratsprdco230" />
       <item identifierRef="stratsprdco231" />
       <item identifierRef="stratsprdco232" />
       <item identifierRef="stratsprdco233" />
       <item identifierRef="stratsprdco234" />
+      <item identifierRef="stratsprdco240" />
       <item identifierRef="stratsprdco241" />
       <item identifierRef="stratsprdco242" />
       <item identifierRef="stratsprdco243" />
+      <item identifierRef="stratsprdco250" />
       <item identifierRef="stratsprdco251" />
       <item identifierRef="stratsprdco252" />
       <item identifierRef="stratsprdco300" />
       <item identifierRef="stratsprdco310" />
+      <item identifierRef="stratsprdco311" />
+      <item identifierRef="stratsprdco312" />
       <item identifierRef="stratsprdco320" />
       <item identifierRef="stratsprdco321" />
       <item identifierRef="stratsprdco322" />
       <item identifierRef="stratsprdco400" />
       <item identifierRef="stratsprdco410" />
-      <item identifierRef="stratsprdco420" />
-      <item identifierRef="stratsprdco430" />
       <item identifierRef="stratsprdco411" />
       <item identifierRef="stratsprdco412" />
       <item identifierRef="stratsprdco413" />
       <item identifierRef="stratsprdco414" />
+      <item identifierRef="stratsprdco420" />
       <item identifierRef="stratsprdco421" />
       <item identifierRef="stratsprdco422" />
+      <item identifierRef="stratsprdco423" />
       <item identifierRef="stratsprdco424" />
       <item identifierRef="stratsprdco425" />
+      <item identifierRef="stratsprdco430" />
+      <item identifierRef="stratsprdco431" />
+      <item identifierRef="stratsprdco432" />
     </item>
     <item>
       <label xml:lang="cs">Relations</label>
+      <item identifierRef="diastratsprd" />
+      <item identifierRef="id-3173229d1c824777b23b4a9aa8b1eb35" />
+      <item identifierRef="id-906233ab857743d8913464e42a22a96b" />
+      <item identifierRef="id-bc343bc1f1024c42b885b3faa32452b8" />
       <item identifierRef="ovmstratsprd" />
       <item identifierRef="ovmstratsprdco111" />
       <item identifierRef="ovmstratsprdco112" />
@@ -731,7 +738,6 @@
       <item identifierRef="ovmstratsprdco423" />
       <item identifierRef="ovmstratsprdco431" />
       <item identifierRef="ovmstratsprdco432" />
-      <item identifierRef="diastratsprd" />
       <item identifierRef="stratsprdco100stratsprdco110" />
       <item identifierRef="stratsprdco100stratsprdco120" />
       <item identifierRef="stratsprdco100stratsprdco130" />
@@ -855,21 +861,562 @@
     </item>
     <item>
       <label xml:lang="cs">Views</label>
-      <item identifierRef="id-69342b44b3e4424d8316a21e4346aa09" />
-      <item identifierRef="id-3cde5d6772814837a2b421694e2b5c66" />
       <item identifierRef="id-1b1e0d1e39bd4f7184c08e60af72cbcb" />
+      <item identifierRef="id-3cde5d6772814837a2b421694e2b5c66" />
+      <item identifierRef="id-69342b44b3e4424d8316a21e4346aa09" />
     </item>
   </organizations>
   <views>
     <diagrams>
-      <view identifier="id-69342b44b3e4424d8316a21e4346aa09" xsi:type="Diagram">
-        <name xml:lang="cs">SSD - Struktura cílů strategie</name>
+      <view identifier="id-1b1e0d1e39bd4f7184c08e60af72cbcb" xsi:type="Diagram">
+        <name xml:lang="cs">Opatření SSD jež realizuje úřad</name>
+        <node identifier="id-ce4bc9278bc84ad591ee86d3ff1ebe4c" elementRef="ovm" xsi:type="Element" x="480" y="270" w="157" h="307">
+          <style>
+            <fillColor r="255" g="255" b="181" a="100" />
+            <lineColor r="92" g="92" b="92" a="100" />
+            <font name="Segoe UI" size="9">
+              <color r="0" g="0" b="0" />
+            </font>
+          </style>
+        </node>
+        <node identifier="id-6e7bfd1c603e43eba192176be8147bf5" elementRef="stratsprdco110" xsi:type="Element" x="48" y="24" w="313" h="181">
+          <style>
+            <fillColor r="204" g="204" b="255" a="100" />
+            <lineColor r="92" g="92" b="92" a="100" />
+            <font name="Segoe UI" size="9">
+              <color r="0" g="0" b="0" />
+            </font>
+          </style>
+          <node identifier="id-e4d1bff0ff464a7d84073e7b6f159573" elementRef="stratsprdco111" xsi:type="Element" x="84" y="60" w="241" h="61">
+            <style>
+              <fillColor r="204" g="204" b="255" a="100" />
+              <lineColor r="92" g="92" b="92" a="100" />
+              <font name="Segoe UI" size="9">
+                <color r="0" g="0" b="0" />
+              </font>
+            </style>
+          </node>
+          <node identifier="id-88ca7cf355014229a5c77ae19c041c13" elementRef="stratsprdco112" xsi:type="Element" x="84" y="132" w="241" h="61">
+            <style>
+              <fillColor r="204" g="204" b="255" a="100" />
+              <lineColor r="92" g="92" b="92" a="100" />
+              <font name="Segoe UI" size="9">
+                <color r="0" g="0" b="0" />
+              </font>
+            </style>
+          </node>
+        </node>
+        <node identifier="id-d4594cc676ab4ed9af460c5eb2757ad9" elementRef="stratsprdco120" xsi:type="Element" x="48" y="216" w="313" h="241">
+          <style>
+            <fillColor r="204" g="204" b="255" a="100" />
+            <lineColor r="92" g="92" b="92" a="100" />
+            <font name="Segoe UI" size="9">
+              <color r="0" g="0" b="0" />
+            </font>
+          </style>
+          <node identifier="id-db787217aaf44d30b03b800151722702" elementRef="stratsprdco121" xsi:type="Element" x="84" y="252" w="241" h="49">
+            <style>
+              <fillColor r="204" g="204" b="255" a="100" />
+              <lineColor r="92" g="92" b="92" a="100" />
+              <font name="Segoe UI" size="9">
+                <color r="0" g="0" b="0" />
+              </font>
+            </style>
+          </node>
+          <node identifier="id-9e750b34d2cc451d8f7298f0b74ebb96" elementRef="stratsprdco123" xsi:type="Element" x="84" y="384" w="241" h="61">
+            <style>
+              <fillColor r="204" g="204" b="255" a="100" />
+              <lineColor r="92" g="92" b="92" a="100" />
+              <font name="Segoe UI" size="9">
+                <color r="0" g="0" b="0" />
+              </font>
+            </style>
+          </node>
+          <node identifier="id-92b24df9ff1a42f48860d76b5a5eb314" elementRef="stratsprdco122" xsi:type="Element" x="84" y="312" w="241" h="61">
+            <style>
+              <fillColor r="204" g="204" b="255" a="100" />
+              <lineColor r="92" g="92" b="92" a="100" />
+              <font name="Segoe UI" size="9">
+                <color r="0" g="0" b="0" />
+              </font>
+            </style>
+          </node>
+        </node>
+        <node identifier="id-1116d4ba4ccb4a28912c570f03309c39" elementRef="stratsprdco130" xsi:type="Element" x="48" y="468" w="313" h="247">
+          <style>
+            <fillColor r="204" g="204" b="255" a="100" />
+            <lineColor r="92" g="92" b="92" a="100" />
+            <font name="Segoe UI" size="9">
+              <color r="0" g="0" b="0" />
+            </font>
+          </style>
+          <node identifier="id-84097fbd4cf943d9acd6db263abe93b1" elementRef="stratsprdco131" xsi:type="Element" x="72" y="504" w="253" h="49">
+            <style>
+              <fillColor r="204" g="204" b="255" a="100" />
+              <lineColor r="92" g="92" b="92" a="100" />
+              <font name="Segoe UI" size="9">
+                <color r="0" g="0" b="0" />
+              </font>
+            </style>
+          </node>
+          <node identifier="id-d06358b5822f490f8e07775ce5ad0eaf" elementRef="stratsprdco132" xsi:type="Element" x="72" y="564" w="253" h="61">
+            <style>
+              <fillColor r="204" g="204" b="255" a="100" />
+              <lineColor r="92" g="92" b="92" a="100" />
+              <font name="Segoe UI" size="9">
+                <color r="0" g="0" b="0" />
+              </font>
+            </style>
+          </node>
+          <node identifier="id-7cfebbc078984e8c8d8a2cbe50e6f6eb" elementRef="stratsprdco133" xsi:type="Element" x="72" y="636" w="253" h="61">
+            <style>
+              <fillColor r="204" g="204" b="255" a="100" />
+              <lineColor r="92" g="92" b="92" a="100" />
+              <font name="Segoe UI" size="9">
+                <color r="0" g="0" b="0" />
+              </font>
+            </style>
+          </node>
+        </node>
+        <node identifier="id-1061487fc8e5477884eb514bd8ed4d45" elementRef="stratsprdco140" xsi:type="Element" x="48" y="726" w="313" h="199">
+          <style>
+            <fillColor r="204" g="204" b="255" a="100" />
+            <lineColor r="92" g="92" b="92" a="100" />
+            <font name="Segoe UI" size="9">
+              <color r="0" g="0" b="0" />
+            </font>
+          </style>
+          <node identifier="id-ee7edca1a8a34f28a139ac9241cbe764" elementRef="stratsprdco141" xsi:type="Element" x="66" y="774" w="259" h="55">
+            <style>
+              <fillColor r="204" g="204" b="255" a="100" />
+              <lineColor r="92" g="92" b="92" a="100" />
+              <font name="Segoe UI" size="9">
+                <color r="0" g="0" b="0" />
+              </font>
+            </style>
+          </node>
+          <node identifier="id-c6d79350f3f74772a2e8dd009e78bfa8" elementRef="stratsprdco142" xsi:type="Element" x="66" y="834" w="259" h="73">
+            <style>
+              <fillColor r="204" g="204" b="255" a="100" />
+              <lineColor r="92" g="92" b="92" a="100" />
+              <font name="Segoe UI" size="9">
+                <color r="0" g="0" b="0" />
+              </font>
+            </style>
+          </node>
+        </node>
+        <node identifier="id-760184a86edd43d79072fdc9ef4c1c63" elementRef="stratsprdco150" xsi:type="Element" x="732" y="36" w="277" h="193">
+          <style>
+            <fillColor r="204" g="204" b="255" a="100" />
+            <lineColor r="92" g="92" b="92" a="100" />
+            <font name="Segoe UI" size="9">
+              <color r="0" g="0" b="0" />
+            </font>
+          </style>
+          <node identifier="id-fdc9794bf2a3437fb8de24572fba9248" elementRef="stratsprdco151" xsi:type="Element" x="756" y="84" w="217" h="61">
+            <style>
+              <fillColor r="204" g="204" b="255" a="100" />
+              <lineColor r="92" g="92" b="92" a="100" />
+              <font name="Segoe UI" size="9">
+                <color r="0" g="0" b="0" />
+              </font>
+            </style>
+          </node>
+          <node identifier="id-5ea95c525c584d6c974314fc979b604e" elementRef="stratsprdco152" xsi:type="Element" x="756" y="156" w="217" h="61">
+            <style>
+              <fillColor r="204" g="204" b="255" a="100" />
+              <lineColor r="92" g="92" b="92" a="100" />
+              <font name="Segoe UI" size="9">
+                <color r="0" g="0" b="0" />
+              </font>
+            </style>
+          </node>
+        </node>
+        <node identifier="id-720a150826424c5c8079db1c77d1048c" elementRef="stratsprdco310" xsi:type="Element" x="732" y="240" w="277" h="181">
+          <style>
+            <fillColor r="204" g="204" b="255" a="100" />
+            <lineColor r="92" g="92" b="92" a="100" />
+            <font name="Segoe UI" size="9">
+              <color r="0" g="0" b="0" />
+            </font>
+          </style>
+          <node identifier="id-d3dbf7e76e4d4ae9a39a9e59c8c764ff" elementRef="stratsprdco311" xsi:type="Element" x="756" y="276" w="217" h="61">
+            <style>
+              <fillColor r="204" g="204" b="255" a="100" />
+              <lineColor r="92" g="92" b="92" a="100" />
+              <font name="Segoe UI" size="9">
+                <color r="0" g="0" b="0" />
+              </font>
+            </style>
+          </node>
+          <node identifier="id-5ef6fd49d6af4a829c5781b79b250468" elementRef="stratsprdco312" xsi:type="Element" x="756" y="348" w="217" h="61">
+            <style>
+              <fillColor r="204" g="204" b="255" a="100" />
+              <lineColor r="92" g="92" b="92" a="100" />
+              <font name="Segoe UI" size="9">
+                <color r="0" g="0" b="0" />
+              </font>
+            </style>
+          </node>
+        </node>
+        <node identifier="id-e6410044405e4454bf21cebed8334500" elementRef="stratsprdco420" xsi:type="Element" x="732" y="444" w="277" h="109">
+          <style>
+            <fillColor r="204" g="204" b="255" a="100" />
+            <lineColor r="92" g="92" b="92" a="100" />
+            <font name="Segoe UI" size="9">
+              <color r="0" g="0" b="0" />
+            </font>
+          </style>
+          <node identifier="id-483feaa52f6548f5adb1bdc727549a1e" elementRef="stratsprdco423" xsi:type="Element" x="756" y="480" w="229" h="61">
+            <style>
+              <fillColor r="204" g="204" b="255" a="100" />
+              <lineColor r="92" g="92" b="92" a="100" />
+              <font name="Segoe UI" size="9">
+                <color r="0" g="0" b="0" />
+              </font>
+            </style>
+          </node>
+        </node>
+        <node identifier="id-358212ae8097420690999b068d6deb87" elementRef="stratsprdco430" xsi:type="Element" x="732" y="600" w="277" h="217">
+          <style>
+            <fillColor r="204" g="204" b="255" a="100" />
+            <lineColor r="92" g="92" b="92" a="100" />
+            <font name="Segoe UI" size="9">
+              <color r="0" g="0" b="0" />
+            </font>
+          </style>
+          <node identifier="id-3341e34acb79446c841a16e881f53527" elementRef="stratsprdco431" xsi:type="Element" x="768" y="648" w="205" h="73">
+            <style>
+              <fillColor r="204" g="204" b="255" a="100" />
+              <lineColor r="92" g="92" b="92" a="100" />
+              <font name="Segoe UI" size="9">
+                <color r="0" g="0" b="0" />
+              </font>
+            </style>
+          </node>
+          <node identifier="id-c5721b27099d4050be05c02460f7037b" elementRef="stratsprdco432" xsi:type="Element" x="768" y="732" w="205" h="73">
+            <style>
+              <fillColor r="204" g="204" b="255" a="100" />
+              <lineColor r="92" g="92" b="92" a="100" />
+              <font name="Segoe UI" size="9">
+                <color r="0" g="0" b="0" />
+              </font>
+            </style>
+          </node>
+        </node>
+        <connection identifier="id-3165ffcdb1654aa2bcc67023c947923b" relationshipRef="ovmstratsprdco111" xsi:type="Relationship" source="id-ce4bc9278bc84ad591ee86d3ff1ebe4c" target="id-e4d1bff0ff464a7d84073e7b6f159573">
+          <style>
+            <lineColor r="0" g="0" b="0" />
+            <font name="Segoe UI" size="9">
+              <color r="0" g="0" b="0" />
+            </font>
+          </style>
+        </connection>
+        <connection identifier="id-e8bed381d45f4863bd4796527fa7f163" relationshipRef="ovmstratsprdco112" xsi:type="Relationship" source="id-ce4bc9278bc84ad591ee86d3ff1ebe4c" target="id-88ca7cf355014229a5c77ae19c041c13">
+          <style>
+            <lineColor r="0" g="0" b="0" />
+            <font name="Segoe UI" size="9">
+              <color r="0" g="0" b="0" />
+            </font>
+          </style>
+        </connection>
+        <connection identifier="id-f136ac915e944b17949be02861be02d4" relationshipRef="ovmstratsprdco121" xsi:type="Relationship" source="id-ce4bc9278bc84ad591ee86d3ff1ebe4c" target="id-db787217aaf44d30b03b800151722702">
+          <style>
+            <lineColor r="0" g="0" b="0" />
+            <font name="Segoe UI" size="9">
+              <color r="0" g="0" b="0" />
+            </font>
+          </style>
+        </connection>
+        <connection identifier="id-5f0bf1b380764aa89b13401cfd70775d" relationshipRef="ovmstratsprdco122" xsi:type="Relationship" source="id-ce4bc9278bc84ad591ee86d3ff1ebe4c" target="id-92b24df9ff1a42f48860d76b5a5eb314">
+          <style>
+            <lineColor r="0" g="0" b="0" />
+            <font name="Segoe UI" size="9">
+              <color r="0" g="0" b="0" />
+            </font>
+          </style>
+        </connection>
+        <connection identifier="id-29e1923babcd43c692a97bacfd985973" relationshipRef="ovmstratsprdco123" xsi:type="Relationship" source="id-ce4bc9278bc84ad591ee86d3ff1ebe4c" target="id-9e750b34d2cc451d8f7298f0b74ebb96">
+          <style>
+            <lineColor r="0" g="0" b="0" />
+            <font name="Segoe UI" size="9">
+              <color r="0" g="0" b="0" />
+            </font>
+          </style>
+        </connection>
+        <connection identifier="id-be9ed026eea844de9a3d0be30db5f962" relationshipRef="ovmstratsprdco131" xsi:type="Relationship" source="id-ce4bc9278bc84ad591ee86d3ff1ebe4c" target="id-84097fbd4cf943d9acd6db263abe93b1">
+          <style>
+            <lineColor r="0" g="0" b="0" />
+            <font name="Segoe UI" size="9">
+              <color r="0" g="0" b="0" />
+            </font>
+          </style>
+        </connection>
+        <connection identifier="id-4379b5e5e8994b86a3c373eff582e200" relationshipRef="ovmstratsprdco132" xsi:type="Relationship" source="id-ce4bc9278bc84ad591ee86d3ff1ebe4c" target="id-d06358b5822f490f8e07775ce5ad0eaf">
+          <style>
+            <lineColor r="0" g="0" b="0" />
+            <font name="Segoe UI" size="9">
+              <color r="0" g="0" b="0" />
+            </font>
+          </style>
+        </connection>
+        <connection identifier="id-bec72c182cb447739203a2ad5dbda7db" relationshipRef="ovmstratsprdco133" xsi:type="Relationship" source="id-ce4bc9278bc84ad591ee86d3ff1ebe4c" target="id-7cfebbc078984e8c8d8a2cbe50e6f6eb">
+          <style>
+            <lineColor r="0" g="0" b="0" />
+            <font name="Segoe UI" size="9">
+              <color r="0" g="0" b="0" />
+            </font>
+          </style>
+        </connection>
+        <connection identifier="id-dc2a0ebeaf7f408fbc02c258b82711dc" relationshipRef="ovmstratsprdco141" xsi:type="Relationship" source="id-ce4bc9278bc84ad591ee86d3ff1ebe4c" target="id-ee7edca1a8a34f28a139ac9241cbe764">
+          <style>
+            <lineColor r="0" g="0" b="0" />
+            <font name="Segoe UI" size="9">
+              <color r="0" g="0" b="0" />
+            </font>
+          </style>
+        </connection>
+        <connection identifier="id-07c3f0d039eb45baa025471076b0e984" relationshipRef="ovmstratsprdco142" xsi:type="Relationship" source="id-ce4bc9278bc84ad591ee86d3ff1ebe4c" target="id-c6d79350f3f74772a2e8dd009e78bfa8">
+          <style>
+            <lineColor r="0" g="0" b="0" />
+            <font name="Segoe UI" size="9">
+              <color r="0" g="0" b="0" />
+            </font>
+          </style>
+        </connection>
+        <connection identifier="id-eff143b66d49474dadcf59aff664e278" relationshipRef="ovmstratsprdco151" xsi:type="Relationship" source="id-ce4bc9278bc84ad591ee86d3ff1ebe4c" target="id-fdc9794bf2a3437fb8de24572fba9248">
+          <style>
+            <lineColor r="0" g="0" b="0" />
+            <font name="Segoe UI" size="9">
+              <color r="0" g="0" b="0" />
+            </font>
+          </style>
+        </connection>
+        <connection identifier="id-41822066e2ba4f9788cc2e69c164759f" relationshipRef="ovmstratsprdco152" xsi:type="Relationship" source="id-ce4bc9278bc84ad591ee86d3ff1ebe4c" target="id-5ea95c525c584d6c974314fc979b604e">
+          <style>
+            <lineColor r="0" g="0" b="0" />
+            <font name="Segoe UI" size="9">
+              <color r="0" g="0" b="0" />
+            </font>
+          </style>
+        </connection>
+        <connection identifier="id-75cc5868d7e54f058eebaae47e0f1fdc" relationshipRef="ovmstratsprdco311" xsi:type="Relationship" source="id-ce4bc9278bc84ad591ee86d3ff1ebe4c" target="id-d3dbf7e76e4d4ae9a39a9e59c8c764ff">
+          <style>
+            <lineColor r="0" g="0" b="0" />
+            <font name="Segoe UI" size="9">
+              <color r="0" g="0" b="0" />
+            </font>
+          </style>
+        </connection>
+        <connection identifier="id-1b392a2277694e3dbc9d704757d7d1a7" relationshipRef="ovmstratsprdco312" xsi:type="Relationship" source="id-ce4bc9278bc84ad591ee86d3ff1ebe4c" target="id-5ef6fd49d6af4a829c5781b79b250468">
+          <style>
+            <lineColor r="0" g="0" b="0" />
+            <font name="Segoe UI" size="9">
+              <color r="0" g="0" b="0" />
+            </font>
+          </style>
+        </connection>
+        <connection identifier="id-fd6e49ec331745db9ab9fd2f48672a76" relationshipRef="ovmstratsprdco431" xsi:type="Relationship" source="id-ce4bc9278bc84ad591ee86d3ff1ebe4c" target="id-3341e34acb79446c841a16e881f53527">
+          <style>
+            <lineColor r="0" g="0" b="0" />
+            <font name="Segoe UI" size="9">
+              <color r="0" g="0" b="0" />
+            </font>
+          </style>
+        </connection>
+        <connection identifier="id-d57156bcba294c3aa0784535469c286b" relationshipRef="ovmstratsprdco423" xsi:type="Relationship" source="id-ce4bc9278bc84ad591ee86d3ff1ebe4c" target="id-483feaa52f6548f5adb1bdc727549a1e">
+          <style>
+            <lineColor r="0" g="0" b="0" />
+            <font name="Segoe UI" size="9">
+              <color r="0" g="0" b="0" />
+            </font>
+          </style>
+        </connection>
+        <connection identifier="id-7de2c54bdd5844b58edd91f4dff09828" relationshipRef="ovmstratsprdco432" xsi:type="Relationship" source="id-ce4bc9278bc84ad591ee86d3ff1ebe4c" target="id-c5721b27099d4050be05c02460f7037b">
+          <style>
+            <lineColor r="0" g="0" b="0" />
+            <font name="Segoe UI" size="9">
+              <color r="0" g="0" b="0" />
+            </font>
+          </style>
+        </connection>
       </view>
       <view identifier="id-3cde5d6772814837a2b421694e2b5c66" xsi:type="Diagram">
         <name xml:lang="cs">SSD - Opatření strategie v kontextu</name>
       </view>
-      <view identifier="id-1b1e0d1e39bd4f7184c08e60af72cbcb" xsi:type="Diagram">
-        <name xml:lang="cs">Opatření SSD jež realizuje úřad</name>
+      <view identifier="id-69342b44b3e4424d8316a21e4346aa09" xsi:type="Diagram">
+        <name xml:lang="cs">SSD - Struktura cílů strategie</name>
+        <node identifier="id-b37f39cd5b77408b87fab2960bafc732" elementRef="stratsprdco100" xsi:type="Element" x="24" y="48" w="289" h="433">
+          <style>
+            <fillColor r="204" g="204" b="255" a="100" />
+            <lineColor r="92" g="92" b="92" a="100" />
+            <font name="Segoe UI" size="9">
+              <color r="0" g="0" b="0" />
+            </font>
+          </style>
+          <node identifier="id-45fed6bde57b4d56b1a2faca6d4a0d5c" elementRef="stratsprdco110" xsi:type="Element" x="48" y="108" w="241" h="55">
+            <style>
+              <fillColor r="204" g="204" b="255" a="100" />
+              <lineColor r="92" g="92" b="92" a="100" />
+              <font name="Segoe UI" size="9">
+                <color r="0" g="0" b="0" />
+              </font>
+            </style>
+          </node>
+          <node identifier="id-abc2d2e646c94885a1069ec6b0e9bc61" elementRef="stratsprdco120" xsi:type="Element" x="48" y="168" w="241" h="55">
+            <style>
+              <fillColor r="204" g="204" b="255" a="100" />
+              <lineColor r="92" g="92" b="92" a="100" />
+              <font name="Segoe UI" size="9">
+                <color r="0" g="0" b="0" />
+              </font>
+            </style>
+          </node>
+          <node identifier="id-9eb46b3b51cf42a6af81da8b1573a668" elementRef="stratsprdco130" xsi:type="Element" x="48" y="228" w="241" h="61">
+            <style>
+              <fillColor r="204" g="204" b="255" a="100" />
+              <lineColor r="92" g="92" b="92" a="100" />
+              <font name="Segoe UI" size="9">
+                <color r="0" g="0" b="0" />
+              </font>
+            </style>
+          </node>
+          <node identifier="id-416d1a76d520497dbe8e4982419b36ef" elementRef="stratsprdco140" xsi:type="Element" x="48" y="300" w="241" h="73">
+            <style>
+              <fillColor r="204" g="204" b="255" a="100" />
+              <lineColor r="92" g="92" b="92" a="100" />
+              <font name="Segoe UI" size="9">
+                <color r="0" g="0" b="0" />
+              </font>
+            </style>
+          </node>
+          <node identifier="id-eb28c9bcb5f64f53adccebb82029c6ea" elementRef="stratsprdco150" xsi:type="Element" x="48" y="384" w="241" h="73">
+            <style>
+              <fillColor r="204" g="204" b="255" a="100" />
+              <lineColor r="92" g="92" b="92" a="100" />
+              <font name="Segoe UI" size="9">
+                <color r="0" g="0" b="0" />
+              </font>
+            </style>
+          </node>
+        </node>
+        <node identifier="id-0a06d90367b04dcbafe27c9cad474cb1" elementRef="stratsprdco200" xsi:type="Element" x="348" y="48" w="301" h="433">
+          <style>
+            <fillColor r="204" g="204" b="255" a="100" />
+            <lineColor r="92" g="92" b="92" a="100" />
+            <font name="Segoe UI" size="9">
+              <color r="0" g="0" b="0" />
+            </font>
+          </style>
+          <node identifier="id-83e736abfe604c4c9eabb3431ee18c30" elementRef="stratsprdco210" xsi:type="Element" x="372" y="120" w="253" h="61">
+            <style>
+              <fillColor r="204" g="204" b="255" a="100" />
+              <lineColor r="92" g="92" b="92" a="100" />
+              <font name="Segoe UI" size="9">
+                <color r="0" g="0" b="0" />
+              </font>
+            </style>
+          </node>
+          <node identifier="id-20b079e53c5b4bcba606bf1bcfce9c5a" elementRef="stratsprdco220" xsi:type="Element" x="372" y="192" w="253" h="61">
+            <style>
+              <fillColor r="204" g="204" b="255" a="100" />
+              <lineColor r="92" g="92" b="92" a="100" />
+              <font name="Segoe UI" size="9">
+                <color r="0" g="0" b="0" />
+              </font>
+            </style>
+          </node>
+          <node identifier="id-05ebd9b40971407d83d05c18dee6c848" elementRef="stratsprdco230" xsi:type="Element" x="372" y="264" w="253" h="61">
+            <style>
+              <fillColor r="204" g="204" b="255" a="100" />
+              <lineColor r="92" g="92" b="92" a="100" />
+              <font name="Segoe UI" size="9">
+                <color r="0" g="0" b="0" />
+              </font>
+            </style>
+          </node>
+          <node identifier="id-714d6c9f676441e5a7b16241f0856afa" elementRef="stratsprdco240" xsi:type="Element" x="372" y="336" w="253" h="55">
+            <style>
+              <fillColor r="204" g="204" b="255" a="100" />
+              <lineColor r="92" g="92" b="92" a="100" />
+              <font name="Segoe UI" size="9">
+                <color r="0" g="0" b="0" />
+              </font>
+            </style>
+          </node>
+          <node identifier="id-1bdda4740e5245d4b8fe9ff0eee6a04e" elementRef="stratsprdco250" xsi:type="Element" x="372" y="396" w="253" h="61">
+            <style>
+              <fillColor r="204" g="204" b="255" a="100" />
+              <lineColor r="92" g="92" b="92" a="100" />
+              <font name="Segoe UI" size="9">
+                <color r="0" g="0" b="0" />
+              </font>
+            </style>
+          </node>
+        </node>
+        <node identifier="id-62fb17727d2e460cbfac8b2ea555e00a" elementRef="stratsprdco300" xsi:type="Element" x="696" y="48" w="301" h="433">
+          <style>
+            <fillColor r="204" g="204" b="255" a="100" />
+            <lineColor r="92" g="92" b="92" a="100" />
+            <font name="Segoe UI" size="9">
+              <color r="0" g="0" b="0" />
+            </font>
+          </style>
+          <node identifier="id-223a1bb366e7436799a4b29b63406558" elementRef="stratsprdco310" xsi:type="Element" x="720" y="120" w="253" h="55">
+            <style>
+              <fillColor r="204" g="204" b="255" a="100" />
+              <lineColor r="92" g="92" b="92" a="100" />
+              <font name="Segoe UI" size="9">
+                <color r="0" g="0" b="0" />
+              </font>
+            </style>
+          </node>
+          <node identifier="id-c8051ac992bb4b7fabd44123ab1625f7" elementRef="stratsprdco320" xsi:type="Element" x="720" y="192" w="253" h="55">
+            <style>
+              <fillColor r="204" g="204" b="255" a="100" />
+              <lineColor r="92" g="92" b="92" a="100" />
+              <font name="Segoe UI" size="9">
+                <color r="0" g="0" b="0" />
+              </font>
+            </style>
+          </node>
+        </node>
+        <node identifier="id-f0501339141149a985fdd7893291b5b3" elementRef="stratsprdco400" xsi:type="Element" x="24" y="504" w="289" h="301">
+          <style>
+            <fillColor r="204" g="204" b="255" a="100" />
+            <lineColor r="92" g="92" b="92" a="100" />
+            <font name="Segoe UI" size="9">
+              <color r="0" g="0" b="0" />
+            </font>
+          </style>
+          <node identifier="id-5dab8d895e0b4cd2b4fa754212dd7f0f" elementRef="stratsprdco410" xsi:type="Element" x="48" y="576" w="241" h="55">
+            <style>
+              <fillColor r="204" g="204" b="255" a="100" />
+              <lineColor r="92" g="92" b="92" a="100" />
+              <font name="Segoe UI" size="9">
+                <color r="0" g="0" b="0" />
+              </font>
+            </style>
+          </node>
+          <node identifier="id-7b2d8c8b0e1848ee96fe09f7dcbed994" elementRef="stratsprdco420" xsi:type="Element" x="48" y="636" w="241" h="61">
+            <style>
+              <fillColor r="204" g="204" b="255" a="100" />
+              <lineColor r="92" g="92" b="92" a="100" />
+              <font name="Segoe UI" size="9">
+                <color r="0" g="0" b="0" />
+              </font>
+            </style>
+          </node>
+          <node identifier="id-a33b8062d40e40c0a8ecab151bb8e9d3" elementRef="stratsprdco430" xsi:type="Element" x="48" y="708" w="241" h="73">
+            <style>
+              <fillColor r="204" g="204" b="255" a="100" />
+              <lineColor r="92" g="92" b="92" a="100" />
+              <font name="Segoe UI" size="9">
+                <color r="0" g="0" b="0" />
+              </font>
+            </style>
+          </node>
+        </node>
       </view>
     </diagrams>
   </views>
