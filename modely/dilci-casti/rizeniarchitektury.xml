@@ -1,0 +1,2255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model xmlns="http://www.opengroup.org/xsd/archimate/3.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.opengroup.org/xsd/archimate/3.0/ http://www.opengroup.org/xsd/archimate/3.1/archimate3_Diagram.xsd" identifier="id-aa1a372987b04fc6a7047dad75467584">
+  <name xml:lang="cs">dilci-casti/rizeniarchitektury</name>
+  <elements>
+    <element identifier="schopnostrizarch" xsi:type="Capability">
+      <name xml:lang="cs">Řízení architektury</name>
+      <documentation xml:lang="cs">Řízení a realizace architektury je schopností úřadu a vykonává se napříč celým úřadem</documentation>
+      <properties>
+        <property propertyDefinitionRef="propid-1">
+          <value xml:lang="cs">Obecná schopnost</value>
+        </property>
+        <property propertyDefinitionRef="propid-2">
+          <value xml:lang="cs" />
+        </property>
+        <property propertyDefinitionRef="propid-3">
+          <value xml:lang="cs" />
+        </property>
+        <property propertyDefinitionRef="propid-4">
+          <value xml:lang="cs">Obecná schopnost Řízení architektury</value>
+        </property>
+        <property propertyDefinitionRef="propid-5">
+          <value xml:lang="cs">Verified</value>
+        </property>
+        <property propertyDefinitionRef="propid-6">
+          <value xml:lang="cs" />
+        </property>
+      </properties>
+    </element>
+    <element identifier="schopnostcompli" xsi:type="Capability">
+      <name xml:lang="cs">Sledování plnění povinností a souladu</name>
+      <properties>
+        <property propertyDefinitionRef="propid-1">
+          <value xml:lang="cs">Obecná schopnost</value>
+        </property>
+        <property propertyDefinitionRef="propid-2">
+          <value xml:lang="cs" />
+        </property>
+        <property propertyDefinitionRef="propid-3">
+          <value xml:lang="cs" />
+        </property>
+        <property propertyDefinitionRef="propid-4">
+          <value xml:lang="cs">Obecná schopnost Sledování plnění povinností a souladu</value>
+        </property>
+        <property propertyDefinitionRef="propid-5">
+          <value xml:lang="cs">Draft</value>
+        </property>
+        <property propertyDefinitionRef="propid-6">
+          <value xml:lang="cs" />
+        </property>
+      </properties>
+    </element>
+    <element identifier="archboard" xsi:type="BusinessActor">
+      <name xml:lang="cs">Architektonický board</name>
+      <documentation xml:lang="cs">Architektonický board (architektonická rada) je poradním a pracovním orgánem na nejvyšší úrovni vedeni úřadu, řeší a zodpovídá za řízení a rozvoj architektury úřadu a soulad s národní úrovní. Předkládá podněty k řízení a optimalizaci úřadu a sleduje soulad s EG.</documentation>
+      <properties>
+        <property propertyDefinitionRef="propid-1">
+          <value xml:lang="cs">Orgán</value>
+        </property>
+        <property propertyDefinitionRef="propid-2">
+          <value xml:lang="cs">NAR</value>
+        </property>
+        <property propertyDefinitionRef="propid-3">
+          <value xml:lang="cs" />
+        </property>
+        <property propertyDefinitionRef="propid-4">
+          <value xml:lang="cs">Orgán Architektonický board</value>
+        </property>
+        <property propertyDefinitionRef="propid-5">
+          <value xml:lang="cs">Verified</value>
+        </property>
+        <property propertyDefinitionRef="propid-6">
+          <value xml:lang="cs" />
+        </property>
+      </properties>
+    </element>
+    <element identifier="vparchadrn" xsi:type="BusinessProcess">
+      <name xml:lang="cs">Schvalování architektonických rozhodnutí</name>
+      <documentation xml:lang="cs">Schvalování ADR podle kterého se pak realizují architektonické změny.</documentation>
+      <properties>
+        <property propertyDefinitionRef="propid-1">
+          <value xml:lang="cs">Vnitřní proces</value>
+        </property>
+        <property propertyDefinitionRef="propid-2">
+          <value xml:lang="cs" />
+        </property>
+        <property propertyDefinitionRef="propid-3">
+          <value xml:lang="cs">vykondulezitychcinnosti, procesyarchrizeni</value>
+        </property>
+        <property propertyDefinitionRef="propid-4">
+          <value xml:lang="cs">Vnitřní proces Schvalování architektonických rozhodnutí</value>
+        </property>
+        <property propertyDefinitionRef="propid-5">
+          <value xml:lang="cs">Verified</value>
+        </property>
+        <property propertyDefinitionRef="propid-6">
+          <value xml:lang="cs" />
+        </property>
+      </properties>
+    </element>
+    <element identifier="vparchazdh" xsi:type="BusinessProcess">
+      <name xml:lang="cs">Dohled nad realizací architektonických změn</name>
+      <documentation xml:lang="cs">Při realizaci samotné architektonické změny a to zejména jejích architektonických, technických a procesních aspektů, musí existovat koordinace a dohled nad správnou realizací.</documentation>
+      <properties>
+        <property propertyDefinitionRef="propid-1">
+          <value xml:lang="cs">Vnitřní proces</value>
+        </property>
+        <property propertyDefinitionRef="propid-2">
+          <value xml:lang="cs" />
+        </property>
+        <property propertyDefinitionRef="propid-3">
+          <value xml:lang="cs">vykondulezitychcinnosti, procesyarchrizeni</value>
+        </property>
+        <property propertyDefinitionRef="propid-4">
+          <value xml:lang="cs">Vnitřní proces Dohled nad realizací architektonických změn</value>
+        </property>
+        <property propertyDefinitionRef="propid-5">
+          <value xml:lang="cs">Verified</value>
+        </property>
+        <property propertyDefinitionRef="propid-6">
+          <value xml:lang="cs" />
+        </property>
+      </properties>
+    </element>
+    <element identifier="vparchedu" xsi:type="BusinessProcess">
+      <name xml:lang="cs">Vnitřní edukace využití architektury</name>
+      <documentation xml:lang="cs">Architektura je sice také povinnost, ale správně vytvářená a realizovaná má obrovské přínosy. Jako u každé nepříliš známé věci je třeba v úřadu pečlivě vzdělávat také věcné gestory a odborné zaměstnance na architekturu a to zejména co jim přináší.</documentation>
+      <properties>
+        <property propertyDefinitionRef="propid-1">
+          <value xml:lang="cs">Vnitřní proces</value>
+        </property>
+        <property propertyDefinitionRef="propid-2">
+          <value xml:lang="cs" />
+        </property>
+        <property propertyDefinitionRef="propid-3">
+          <value xml:lang="cs">vykondulezitychcinnosti, procesyarchrizeni</value>
+        </property>
+        <property propertyDefinitionRef="propid-4">
+          <value xml:lang="cs">Vnitřní proces Vnitřní edukace využití architektury</value>
+        </property>
+        <property propertyDefinitionRef="propid-5">
+          <value xml:lang="cs">Verified</value>
+        </property>
+        <property propertyDefinitionRef="propid-6">
+          <value xml:lang="cs" />
+        </property>
+      </properties>
+    </element>
+    <element identifier="vparchikkz" xsi:type="BusinessProcess">
+      <name xml:lang="cs">Správa Katalogu záměrů IK a dohled nad naplňováním záměrů</name>
+      <documentation xml:lang="cs">Neoddělitelnou součástí informační koncepce jsou záměry realizující tuto koncepci, ty spravuje úřad v Katalogu záměrů IK. Ten se musí spravovat a zajistit řádné aktualizace informací o jednotlivých záměrech od jejich vlastníků. A také se musí zajistit sběr včasných podkladů pro vyhodnocení plnění záměrů pro vyhodnocení IK a projednání změn a nových záměrů.</documentation>
+      <properties>
+        <property propertyDefinitionRef="propid-1">
+          <value xml:lang="cs">Vnitřní proces</value>
+        </property>
+        <property propertyDefinitionRef="propid-2">
+          <value xml:lang="cs" />
+        </property>
+        <property propertyDefinitionRef="propid-3">
+          <value xml:lang="cs">vykondulezitychcinnosti, procesyarchrizeni</value>
+        </property>
+        <property propertyDefinitionRef="propid-4">
+          <value xml:lang="cs">Vnitřní proces Správa Katalogu záměrů IK a dohled nad naplňováním záměrů</value>
+        </property>
+        <property propertyDefinitionRef="propid-5">
+          <value xml:lang="cs">Verified</value>
+        </property>
+        <property propertyDefinitionRef="propid-6">
+          <value xml:lang="cs" />
+        </property>
+      </properties>
+    </element>
+    <element identifier="vparchikt" xsi:type="BusinessProcess">
+      <name xml:lang="cs">Příprava a koordinace tvorby IK úřadu a jejích aktualizací</name>
+      <documentation xml:lang="cs">Ať už je IK úřady vytvářena interními zdroji a nebo z nějakého důvodu externí dodávkou, musí to být velice pečlivě koordinováno ze strany úřadu. To platí pochopitelně i pro aktualizace IK.</documentation>
+      <properties>
+        <property propertyDefinitionRef="propid-1">
+          <value xml:lang="cs">Vnitřní proces</value>
+        </property>
+        <property propertyDefinitionRef="propid-2">
+          <value xml:lang="cs" />
+        </property>
+        <property propertyDefinitionRef="propid-3">
+          <value xml:lang="cs">vykondulezitychcinnosti, procesyarchrizeni</value>
+        </property>
+        <property propertyDefinitionRef="propid-4">
+          <value xml:lang="cs">Vnitřní proces Příprava a koordinace tvorby IK úřadu a jejích aktualizací</value>
+        </property>
+        <property propertyDefinitionRef="propid-5">
+          <value xml:lang="cs">Verified</value>
+        </property>
+        <property propertyDefinitionRef="propid-6">
+          <value xml:lang="cs" />
+        </property>
+      </properties>
+    </element>
+    <element identifier="vparchikv" xsi:type="BusinessProcess">
+      <name xml:lang="cs">Sledování plnění IK úřadu a vyhodnocování plnění</name>
+      <documentation xml:lang="cs">Jednou z povinností úřadu je kromě vydávání a aktualizování své informační koncepce, realizovat její plnění a také pravidelně plnění vyhodnocovat. Také tato činnost musí být řádně zajišťována.</documentation>
+      <properties>
+        <property propertyDefinitionRef="propid-1">
+          <value xml:lang="cs">Vnitřní proces</value>
+        </property>
+        <property propertyDefinitionRef="propid-2">
+          <value xml:lang="cs" />
+        </property>
+        <property propertyDefinitionRef="propid-3">
+          <value xml:lang="cs">vykondulezitychcinnosti, procesyarchrizeni</value>
+        </property>
+        <property propertyDefinitionRef="propid-4">
+          <value xml:lang="cs">Vnitřní proces Sledování plnění IK úřadu a vyhodnocování plnění</value>
+        </property>
+        <property propertyDefinitionRef="propid-5">
+          <value xml:lang="cs">Verified</value>
+        </property>
+        <property propertyDefinitionRef="propid-6">
+          <value xml:lang="cs" />
+        </property>
+      </properties>
+    </element>
+    <element identifier="vparchkonta" xsi:type="BusinessProcess">
+      <name xml:lang="cs">Kontrola procesů architektury a kvality architektury</name>
+      <documentation xml:lang="cs">Stanovené zodpovědnosti v rámci řízení architektury je třeba také kontrolovat a dohlížet na ně. To se týká i kvality vstupů pro architekturu a využívání výstupů v praxi.</documentation>
+      <properties>
+        <property propertyDefinitionRef="propid-1">
+          <value xml:lang="cs">Vnitřní proces</value>
+        </property>
+        <property propertyDefinitionRef="propid-2">
+          <value xml:lang="cs" />
+        </property>
+        <property propertyDefinitionRef="propid-3">
+          <value xml:lang="cs">vykondulezitychcinnosti, procesyarchrizeni</value>
+        </property>
+        <property propertyDefinitionRef="propid-4">
+          <value xml:lang="cs">Vnitřní proces Kontrola procesů architektury a kvality architektury</value>
+        </property>
+        <property propertyDefinitionRef="propid-5">
+          <value xml:lang="cs">Verified</value>
+        </property>
+        <property propertyDefinitionRef="propid-6">
+          <value xml:lang="cs" />
+        </property>
+      </properties>
+    </element>
+    <element identifier="vparchplegp" xsi:type="BusinessProcess">
+      <name xml:lang="cs">Sledování a koordinace vyhodnocování plnění EG</name>
+      <documentation xml:lang="cs">Úřad si může vytvořit assessment povinností EG a nebo sledovat naplnění EG povinností jinou srovnatelnou metodou. Za plnění a zhodnocení vůči konkrétním povinnostem jsou zodpovědní jednotliví věcní gestoři z dané oblasti, ale nad nimi musí být přes celý úřad koordinace udržování znalostí o EG povinnostech a potřebných krocích. Přestože to není přímo součást architektury, jedná se o jednu z klíčových oblastí architektury a koordinace a dohled musí být úzce propojen s řízením architektury a využíváním architektonických znalostí.</documentation>
+      <properties>
+        <property propertyDefinitionRef="propid-1">
+          <value xml:lang="cs">Vnitřní proces</value>
+        </property>
+        <property propertyDefinitionRef="propid-2">
+          <value xml:lang="cs" />
+        </property>
+        <property propertyDefinitionRef="propid-3">
+          <value xml:lang="cs">vykondulezitychcinnosti, procesyarchrizeni</value>
+        </property>
+        <property propertyDefinitionRef="propid-4">
+          <value xml:lang="cs">Vnitřní proces Sledování a koordinace vyhodnocování plnění EG</value>
+        </property>
+        <property propertyDefinitionRef="propid-5">
+          <value xml:lang="cs">Verified</value>
+        </property>
+        <property propertyDefinitionRef="propid-6">
+          <value xml:lang="cs" />
+        </property>
+      </properties>
+    </element>
+    <element identifier="vparchpoz" xsi:type="BusinessProcess">
+      <name xml:lang="cs">Správa požadavků na architekturu a sledování jejich plnění</name>
+      <documentation xml:lang="cs">Architektura se nevytváří jen proto, abychom si splnili povinnost a udělali čárku, ale má se opravdu používat a podle ní se má rozhodovat o fungování úřadu. Proto je nezbytné sbírat požadavky odborných útvarů a vedení a rozvoj architektury a jejich znalostí a tyto požadavky vyhodnocovat a naplňovat, aby architektura měla v úřadu opravdový přínos.</documentation>
+      <properties>
+        <property propertyDefinitionRef="propid-1">
+          <value xml:lang="cs">Vnitřní proces</value>
+        </property>
+        <property propertyDefinitionRef="propid-2">
+          <value xml:lang="cs" />
+        </property>
+        <property propertyDefinitionRef="propid-3">
+          <value xml:lang="cs">vykondulezitychcinnosti, procesyarchrizeni</value>
+        </property>
+        <property propertyDefinitionRef="propid-4">
+          <value xml:lang="cs">Vnitřní proces Správa požadavků na architekturu a sledování jejich plnění</value>
+        </property>
+        <property propertyDefinitionRef="propid-5">
+          <value xml:lang="cs">Verified</value>
+        </property>
+        <property propertyDefinitionRef="propid-6">
+          <value xml:lang="cs" />
+        </property>
+      </properties>
+    </element>
+    <element identifier="vparchpredp" xsi:type="BusinessProcess">
+      <name xml:lang="cs">Tvorba předpisů pro modelování a aktualizace architektury</name>
+      <documentation xml:lang="cs">V úřadu musí existovat interní předpisy podle kterých se postupuje při řízení, zpracovávání a aktualizacích architektury a to zejména v rámci architektonických modelů a tvorba a využití výstupů z architektury. Měly by zahrnovat i procesy řízení architektury a zodpovědnosti. Zejména řídící dokumenty k řízení procesů architektury musí být řádnými závaznými interními předpisy a musí se řádně projednat, schvalovat a kontrolovat jejich dodržování.</documentation>
+      <properties>
+        <property propertyDefinitionRef="propid-1">
+          <value xml:lang="cs">Vnitřní proces</value>
+        </property>
+        <property propertyDefinitionRef="propid-2">
+          <value xml:lang="cs" />
+        </property>
+        <property propertyDefinitionRef="propid-3">
+          <value xml:lang="cs">vykondulezitychcinnosti, procesyarchrizeni</value>
+        </property>
+        <property propertyDefinitionRef="propid-4">
+          <value xml:lang="cs">Vnitřní proces Tvorba předpisů pro modelování a aktualizace architektury</value>
+        </property>
+        <property propertyDefinitionRef="propid-5">
+          <value xml:lang="cs">Verified</value>
+        </property>
+        <property propertyDefinitionRef="propid-6">
+          <value xml:lang="cs" />
+        </property>
+      </properties>
+    </element>
+    <element identifier="vparchsup" xsi:type="BusinessProcess">
+      <name xml:lang="cs">Odborný support v oblasti EG a digitalizace</name>
+      <documentation xml:lang="cs">Odborný support a poskytování odborných znalostí a odborné posuzování souladu s požadavky EG a rozvoje ICT pro všechny útvary úřadu.</documentation>
+      <properties>
+        <property propertyDefinitionRef="propid-1">
+          <value xml:lang="cs">Vnitřní proces</value>
+        </property>
+        <property propertyDefinitionRef="propid-2">
+          <value xml:lang="cs" />
+        </property>
+        <property propertyDefinitionRef="propid-3">
+          <value xml:lang="cs">vykondulezitychcinnosti, procesyarchrizeni</value>
+        </property>
+        <property propertyDefinitionRef="propid-4">
+          <value xml:lang="cs">Vnitřní proces Odborný support v oblasti EG a digitalizace</value>
+        </property>
+        <property propertyDefinitionRef="propid-5">
+          <value xml:lang="cs">Verified</value>
+        </property>
+        <property propertyDefinitionRef="propid-6">
+          <value xml:lang="cs" />
+        </property>
+      </properties>
+    </element>
+    <element identifier="vparchvsv" xsi:type="BusinessProcess">
+      <name xml:lang="cs">Využívání znalostí a výstupů architektury</name>
+      <documentation xml:lang="cs">Všichni zainteresovaní využívají architekturu a související znalosti pro svoji odbornou práci, na byznysové úrovni i na úrovni aplikační skladby apod.</documentation>
+      <properties>
+        <property propertyDefinitionRef="propid-1">
+          <value xml:lang="cs">Vnitřní proces</value>
+        </property>
+        <property propertyDefinitionRef="propid-2">
+          <value xml:lang="cs" />
+        </property>
+        <property propertyDefinitionRef="propid-3">
+          <value xml:lang="cs">vykondulezitychcinnosti, procesyarchrizeni</value>
+        </property>
+        <property propertyDefinitionRef="propid-4">
+          <value xml:lang="cs">Vnitřní proces Využívání znalostí a výstupů architektury</value>
+        </property>
+        <property propertyDefinitionRef="propid-5">
+          <value xml:lang="cs">Verified</value>
+        </property>
+        <property propertyDefinitionRef="propid-6">
+          <value xml:lang="cs" />
+        </property>
+      </properties>
+    </element>
+    <element identifier="vparchvyproc" xsi:type="BusinessProcess">
+      <name xml:lang="cs">Využívání architektonických znalostí pro procesní řízení</name>
+      <documentation xml:lang="cs">Znalosti a výstupy architektury úřadu mohou sloužit také jako podklady pro procesní řízení, kdy se na byznysové vrstvě modelují procesy a role či útvary vykonávající procesy a jejich vazby. Důležitá je i organizační struktura a vazby prvků z jednotlivých organizačních útvarů.</documentation>
+      <properties>
+        <property propertyDefinitionRef="propid-1">
+          <value xml:lang="cs">Vnitřní proces</value>
+        </property>
+        <property propertyDefinitionRef="propid-2">
+          <value xml:lang="cs" />
+        </property>
+        <property propertyDefinitionRef="propid-3">
+          <value xml:lang="cs">vykondulezitychcinnosti, procesyarchrizeni</value>
+        </property>
+        <property propertyDefinitionRef="propid-4">
+          <value xml:lang="cs">Vnitřní proces Využívání architektonických znalostí pro procesní řízení</value>
+        </property>
+        <property propertyDefinitionRef="propid-5">
+          <value xml:lang="cs">Verified</value>
+        </property>
+        <property propertyDefinitionRef="propid-6">
+          <value xml:lang="cs" />
+        </property>
+      </properties>
+    </element>
+    <element identifier="vedeni" xsi:type="BusinessActor">
+      <name xml:lang="cs">Vedení organizace</name>
+      <documentation xml:lang="cs">Kolektivní orgán vedení organizace</documentation>
+      <properties>
+        <property propertyDefinitionRef="propid-1">
+          <value xml:lang="cs">Orgán</value>
+        </property>
+        <property propertyDefinitionRef="propid-2">
+          <value xml:lang="cs" />
+        </property>
+        <property propertyDefinitionRef="propid-3">
+          <value xml:lang="cs" />
+        </property>
+        <property propertyDefinitionRef="propid-4">
+          <value xml:lang="cs">Orgán Vedení organizace</value>
+        </property>
+        <property propertyDefinitionRef="propid-5">
+          <value xml:lang="cs">Verified</value>
+        </property>
+        <property propertyDefinitionRef="propid-6">
+          <value xml:lang="cs" />
+        </property>
+      </properties>
+    </element>
+    <element identifier="vparchsp" xsi:type="BusinessProcess">
+      <name xml:lang="cs">Schvalování předpisů k řízení architektury</name>
+      <documentation xml:lang="cs">V rámci úřadu je třeba řádně stanovit procesy a zodpovědnosti rolí a týmů a pracovníků úřadu. Příslušné interní předpisy se zodpovědností se musí schvalovat jako závazné vnitřní předpisy.</documentation>
+      <properties>
+        <property propertyDefinitionRef="propid-1">
+          <value xml:lang="cs">Vnitřní proces</value>
+        </property>
+        <property propertyDefinitionRef="propid-2">
+          <value xml:lang="cs" />
+        </property>
+        <property propertyDefinitionRef="propid-3">
+          <value xml:lang="cs">vykondulezitychcinnosti, procesyarchrizeni</value>
+        </property>
+        <property propertyDefinitionRef="propid-4">
+          <value xml:lang="cs">Vnitřní proces Schvalování předpisů k řízení architektury</value>
+        </property>
+        <property propertyDefinitionRef="propid-5">
+          <value xml:lang="cs">Verified</value>
+        </property>
+        <property propertyDefinitionRef="propid-6">
+          <value xml:lang="cs" />
+        </property>
+      </properties>
+    </element>
+    <element identifier="vparchadrs" xsi:type="BusinessProcess">
+      <name xml:lang="cs">Tvorba návrhu architektonických rozhodnutí</name>
+      <documentation xml:lang="cs">Pro ustavení řešení architektury se využívají architektonická rozhodnutí, která jsou reprezentována formálním dokumentem ADR, ten se vytvoří a po projednání se schválí.</documentation>
+      <properties>
+        <property propertyDefinitionRef="propid-1">
+          <value xml:lang="cs">Vnitřní proces</value>
+        </property>
+        <property propertyDefinitionRef="propid-2">
+          <value xml:lang="cs" />
+        </property>
+        <property propertyDefinitionRef="propid-3">
+          <value xml:lang="cs">vykondulezitychcinnosti, procesyarchrizeni</value>
+        </property>
+        <property propertyDefinitionRef="propid-4">
+          <value xml:lang="cs">Vnitřní proces Tvorba návrhu architektonických rozhodnutí</value>
+        </property>
+        <property propertyDefinitionRef="propid-5">
+          <value xml:lang="cs">Verified</value>
+        </property>
+        <property propertyDefinitionRef="propid-6">
+          <value xml:lang="cs" />
+        </property>
+      </properties>
+    </element>
+    <element identifier="vparchazdk" xsi:type="BusinessProcess">
+      <name xml:lang="cs">Dohled nad dokumentací architektonických změn</name>
+      <documentation xml:lang="cs">Architektonické změny se dokumentují na různých úrovních, ve fázi návrhu je to třeba ADR, ale musí se jejich výsledky zapsat do architektury řešení a také do dokumentací systémů a procesů.</documentation>
+      <properties>
+        <property propertyDefinitionRef="propid-1">
+          <value xml:lang="cs">Vnitřní proces</value>
+        </property>
+        <property propertyDefinitionRef="propid-2">
+          <value xml:lang="cs" />
+        </property>
+        <property propertyDefinitionRef="propid-3">
+          <value xml:lang="cs">vykondulezitychcinnosti, procesyarchrizeni</value>
+        </property>
+        <property propertyDefinitionRef="propid-4">
+          <value xml:lang="cs">Vnitřní proces Dohled nad dokumentací architektonických změn</value>
+        </property>
+        <property propertyDefinitionRef="propid-5">
+          <value xml:lang="cs">Verified</value>
+        </property>
+        <property propertyDefinitionRef="propid-6">
+          <value xml:lang="cs" />
+        </property>
+      </properties>
+    </element>
+    <element identifier="vparchazn" xsi:type="BusinessProcess">
+      <name xml:lang="cs">Návrhy architektonických změn</name>
+      <documentation xml:lang="cs">Architektonické změny podléhají procesu identifikace, návrhu řešení, jeho schvalování (i možná na národní úrovni prostřednictvím OHA) a následné realizace.</documentation>
+      <properties>
+        <property propertyDefinitionRef="propid-1">
+          <value xml:lang="cs">Vnitřní proces</value>
+        </property>
+        <property propertyDefinitionRef="propid-2">
+          <value xml:lang="cs" />
+        </property>
+        <property propertyDefinitionRef="propid-3">
+          <value xml:lang="cs">vykondulezitychcinnosti, procesyarchrizeni</value>
+        </property>
+        <property propertyDefinitionRef="propid-4">
+          <value xml:lang="cs">Vnitřní proces Návrhy architektonických změn</value>
+        </property>
+        <property propertyDefinitionRef="propid-5">
+          <value xml:lang="cs">Verified</value>
+        </property>
+        <property propertyDefinitionRef="propid-6">
+          <value xml:lang="cs" />
+        </property>
+      </properties>
+    </element>
+    <element identifier="vparchgenvys" xsi:type="BusinessProcess">
+      <name xml:lang="cs">Generování výstupů z architektonických modelů</name>
+      <documentation xml:lang="cs">Důležité je zpracovávat architekturu nejen pro vnitřní potřeby architektury, ale umět i připravovat a distribuovat výstupy z architektury. Ať už se jedná o diagramy z architektonických modelů, nebo data či transformovaná data a nebo zpracovávat potřebné výstupy ze souvisejících znalostí.</documentation>
+      <properties>
+        <property propertyDefinitionRef="propid-1">
+          <value xml:lang="cs">Vnitřní proces</value>
+        </property>
+        <property propertyDefinitionRef="propid-2">
+          <value xml:lang="cs" />
+        </property>
+        <property propertyDefinitionRef="propid-3">
+          <value xml:lang="cs">vykondulezitychcinnosti, procesyarchrizeni</value>
+        </property>
+        <property propertyDefinitionRef="propid-4">
+          <value xml:lang="cs">Vnitřní proces Generování výstupů z architektonických modelů</value>
+        </property>
+        <property propertyDefinitionRef="propid-5">
+          <value xml:lang="cs">Verified</value>
+        </property>
+        <property propertyDefinitionRef="propid-6">
+          <value xml:lang="cs" />
+        </property>
+      </properties>
+    </element>
+    <element identifier="vparchrizab" xsi:type="BusinessProcess">
+      <name xml:lang="cs">Řízení a organizace Architektonického boardu</name>
+      <documentation xml:lang="cs">Faktické řízení, správa a organizace správce boardu, včetně správy podkladů a zodpovědnosti vůči vedení.</documentation>
+      <properties>
+        <property propertyDefinitionRef="propid-1">
+          <value xml:lang="cs">Vnitřní proces</value>
+        </property>
+        <property propertyDefinitionRef="propid-2">
+          <value xml:lang="cs" />
+        </property>
+        <property propertyDefinitionRef="propid-3">
+          <value xml:lang="cs">vykondulezitychcinnosti, procesyarchrizeni</value>
+        </property>
+        <property propertyDefinitionRef="propid-4">
+          <value xml:lang="cs">Vnitřní proces Řízení a organizace Architektonického boardu</value>
+        </property>
+        <property propertyDefinitionRef="propid-5">
+          <value xml:lang="cs">Verified</value>
+        </property>
+        <property propertyDefinitionRef="propid-6">
+          <value xml:lang="cs" />
+        </property>
+      </properties>
+    </element>
+    <element identifier="vparchspraar" xsi:type="BusinessProcess">
+      <name xml:lang="cs">Správa architektury</name>
+      <documentation xml:lang="cs">Obsahová správa části architektury či architektonického modelu.</documentation>
+      <properties>
+        <property propertyDefinitionRef="propid-1">
+          <value xml:lang="cs">Vnitřní proces</value>
+        </property>
+        <property propertyDefinitionRef="propid-2">
+          <value xml:lang="cs" />
+        </property>
+        <property propertyDefinitionRef="propid-3">
+          <value xml:lang="cs">vykondulezitychcinnosti, procesyarchrizeni</value>
+        </property>
+        <property propertyDefinitionRef="propid-4">
+          <value xml:lang="cs">Vnitřní proces Správa architektury</value>
+        </property>
+        <property propertyDefinitionRef="propid-5">
+          <value xml:lang="cs">Verified</value>
+        </property>
+        <property propertyDefinitionRef="propid-6">
+          <value xml:lang="cs" />
+        </property>
+      </properties>
+    </element>
+    <element identifier="vparchsprarepo" xsi:type="BusinessProcess">
+      <name xml:lang="cs">Správa architektonického repository</name>
+      <documentation xml:lang="cs">Technická a obsahová zpráva architektonického repository, nejedná (nemusí se jednat) o technický chod databáze a serveru, jde o správu repository a jeho modelů a rozdělení a synchronizací.</documentation>
+      <properties>
+        <property propertyDefinitionRef="propid-1">
+          <value xml:lang="cs">Vnitřní proces</value>
+        </property>
+        <property propertyDefinitionRef="propid-2">
+          <value xml:lang="cs" />
+        </property>
+        <property propertyDefinitionRef="propid-3">
+          <value xml:lang="cs">vykondulezitychcinnosti, procesyarchrizeni</value>
+        </property>
+        <property propertyDefinitionRef="propid-4">
+          <value xml:lang="cs">Vnitřní proces Správa architektonického repository</value>
+        </property>
+        <property propertyDefinitionRef="propid-5">
+          <value xml:lang="cs">Verified</value>
+        </property>
+        <property propertyDefinitionRef="propid-6">
+          <value xml:lang="cs" />
+        </property>
+      </properties>
+    </element>
+    <element identifier="vrarchsol" xsi:type="BusinessRole">
+      <name xml:lang="cs">Architekt řešení</name>
+      <documentation xml:lang="cs">Osoba jež zpracovává a zodpovídá za architekturu určitého řešení, úzce spolupracuje s hlavním architektem a ostatními architekty i s věcným a technickým správcem</documentation>
+      <properties>
+        <property propertyDefinitionRef="propid-1">
+          <value xml:lang="cs">Vnitřní role</value>
+        </property>
+        <property propertyDefinitionRef="propid-2">
+          <value xml:lang="cs" />
+        </property>
+        <property propertyDefinitionRef="propid-3">
+          <value xml:lang="cs">duleziterolevuradu, vykondulezitychcinnosti</value>
+        </property>
+        <property propertyDefinitionRef="propid-4">
+          <value xml:lang="cs">Vnitřní role Architekt řešení</value>
+        </property>
+        <property propertyDefinitionRef="propid-5">
+          <value xml:lang="cs">Verified</value>
+        </property>
+        <property propertyDefinitionRef="propid-6">
+          <value xml:lang="cs" />
+        </property>
+      </properties>
+    </element>
+    <element identifier="vrha" xsi:type="BusinessRole">
+      <name xml:lang="cs">Hlavní architekt</name>
+      <documentation xml:lang="cs">Osoba hlavního architekta v úřadu</documentation>
+      <properties>
+        <property propertyDefinitionRef="propid-1">
+          <value xml:lang="cs">Vnitřní role</value>
+        </property>
+        <property propertyDefinitionRef="propid-2">
+          <value xml:lang="cs" />
+        </property>
+        <property propertyDefinitionRef="propid-3">
+          <value xml:lang="cs">duleziterolevuradu, vykondulezitychcinnosti</value>
+        </property>
+        <property propertyDefinitionRef="propid-4">
+          <value xml:lang="cs">Vnitřní role Hlavní architekt</value>
+        </property>
+        <property propertyDefinitionRef="propid-5">
+          <value xml:lang="cs">Verified</value>
+        </property>
+        <property propertyDefinitionRef="propid-6">
+          <value xml:lang="cs" />
+        </property>
+      </properties>
+    </element>
+    <element identifier="vrhda" xsi:type="BusinessRole">
+      <name xml:lang="cs">Hlavní datový architekt</name>
+      <documentation xml:lang="cs">Osoba v úřadu zodpovědná za datovou architekturu a KDM</documentation>
+      <properties>
+        <property propertyDefinitionRef="propid-1">
+          <value xml:lang="cs">Vnitřní role</value>
+        </property>
+        <property propertyDefinitionRef="propid-2">
+          <value xml:lang="cs" />
+        </property>
+        <property propertyDefinitionRef="propid-3">
+          <value xml:lang="cs">duleziterolevuradu, vykondulezitychcinnosti</value>
+        </property>
+        <property propertyDefinitionRef="propid-4">
+          <value xml:lang="cs">Vnitřní role Hlavní datový architekt</value>
+        </property>
+        <property propertyDefinitionRef="propid-5">
+          <value xml:lang="cs">Verified</value>
+        </property>
+        <property propertyDefinitionRef="propid-6">
+          <value xml:lang="cs" />
+        </property>
+      </properties>
+    </element>
+    <element identifier="vrspravaar" xsi:type="BusinessRole">
+      <name xml:lang="cs">Správce architektury</name>
+      <documentation xml:lang="cs">Osoba jež technicky spravuje architektonické repository a nebo obsahově spravuje část architektury úřadu</documentation>
+      <properties>
+        <property propertyDefinitionRef="propid-1">
+          <value xml:lang="cs">Vnitřní role</value>
+        </property>
+        <property propertyDefinitionRef="propid-2">
+          <value xml:lang="cs" />
+        </property>
+        <property propertyDefinitionRef="propid-3">
+          <value xml:lang="cs">duleziterolevuradu, vykondulezitychcinnosti</value>
+        </property>
+        <property propertyDefinitionRef="propid-4">
+          <value xml:lang="cs">Vnitřní role Správce architektury</value>
+        </property>
+        <property propertyDefinitionRef="propid-5">
+          <value xml:lang="cs">Verified</value>
+        </property>
+        <property propertyDefinitionRef="propid-6">
+          <value xml:lang="cs" />
+        </property>
+      </properties>
+    </element>
+    <element identifier="vrtechnickyspravceis" xsi:type="BusinessRole">
+      <name xml:lang="cs">Technický správce informačního systému</name>
+      <documentation xml:lang="cs">Útvar či organizační součást, jež zodpovídá za technické řešení a provoz a funkčnost a dostupnost daného informačního systému.</documentation>
+      <properties>
+        <property propertyDefinitionRef="propid-1">
+          <value xml:lang="cs">Vnitřní role</value>
+        </property>
+        <property propertyDefinitionRef="propid-2">
+          <value xml:lang="cs" />
+        </property>
+        <property propertyDefinitionRef="propid-3">
+          <value xml:lang="cs">duleziterolevuradu, vykondulezitychcinnosti</value>
+        </property>
+        <property propertyDefinitionRef="propid-4">
+          <value xml:lang="cs">Vnitřní role Technický správce informačního systému</value>
+        </property>
+        <property propertyDefinitionRef="propid-5">
+          <value xml:lang="cs">Updated</value>
+        </property>
+        <property propertyDefinitionRef="propid-6">
+          <value xml:lang="cs" />
+        </property>
+      </properties>
+    </element>
+  </elements>
+  <relationships>
+    <relationship identifier="archboardschopnostrizarch" source="archboard" target="schopnostrizarch" xsi:type="Association">
+      <name xml:lang="cs">zodpovídá za</name>
+      <properties>
+        <property propertyDefinitionRef="propid-7">
+          <value xml:lang="cs">Byznysová dekompozice</value>
+        </property>
+        <property propertyDefinitionRef="propid-4">
+          <value xml:lang="cs">Orgán Architektonický board zodpovídá za Obecná schopnost Řízení architektury</value>
+        </property>
+        <property propertyDefinitionRef="propid-8">
+          <value xml:lang="cs">Architektonický board zodpovídá za Řízení architektury</value>
+        </property>
+        <property propertyDefinitionRef="propid-5">
+          <value xml:lang="cs">New</value>
+        </property>
+        <property propertyDefinitionRef="propid-6">
+          <value xml:lang="cs" />
+        </property>
+        <property propertyDefinitionRef="propid-9">
+          <value xml:lang="cs">architekturarizenibyzramec</value>
+        </property>
+        <property propertyDefinitionRef="propid-3">
+          <value xml:lang="cs" />
+        </property>
+      </properties>
+    </relationship>
+    <relationship identifier="archboardvparchadrn" source="archboard" target="vparchadrn" xsi:type="Assignment">
+      <name xml:lang="cs">zodpovídá za</name>
+      <properties>
+        <property propertyDefinitionRef="propid-7">
+          <value xml:lang="cs">Byznysová dekompozice</value>
+        </property>
+        <property propertyDefinitionRef="propid-4">
+          <value xml:lang="cs">Orgán Architektonický board zodpovídá za Vnitřní proces Schvalování architektonických rozhodnutí</value>
+        </property>
+        <property propertyDefinitionRef="propid-8">
+          <value xml:lang="cs">Architektonický board zodpovídá za Schvalování architektonických rozhodnutí</value>
+        </property>
+        <property propertyDefinitionRef="propid-5">
+          <value xml:lang="cs">New</value>
+        </property>
+        <property propertyDefinitionRef="propid-6">
+          <value xml:lang="cs" />
+        </property>
+        <property propertyDefinitionRef="propid-9">
+          <value xml:lang="cs">architekturarizenibyzramec</value>
+        </property>
+        <property propertyDefinitionRef="propid-3">
+          <value xml:lang="cs" />
+        </property>
+      </properties>
+    </relationship>
+    <relationship identifier="archboardvparchazdh" source="archboard" target="vparchazdh" xsi:type="Assignment">
+      <name xml:lang="cs">zodpovídá za</name>
+      <properties>
+        <property propertyDefinitionRef="propid-7">
+          <value xml:lang="cs">Byznysová dekompozice</value>
+        </property>
+        <property propertyDefinitionRef="propid-4">
+          <value xml:lang="cs">Orgán Architektonický board zodpovídá za Vnitřní proces Dohled nad realizací architektonických změn</value>
+        </property>
+        <property propertyDefinitionRef="propid-8">
+          <value xml:lang="cs">Architektonický board zodpovídá za Dohled nad realizací architektonických změn</value>
+        </property>
+        <property propertyDefinitionRef="propid-5">
+          <value xml:lang="cs">New</value>
+        </property>
+        <property propertyDefinitionRef="propid-6">
+          <value xml:lang="cs" />
+        </property>
+        <property propertyDefinitionRef="propid-9">
+          <value xml:lang="cs">architekturarizenibyzramec</value>
+        </property>
+        <property propertyDefinitionRef="propid-3">
+          <value xml:lang="cs" />
+        </property>
+      </properties>
+    </relationship>
+    <relationship identifier="archboardvparchedu" source="archboard" target="vparchedu" xsi:type="Assignment">
+      <name xml:lang="cs">zodpovídá za</name>
+      <properties>
+        <property propertyDefinitionRef="propid-7">
+          <value xml:lang="cs">Byznysová dekompozice</value>
+        </property>
+        <property propertyDefinitionRef="propid-4">
+          <value xml:lang="cs">Orgán Architektonický board zodpovídá za Vnitřní proces Vnitřní edukace využití architektury</value>
+        </property>
+        <property propertyDefinitionRef="propid-8">
+          <value xml:lang="cs">Architektonický board zodpovídá za Vnitřní edukace využití architektury</value>
+        </property>
+        <property propertyDefinitionRef="propid-5">
+          <value xml:lang="cs">New</value>
+        </property>
+        <property propertyDefinitionRef="propid-6">
+          <value xml:lang="cs" />
+        </property>
+        <property propertyDefinitionRef="propid-9">
+          <value xml:lang="cs">architekturarizenibyzramec</value>
+        </property>
+        <property propertyDefinitionRef="propid-3">
+          <value xml:lang="cs" />
+        </property>
+      </properties>
+    </relationship>
+    <relationship identifier="archboardvparchikkz" source="archboard" target="vparchikkz" xsi:type="Assignment">
+      <name xml:lang="cs">zodpovídá za</name>
+      <properties>
+        <property propertyDefinitionRef="propid-7">
+          <value xml:lang="cs">Byznysová dekompozice</value>
+        </property>
+        <property propertyDefinitionRef="propid-4">
+          <value xml:lang="cs">Orgán Architektonický board zodpovídá za Vnitřní proces Správa Katalogu záměrů IK a dohled nad naplňováním záměrů</value>
+        </property>
+        <property propertyDefinitionRef="propid-8">
+          <value xml:lang="cs">Architektonický board zodpovídá za Správa Katalogu záměrů IK a dohled nad naplňováním záměrů</value>
+        </property>
+        <property propertyDefinitionRef="propid-5">
+          <value xml:lang="cs">New</value>
+        </property>
+        <property propertyDefinitionRef="propid-6">
+          <value xml:lang="cs" />
+        </property>
+        <property propertyDefinitionRef="propid-9">
+          <value xml:lang="cs">architekturarizenibyzramec</value>
+        </property>
+        <property propertyDefinitionRef="propid-3">
+          <value xml:lang="cs" />
+        </property>
+      </properties>
+    </relationship>
+    <relationship identifier="archboardvparchikt" source="archboard" target="vparchikt" xsi:type="Assignment">
+      <name xml:lang="cs">zodpovídá za</name>
+      <properties>
+        <property propertyDefinitionRef="propid-7">
+          <value xml:lang="cs">Byznysová dekompozice</value>
+        </property>
+        <property propertyDefinitionRef="propid-4">
+          <value xml:lang="cs">Orgán Architektonický board zodpovídá za Vnitřní proces Příprava a koordinace tvorby IK úřadu a jejích aktualizací</value>
+        </property>
+        <property propertyDefinitionRef="propid-8">
+          <value xml:lang="cs">Architektonický board zodpovídá za Příprava a koordinace tvorby IK úřadu a jejích aktualizací</value>
+        </property>
+        <property propertyDefinitionRef="propid-5">
+          <value xml:lang="cs">New</value>
+        </property>
+        <property propertyDefinitionRef="propid-6">
+          <value xml:lang="cs" />
+        </property>
+        <property propertyDefinitionRef="propid-9">
+          <value xml:lang="cs">architekturarizenibyzramec</value>
+        </property>
+        <property propertyDefinitionRef="propid-3">
+          <value xml:lang="cs" />
+        </property>
+      </properties>
+    </relationship>
+    <relationship identifier="archboardvparchikv" source="archboard" target="vparchikv" xsi:type="Assignment">
+      <name xml:lang="cs">zodpovídá za</name>
+      <properties>
+        <property propertyDefinitionRef="propid-7">
+          <value xml:lang="cs">Byznysová dekompozice</value>
+        </property>
+        <property propertyDefinitionRef="propid-4">
+          <value xml:lang="cs">Orgán Architektonický board zodpovídá za Vnitřní proces Sledování plnění IK úřadu a vyhodnocování plnění</value>
+        </property>
+        <property propertyDefinitionRef="propid-8">
+          <value xml:lang="cs">Architektonický board zodpovídá za Sledování plnění IK úřadu a vyhodnocování plnění</value>
+        </property>
+        <property propertyDefinitionRef="propid-5">
+          <value xml:lang="cs">New</value>
+        </property>
+        <property propertyDefinitionRef="propid-6">
+          <value xml:lang="cs" />
+        </property>
+        <property propertyDefinitionRef="propid-9">
+          <value xml:lang="cs">architekturarizenibyzramec</value>
+        </property>
+        <property propertyDefinitionRef="propid-3">
+          <value xml:lang="cs" />
+        </property>
+      </properties>
+    </relationship>
+    <relationship identifier="archboardvparchkonta" source="archboard" target="vparchkonta" xsi:type="Assignment">
+      <name xml:lang="cs">zodpovídá za</name>
+      <properties>
+        <property propertyDefinitionRef="propid-7">
+          <value xml:lang="cs">Byznysová dekompozice</value>
+        </property>
+        <property propertyDefinitionRef="propid-4">
+          <value xml:lang="cs">Orgán Architektonický board zodpovídá za Vnitřní proces Kontrola procesů architektury a kvality architektury</value>
+        </property>
+        <property propertyDefinitionRef="propid-8">
+          <value xml:lang="cs">Architektonický board zodpovídá za Kontrola procesů architektury a kvality architektury</value>
+        </property>
+        <property propertyDefinitionRef="propid-5">
+          <value xml:lang="cs">New</value>
+        </property>
+        <property propertyDefinitionRef="propid-6">
+          <value xml:lang="cs" />
+        </property>
+        <property propertyDefinitionRef="propid-9">
+          <value xml:lang="cs">architekturarizenibyzramec</value>
+        </property>
+        <property propertyDefinitionRef="propid-3">
+          <value xml:lang="cs" />
+        </property>
+      </properties>
+    </relationship>
+    <relationship identifier="archboardvparchplegp" source="archboard" target="vparchplegp" xsi:type="Assignment">
+      <name xml:lang="cs">zodpovídá za</name>
+      <properties>
+        <property propertyDefinitionRef="propid-7">
+          <value xml:lang="cs">Byznysová dekompozice</value>
+        </property>
+        <property propertyDefinitionRef="propid-4">
+          <value xml:lang="cs">Orgán Architektonický board zodpovídá za Vnitřní proces Sledování a koordinace vyhodnocování plnění EG</value>
+        </property>
+        <property propertyDefinitionRef="propid-8">
+          <value xml:lang="cs">Architektonický board zodpovídá za Sledování a koordinace vyhodnocování plnění EG</value>
+        </property>
+        <property propertyDefinitionRef="propid-5">
+          <value xml:lang="cs">New</value>
+        </property>
+        <property propertyDefinitionRef="propid-6">
+          <value xml:lang="cs" />
+        </property>
+        <property propertyDefinitionRef="propid-9">
+          <value xml:lang="cs">architekturarizenibyzramec</value>
+        </property>
+        <property propertyDefinitionRef="propid-3">
+          <value xml:lang="cs" />
+        </property>
+      </properties>
+    </relationship>
+    <relationship identifier="archboardvparchpoz" source="archboard" target="vparchpoz" xsi:type="Assignment">
+      <name xml:lang="cs">zodpovídá za</name>
+      <properties>
+        <property propertyDefinitionRef="propid-7">
+          <value xml:lang="cs">Byznysová dekompozice</value>
+        </property>
+        <property propertyDefinitionRef="propid-4">
+          <value xml:lang="cs">Orgán Architektonický board zodpovídá za Vnitřní proces Správa požadavků na architekturu a sledování jejich plnění</value>
+        </property>
+        <property propertyDefinitionRef="propid-8">
+          <value xml:lang="cs">Architektonický board zodpovídá za Správa požadavků na architekturu a sledování jejich plnění</value>
+        </property>
+        <property propertyDefinitionRef="propid-5">
+          <value xml:lang="cs">New</value>
+        </property>
+        <property propertyDefinitionRef="propid-6">
+          <value xml:lang="cs" />
+        </property>
+        <property propertyDefinitionRef="propid-9">
+          <value xml:lang="cs">architekturarizenibyzramec</value>
+        </property>
+        <property propertyDefinitionRef="propid-3">
+          <value xml:lang="cs" />
+        </property>
+      </properties>
+    </relationship>
+    <relationship identifier="archboardvparchpredp" source="archboard" target="vparchpredp" xsi:type="Assignment">
+      <name xml:lang="cs">zodpovídá za</name>
+      <properties>
+        <property propertyDefinitionRef="propid-7">
+          <value xml:lang="cs">Byznysová dekompozice</value>
+        </property>
+        <property propertyDefinitionRef="propid-4">
+          <value xml:lang="cs">Orgán Architektonický board zodpovídá za Vnitřní proces Tvorba předpisů pro modelování a aktualizace architektury</value>
+        </property>
+        <property propertyDefinitionRef="propid-8">
+          <value xml:lang="cs">Architektonický board zodpovídá za Tvorba předpisů pro modelování a aktualizace architektury</value>
+        </property>
+        <property propertyDefinitionRef="propid-5">
+          <value xml:lang="cs">New</value>
+        </property>
+        <property propertyDefinitionRef="propid-6">
+          <value xml:lang="cs" />
+        </property>
+        <property propertyDefinitionRef="propid-9">
+          <value xml:lang="cs">architekturarizenibyzramec</value>
+        </property>
+        <property propertyDefinitionRef="propid-3">
+          <value xml:lang="cs" />
+        </property>
+      </properties>
+    </relationship>
+    <relationship identifier="archboardvparchsup" source="archboard" target="vparchsup" xsi:type="Assignment">
+      <name xml:lang="cs">zodpovídá za</name>
+      <properties>
+        <property propertyDefinitionRef="propid-7">
+          <value xml:lang="cs">Byznysová dekompozice</value>
+        </property>
+        <property propertyDefinitionRef="propid-4">
+          <value xml:lang="cs">Orgán Architektonický board zodpovídá za Vnitřní proces Odborný support v oblasti EG a digitalizace</value>
+        </property>
+        <property propertyDefinitionRef="propid-8">
+          <value xml:lang="cs">Architektonický board zodpovídá za Odborný support v oblasti EG a digitalizace</value>
+        </property>
+        <property propertyDefinitionRef="propid-5">
+          <value xml:lang="cs">New</value>
+        </property>
+        <property propertyDefinitionRef="propid-6">
+          <value xml:lang="cs" />
+        </property>
+        <property propertyDefinitionRef="propid-9">
+          <value xml:lang="cs">architekturarizenibyzramec</value>
+        </property>
+        <property propertyDefinitionRef="propid-3">
+          <value xml:lang="cs" />
+        </property>
+      </properties>
+    </relationship>
+    <relationship identifier="archboardvparchvsv" source="archboard" target="vparchvsv" xsi:type="Assignment">
+      <name xml:lang="cs">zodpovídá za</name>
+      <properties>
+        <property propertyDefinitionRef="propid-7">
+          <value xml:lang="cs">Byznysová dekompozice</value>
+        </property>
+        <property propertyDefinitionRef="propid-4">
+          <value xml:lang="cs">Orgán Architektonický board zodpovídá za Vnitřní proces Využívání znalostí a výstupů architektury</value>
+        </property>
+        <property propertyDefinitionRef="propid-8">
+          <value xml:lang="cs">Architektonický board zodpovídá za Využívání znalostí a výstupů architektury</value>
+        </property>
+        <property propertyDefinitionRef="propid-5">
+          <value xml:lang="cs">New</value>
+        </property>
+        <property propertyDefinitionRef="propid-6">
+          <value xml:lang="cs" />
+        </property>
+        <property propertyDefinitionRef="propid-9">
+          <value xml:lang="cs">architekturarizenibyzramec</value>
+        </property>
+        <property propertyDefinitionRef="propid-3">
+          <value xml:lang="cs" />
+        </property>
+      </properties>
+    </relationship>
+    <relationship identifier="archboardvparchvyproc" source="archboard" target="vparchvyproc" xsi:type="Assignment">
+      <name xml:lang="cs">zodpovídá za</name>
+      <properties>
+        <property propertyDefinitionRef="propid-7">
+          <value xml:lang="cs">Byznysová dekompozice</value>
+        </property>
+        <property propertyDefinitionRef="propid-4">
+          <value xml:lang="cs">Orgán Architektonický board zodpovídá za Vnitřní proces Využívání architektonických znalostí pro procesní řízení</value>
+        </property>
+        <property propertyDefinitionRef="propid-8">
+          <value xml:lang="cs">Architektonický board zodpovídá za Využívání architektonických znalostí pro procesní řízení</value>
+        </property>
+        <property propertyDefinitionRef="propid-5">
+          <value xml:lang="cs">New</value>
+        </property>
+        <property propertyDefinitionRef="propid-6">
+          <value xml:lang="cs" />
+        </property>
+        <property propertyDefinitionRef="propid-9">
+          <value xml:lang="cs">architekturarizenibyzramec</value>
+        </property>
+        <property propertyDefinitionRef="propid-3">
+          <value xml:lang="cs" />
+        </property>
+      </properties>
+    </relationship>
+    <relationship identifier="vedenivparchsp" source="vedeni" target="vparchsp" xsi:type="Assignment">
+      <name xml:lang="cs">zodpovídá za</name>
+      <properties>
+        <property propertyDefinitionRef="propid-7">
+          <value xml:lang="cs">Byznysová dekompozice</value>
+        </property>
+        <property propertyDefinitionRef="propid-4">
+          <value xml:lang="cs">Orgán Vedení organizace zodpovídá za Vnitřní proces Schvalování předpisů k řízení architektury</value>
+        </property>
+        <property propertyDefinitionRef="propid-8">
+          <value xml:lang="cs">Vedení organizace zodpovídá za Schvalování předpisů k řízení architektury</value>
+        </property>
+        <property propertyDefinitionRef="propid-5">
+          <value xml:lang="cs">New</value>
+        </property>
+        <property propertyDefinitionRef="propid-6">
+          <value xml:lang="cs" />
+        </property>
+        <property propertyDefinitionRef="propid-9">
+          <value xml:lang="cs">architekturarizenibyzramec</value>
+        </property>
+        <property propertyDefinitionRef="propid-3">
+          <value xml:lang="cs" />
+        </property>
+      </properties>
+    </relationship>
+    <relationship identifier="vparchadrnschopnostrizarch" source="vparchadrn" target="schopnostrizarch" xsi:type="Realization">
+      <name xml:lang="cs">je součástí schopnosti</name>
+      <properties>
+        <property propertyDefinitionRef="propid-7">
+          <value xml:lang="cs">Byznysová dekompozice</value>
+        </property>
+        <property propertyDefinitionRef="propid-4">
+          <value xml:lang="cs">Vnitřní proces Schvalování architektonických rozhodnutí je součástí schopnosti Obecná schopnost Řízení architektury</value>
+        </property>
+        <property propertyDefinitionRef="propid-8">
+          <value xml:lang="cs">Schvalování architektonických rozhodnutí je součástí schopnosti Řízení architektury</value>
+        </property>
+        <property propertyDefinitionRef="propid-5">
+          <value xml:lang="cs">New</value>
+        </property>
+        <property propertyDefinitionRef="propid-6">
+          <value xml:lang="cs" />
+        </property>
+        <property propertyDefinitionRef="propid-9">
+          <value xml:lang="cs">architekturarizenibyzramec</value>
+        </property>
+        <property propertyDefinitionRef="propid-3">
+          <value xml:lang="cs" />
+        </property>
+      </properties>
+    </relationship>
+    <relationship identifier="vparchadrsschopnostrizarch" source="vparchadrs" target="schopnostrizarch" xsi:type="Realization">
+      <name xml:lang="cs">je součástí schopnosti</name>
+      <properties>
+        <property propertyDefinitionRef="propid-7">
+          <value xml:lang="cs">Byznysová dekompozice</value>
+        </property>
+        <property propertyDefinitionRef="propid-4">
+          <value xml:lang="cs">Vnitřní proces Tvorba návrhu architektonických rozhodnutí je součástí schopnosti Obecná schopnost Řízení architektury</value>
+        </property>
+        <property propertyDefinitionRef="propid-8">
+          <value xml:lang="cs">Tvorba návrhu architektonických rozhodnutí je součástí schopnosti Řízení architektury</value>
+        </property>
+        <property propertyDefinitionRef="propid-5">
+          <value xml:lang="cs">New</value>
+        </property>
+        <property propertyDefinitionRef="propid-6">
+          <value xml:lang="cs" />
+        </property>
+        <property propertyDefinitionRef="propid-9">
+          <value xml:lang="cs">architekturarizenibyzramec</value>
+        </property>
+        <property propertyDefinitionRef="propid-3">
+          <value xml:lang="cs" />
+        </property>
+      </properties>
+    </relationship>
+    <relationship identifier="vparchazdhschopnostrizarch" source="vparchazdh" target="schopnostrizarch" xsi:type="Realization">
+      <name xml:lang="cs">je součástí schopnosti</name>
+      <properties>
+        <property propertyDefinitionRef="propid-7">
+          <value xml:lang="cs">Byznysová dekompozice</value>
+        </property>
+        <property propertyDefinitionRef="propid-4">
+          <value xml:lang="cs">Vnitřní proces Dohled nad realizací architektonických změn je součástí schopnosti Obecná schopnost Řízení architektury</value>
+        </property>
+        <property propertyDefinitionRef="propid-8">
+          <value xml:lang="cs">Dohled nad realizací architektonických změn je součástí schopnosti Řízení architektury</value>
+        </property>
+        <property propertyDefinitionRef="propid-5">
+          <value xml:lang="cs">New</value>
+        </property>
+        <property propertyDefinitionRef="propid-6">
+          <value xml:lang="cs" />
+        </property>
+        <property propertyDefinitionRef="propid-9">
+          <value xml:lang="cs">architekturarizenibyzramec</value>
+        </property>
+        <property propertyDefinitionRef="propid-3">
+          <value xml:lang="cs" />
+        </property>
+      </properties>
+    </relationship>
+    <relationship identifier="vparchazdkschopnostrizarch" source="vparchazdk" target="schopnostrizarch" xsi:type="Realization">
+      <name xml:lang="cs">je součástí schopnosti</name>
+      <properties>
+        <property propertyDefinitionRef="propid-7">
+          <value xml:lang="cs">Byznysová dekompozice</value>
+        </property>
+        <property propertyDefinitionRef="propid-4">
+          <value xml:lang="cs">Vnitřní proces Dohled nad dokumentací architektonických změn je součástí schopnosti Obecná schopnost Řízení architektury</value>
+        </property>
+        <property propertyDefinitionRef="propid-8">
+          <value xml:lang="cs">Dohled nad dokumentací architektonických změn je součástí schopnosti Řízení architektury</value>
+        </property>
+        <property propertyDefinitionRef="propid-5">
+          <value xml:lang="cs">New</value>
+        </property>
+        <property propertyDefinitionRef="propid-6">
+          <value xml:lang="cs" />
+        </property>
+        <property propertyDefinitionRef="propid-9">
+          <value xml:lang="cs">architekturarizenibyzramec</value>
+        </property>
+        <property propertyDefinitionRef="propid-3">
+          <value xml:lang="cs" />
+        </property>
+      </properties>
+    </relationship>
+    <relationship identifier="vparchaznschopnostrizarch" source="vparchazn" target="schopnostrizarch" xsi:type="Realization">
+      <name xml:lang="cs">je součástí schopnosti</name>
+      <properties>
+        <property propertyDefinitionRef="propid-7">
+          <value xml:lang="cs">Byznysová dekompozice</value>
+        </property>
+        <property propertyDefinitionRef="propid-4">
+          <value xml:lang="cs">Vnitřní proces Návrhy architektonických změn je součástí schopnosti Obecná schopnost Řízení architektury</value>
+        </property>
+        <property propertyDefinitionRef="propid-8">
+          <value xml:lang="cs">Návrhy architektonických změn je součástí schopnosti Řízení architektury</value>
+        </property>
+        <property propertyDefinitionRef="propid-5">
+          <value xml:lang="cs">New</value>
+        </property>
+        <property propertyDefinitionRef="propid-6">
+          <value xml:lang="cs" />
+        </property>
+        <property propertyDefinitionRef="propid-9">
+          <value xml:lang="cs">architekturarizenibyzramec</value>
+        </property>
+        <property propertyDefinitionRef="propid-3">
+          <value xml:lang="cs" />
+        </property>
+      </properties>
+    </relationship>
+    <relationship identifier="vparcheduschopnostrizarch" source="vparchedu" target="schopnostrizarch" xsi:type="Realization">
+      <name xml:lang="cs">je součástí schopnosti</name>
+      <properties>
+        <property propertyDefinitionRef="propid-7">
+          <value xml:lang="cs">Byznysová dekompozice</value>
+        </property>
+        <property propertyDefinitionRef="propid-4">
+          <value xml:lang="cs">Vnitřní proces Vnitřní edukace využití architektury je součástí schopnosti Obecná schopnost Řízení architektury</value>
+        </property>
+        <property propertyDefinitionRef="propid-8">
+          <value xml:lang="cs">Vnitřní edukace využití architektury je součástí schopnosti Řízení architektury</value>
+        </property>
+        <property propertyDefinitionRef="propid-5">
+          <value xml:lang="cs">New</value>
+        </property>
+        <property propertyDefinitionRef="propid-6">
+          <value xml:lang="cs" />
+        </property>
+        <property propertyDefinitionRef="propid-9">
+          <value xml:lang="cs">architekturarizenibyzramec</value>
+        </property>
+        <property propertyDefinitionRef="propid-3">
+          <value xml:lang="cs" />
+        </property>
+      </properties>
+    </relationship>
+    <relationship identifier="vparchgenvysschopnostrizarch" source="vparchgenvys" target="schopnostrizarch" xsi:type="Realization">
+      <name xml:lang="cs">je součástí schopnosti</name>
+      <properties>
+        <property propertyDefinitionRef="propid-7">
+          <value xml:lang="cs">Byznysová dekompozice</value>
+        </property>
+        <property propertyDefinitionRef="propid-4">
+          <value xml:lang="cs">Vnitřní proces Generování výstupů z architektonických modelů je součástí schopnosti Obecná schopnost Řízení architektury</value>
+        </property>
+        <property propertyDefinitionRef="propid-8">
+          <value xml:lang="cs">Generování výstupů z architektonických modelů je součástí schopnosti Řízení architektury</value>
+        </property>
+        <property propertyDefinitionRef="propid-5">
+          <value xml:lang="cs">New</value>
+        </property>
+        <property propertyDefinitionRef="propid-6">
+          <value xml:lang="cs" />
+        </property>
+        <property propertyDefinitionRef="propid-9">
+          <value xml:lang="cs">architekturarizenibyzramec</value>
+        </property>
+        <property propertyDefinitionRef="propid-3">
+          <value xml:lang="cs" />
+        </property>
+      </properties>
+    </relationship>
+    <relationship identifier="vparchikkzschopnostrizarch" source="vparchikkz" target="schopnostrizarch" xsi:type="Realization">
+      <name xml:lang="cs">je součástí schopnosti</name>
+      <properties>
+        <property propertyDefinitionRef="propid-7">
+          <value xml:lang="cs">Byznysová dekompozice</value>
+        </property>
+        <property propertyDefinitionRef="propid-4">
+          <value xml:lang="cs">Vnitřní proces Správa Katalogu záměrů IK a dohled nad naplňováním záměrů je součástí schopnosti Obecná schopnost Řízení architektury</value>
+        </property>
+        <property propertyDefinitionRef="propid-8">
+          <value xml:lang="cs">Správa Katalogu záměrů IK a dohled nad naplňováním záměrů je součástí schopnosti Řízení architektury</value>
+        </property>
+        <property propertyDefinitionRef="propid-5">
+          <value xml:lang="cs">New</value>
+        </property>
+        <property propertyDefinitionRef="propid-6">
+          <value xml:lang="cs" />
+        </property>
+        <property propertyDefinitionRef="propid-9">
+          <value xml:lang="cs">architekturarizenibyzramec</value>
+        </property>
+        <property propertyDefinitionRef="propid-3">
+          <value xml:lang="cs" />
+        </property>
+      </properties>
+    </relationship>
+    <relationship identifier="vparchiktschopnostrizarch" source="vparchikt" target="schopnostrizarch" xsi:type="Realization">
+      <name xml:lang="cs">je součástí schopnosti</name>
+      <properties>
+        <property propertyDefinitionRef="propid-7">
+          <value xml:lang="cs">Byznysová dekompozice</value>
+        </property>
+        <property propertyDefinitionRef="propid-4">
+          <value xml:lang="cs">Vnitřní proces Příprava a koordinace tvorby IK úřadu a jejích aktualizací je součástí schopnosti Obecná schopnost Řízení architektury</value>
+        </property>
+        <property propertyDefinitionRef="propid-8">
+          <value xml:lang="cs">Příprava a koordinace tvorby IK úřadu a jejích aktualizací je součástí schopnosti Řízení architektury</value>
+        </property>
+        <property propertyDefinitionRef="propid-5">
+          <value xml:lang="cs">New</value>
+        </property>
+        <property propertyDefinitionRef="propid-6">
+          <value xml:lang="cs" />
+        </property>
+        <property propertyDefinitionRef="propid-9">
+          <value xml:lang="cs">architekturarizenibyzramec</value>
+        </property>
+        <property propertyDefinitionRef="propid-3">
+          <value xml:lang="cs" />
+        </property>
+      </properties>
+    </relationship>
+    <relationship identifier="vparchikvschopnostcompli" source="vparchikv" target="schopnostcompli" xsi:type="Realization">
+      <name xml:lang="cs">je součástí schopnosti</name>
+      <properties>
+        <property propertyDefinitionRef="propid-7">
+          <value xml:lang="cs">Byznysová dekompozice</value>
+        </property>
+        <property propertyDefinitionRef="propid-4">
+          <value xml:lang="cs">Vnitřní proces Sledování plnění IK úřadu a vyhodnocování plnění je součástí schopnosti Obecná schopnost Sledování plnění povinností a souladu</value>
+        </property>
+        <property propertyDefinitionRef="propid-8">
+          <value xml:lang="cs">Sledování plnění IK úřadu a vyhodnocování plnění je součástí schopnosti Sledování plnění povinností a souladu</value>
+        </property>
+        <property propertyDefinitionRef="propid-5">
+          <value xml:lang="cs">New</value>
+        </property>
+        <property propertyDefinitionRef="propid-6">
+          <value xml:lang="cs" />
+        </property>
+        <property propertyDefinitionRef="propid-9">
+          <value xml:lang="cs">architekturarizenibyzramec</value>
+        </property>
+        <property propertyDefinitionRef="propid-3">
+          <value xml:lang="cs" />
+        </property>
+      </properties>
+    </relationship>
+    <relationship identifier="vparchikvschopnostrizarch" source="vparchikv" target="schopnostrizarch" xsi:type="Realization">
+      <name xml:lang="cs">je součástí schopnosti</name>
+      <properties>
+        <property propertyDefinitionRef="propid-7">
+          <value xml:lang="cs">Byznysová dekompozice</value>
+        </property>
+        <property propertyDefinitionRef="propid-4">
+          <value xml:lang="cs">Vnitřní proces Sledování plnění IK úřadu a vyhodnocování plnění je součástí schopnosti Obecná schopnost Řízení architektury</value>
+        </property>
+        <property propertyDefinitionRef="propid-8">
+          <value xml:lang="cs">Sledování plnění IK úřadu a vyhodnocování plnění je součástí schopnosti Řízení architektury</value>
+        </property>
+        <property propertyDefinitionRef="propid-5">
+          <value xml:lang="cs">New</value>
+        </property>
+        <property propertyDefinitionRef="propid-6">
+          <value xml:lang="cs" />
+        </property>
+        <property propertyDefinitionRef="propid-9">
+          <value xml:lang="cs">architekturarizenibyzramec</value>
+        </property>
+        <property propertyDefinitionRef="propid-3">
+          <value xml:lang="cs" />
+        </property>
+      </properties>
+    </relationship>
+    <relationship identifier="vparchkontaschopnostrizarch" source="vparchkonta" target="schopnostrizarch" xsi:type="Realization">
+      <name xml:lang="cs">je součástí schopnosti</name>
+      <properties>
+        <property propertyDefinitionRef="propid-7">
+          <value xml:lang="cs">Byznysová dekompozice</value>
+        </property>
+        <property propertyDefinitionRef="propid-4">
+          <value xml:lang="cs">Vnitřní proces Kontrola procesů architektury a kvality architektury je součástí schopnosti Obecná schopnost Řízení architektury</value>
+        </property>
+        <property propertyDefinitionRef="propid-8">
+          <value xml:lang="cs">Kontrola procesů architektury a kvality architektury je součástí schopnosti Řízení architektury</value>
+        </property>
+        <property propertyDefinitionRef="propid-5">
+          <value xml:lang="cs">New</value>
+        </property>
+        <property propertyDefinitionRef="propid-6">
+          <value xml:lang="cs" />
+        </property>
+        <property propertyDefinitionRef="propid-9">
+          <value xml:lang="cs">architekturarizenibyzramec</value>
+        </property>
+        <property propertyDefinitionRef="propid-3">
+          <value xml:lang="cs" />
+        </property>
+      </properties>
+    </relationship>
+    <relationship identifier="vparchplegpschopnostcompli" source="vparchplegp" target="schopnostcompli" xsi:type="Realization">
+      <name xml:lang="cs">je součástí schopnosti</name>
+      <properties>
+        <property propertyDefinitionRef="propid-7">
+          <value xml:lang="cs">Byznysová dekompozice</value>
+        </property>
+        <property propertyDefinitionRef="propid-4">
+          <value xml:lang="cs">Vnitřní proces Sledování a koordinace vyhodnocování plnění EG je součástí schopnosti Obecná schopnost Sledování plnění povinností a souladu</value>
+        </property>
+        <property propertyDefinitionRef="propid-8">
+          <value xml:lang="cs">Sledování a koordinace vyhodnocování plnění EG je součástí schopnosti Sledování plnění povinností a souladu</value>
+        </property>
+        <property propertyDefinitionRef="propid-5">
+          <value xml:lang="cs">New</value>
+        </property>
+        <property propertyDefinitionRef="propid-6">
+          <value xml:lang="cs" />
+        </property>
+        <property propertyDefinitionRef="propid-9">
+          <value xml:lang="cs">architekturarizenibyzramec</value>
+        </property>
+        <property propertyDefinitionRef="propid-3">
+          <value xml:lang="cs" />
+        </property>
+      </properties>
+    </relationship>
+    <relationship identifier="vparchplegpschopnostrizarch" source="vparchplegp" target="schopnostrizarch" xsi:type="Realization">
+      <name xml:lang="cs">je součástí schopnosti</name>
+      <properties>
+        <property propertyDefinitionRef="propid-7">
+          <value xml:lang="cs">Byznysová dekompozice</value>
+        </property>
+        <property propertyDefinitionRef="propid-4">
+          <value xml:lang="cs">Vnitřní proces Sledování a koordinace vyhodnocování plnění EG je součástí schopnosti Obecná schopnost Řízení architektury</value>
+        </property>
+        <property propertyDefinitionRef="propid-8">
+          <value xml:lang="cs">Sledování a koordinace vyhodnocování plnění EG je součástí schopnosti Řízení architektury</value>
+        </property>
+        <property propertyDefinitionRef="propid-5">
+          <value xml:lang="cs">New</value>
+        </property>
+        <property propertyDefinitionRef="propid-6">
+          <value xml:lang="cs" />
+        </property>
+        <property propertyDefinitionRef="propid-9">
+          <value xml:lang="cs">architekturarizenibyzramec</value>
+        </property>
+        <property propertyDefinitionRef="propid-3">
+          <value xml:lang="cs" />
+        </property>
+      </properties>
+    </relationship>
+    <relationship identifier="vparchpozschopnostrizarch" source="vparchpoz" target="schopnostrizarch" xsi:type="Realization">
+      <name xml:lang="cs">je součástí schopnosti</name>
+      <properties>
+        <property propertyDefinitionRef="propid-7">
+          <value xml:lang="cs">Byznysová dekompozice</value>
+        </property>
+        <property propertyDefinitionRef="propid-4">
+          <value xml:lang="cs">Vnitřní proces Správa požadavků na architekturu a sledování jejich plnění je součástí schopnosti Obecná schopnost Řízení architektury</value>
+        </property>
+        <property propertyDefinitionRef="propid-8">
+          <value xml:lang="cs">Správa požadavků na architekturu a sledování jejich plnění je součástí schopnosti Řízení architektury</value>
+        </property>
+        <property propertyDefinitionRef="propid-5">
+          <value xml:lang="cs">New</value>
+        </property>
+        <property propertyDefinitionRef="propid-6">
+          <value xml:lang="cs" />
+        </property>
+        <property propertyDefinitionRef="propid-9">
+          <value xml:lang="cs">architekturarizenibyzramec</value>
+        </property>
+        <property propertyDefinitionRef="propid-3">
+          <value xml:lang="cs" />
+        </property>
+      </properties>
+    </relationship>
+    <relationship identifier="vparchpredpschopnostrizarch" source="vparchpredp" target="schopnostrizarch" xsi:type="Realization">
+      <name xml:lang="cs">je součástí schopnosti</name>
+      <properties>
+        <property propertyDefinitionRef="propid-7">
+          <value xml:lang="cs">Byznysová dekompozice</value>
+        </property>
+        <property propertyDefinitionRef="propid-4">
+          <value xml:lang="cs">Vnitřní proces Tvorba předpisů pro modelování a aktualizace architektury je součástí schopnosti Obecná schopnost Řízení architektury</value>
+        </property>
+        <property propertyDefinitionRef="propid-8">
+          <value xml:lang="cs">Tvorba předpisů pro modelování a aktualizace architektury je součástí schopnosti Řízení architektury</value>
+        </property>
+        <property propertyDefinitionRef="propid-5">
+          <value xml:lang="cs">New</value>
+        </property>
+        <property propertyDefinitionRef="propid-6">
+          <value xml:lang="cs" />
+        </property>
+        <property propertyDefinitionRef="propid-9">
+          <value xml:lang="cs">architekturarizenibyzramec</value>
+        </property>
+        <property propertyDefinitionRef="propid-3">
+          <value xml:lang="cs" />
+        </property>
+      </properties>
+    </relationship>
+    <relationship identifier="vparchrizabschopnostrizarch" source="vparchrizab" target="schopnostrizarch" xsi:type="Realization">
+      <name xml:lang="cs">je součástí schopnosti</name>
+      <properties>
+        <property propertyDefinitionRef="propid-7">
+          <value xml:lang="cs">Byznysová dekompozice</value>
+        </property>
+        <property propertyDefinitionRef="propid-4">
+          <value xml:lang="cs">Vnitřní proces Řízení a organizace Architektonického boardu je součástí schopnosti Obecná schopnost Řízení architektury</value>
+        </property>
+        <property propertyDefinitionRef="propid-8">
+          <value xml:lang="cs">Řízení a organizace Architektonického boardu je součástí schopnosti Řízení architektury</value>
+        </property>
+        <property propertyDefinitionRef="propid-5">
+          <value xml:lang="cs">New</value>
+        </property>
+        <property propertyDefinitionRef="propid-6">
+          <value xml:lang="cs" />
+        </property>
+        <property propertyDefinitionRef="propid-9">
+          <value xml:lang="cs">architekturarizenibyzramec</value>
+        </property>
+        <property propertyDefinitionRef="propid-3">
+          <value xml:lang="cs" />
+        </property>
+      </properties>
+    </relationship>
+    <relationship identifier="vparchspraarschopnostrizarch" source="vparchspraar" target="schopnostrizarch" xsi:type="Realization">
+      <name xml:lang="cs">je součástí schopnosti</name>
+      <properties>
+        <property propertyDefinitionRef="propid-7">
+          <value xml:lang="cs">Byznysová dekompozice</value>
+        </property>
+        <property propertyDefinitionRef="propid-4">
+          <value xml:lang="cs">Vnitřní proces Správa architektury je součástí schopnosti Obecná schopnost Řízení architektury</value>
+        </property>
+        <property propertyDefinitionRef="propid-8">
+          <value xml:lang="cs">Správa architektury je součástí schopnosti Řízení architektury</value>
+        </property>
+        <property propertyDefinitionRef="propid-5">
+          <value xml:lang="cs">New</value>
+        </property>
+        <property propertyDefinitionRef="propid-6">
+          <value xml:lang="cs" />
+        </property>
+        <property propertyDefinitionRef="propid-9">
+          <value xml:lang="cs">architekturarizenibyzramec</value>
+        </property>
+        <property propertyDefinitionRef="propid-3">
+          <value xml:lang="cs" />
+        </property>
+      </properties>
+    </relationship>
+    <relationship identifier="vparchsprareposchopnostrizarch" source="vparchsprarepo" target="schopnostrizarch" xsi:type="Realization">
+      <name xml:lang="cs">je součástí schopnosti</name>
+      <properties>
+        <property propertyDefinitionRef="propid-7">
+          <value xml:lang="cs">Byznysová dekompozice</value>
+        </property>
+        <property propertyDefinitionRef="propid-4">
+          <value xml:lang="cs">Vnitřní proces Správa architektonického repository je součástí schopnosti Obecná schopnost Řízení architektury</value>
+        </property>
+        <property propertyDefinitionRef="propid-8">
+          <value xml:lang="cs">Správa architektonického repository je součástí schopnosti Řízení architektury</value>
+        </property>
+        <property propertyDefinitionRef="propid-5">
+          <value xml:lang="cs">New</value>
+        </property>
+        <property propertyDefinitionRef="propid-6">
+          <value xml:lang="cs" />
+        </property>
+        <property propertyDefinitionRef="propid-9">
+          <value xml:lang="cs">architekturarizenibyzramec</value>
+        </property>
+        <property propertyDefinitionRef="propid-3">
+          <value xml:lang="cs" />
+        </property>
+      </properties>
+    </relationship>
+    <relationship identifier="vparchspschopnostrizarch" source="vparchsp" target="schopnostrizarch" xsi:type="Realization">
+      <name xml:lang="cs">je součástí schopnosti</name>
+      <properties>
+        <property propertyDefinitionRef="propid-7">
+          <value xml:lang="cs">Byznysová dekompozice</value>
+        </property>
+        <property propertyDefinitionRef="propid-4">
+          <value xml:lang="cs">Vnitřní proces Schvalování předpisů k řízení architektury je součástí schopnosti Obecná schopnost Řízení architektury</value>
+        </property>
+        <property propertyDefinitionRef="propid-8">
+          <value xml:lang="cs">Schvalování předpisů k řízení architektury je součástí schopnosti Řízení architektury</value>
+        </property>
+        <property propertyDefinitionRef="propid-5">
+          <value xml:lang="cs">New</value>
+        </property>
+        <property propertyDefinitionRef="propid-6">
+          <value xml:lang="cs" />
+        </property>
+        <property propertyDefinitionRef="propid-9">
+          <value xml:lang="cs">architekturarizenibyzramec</value>
+        </property>
+        <property propertyDefinitionRef="propid-3">
+          <value xml:lang="cs" />
+        </property>
+      </properties>
+    </relationship>
+    <relationship identifier="vparchsupschopnostrizarch" source="vparchsup" target="schopnostrizarch" xsi:type="Realization">
+      <name xml:lang="cs">je součástí schopnosti</name>
+      <properties>
+        <property propertyDefinitionRef="propid-7">
+          <value xml:lang="cs">Byznysová dekompozice</value>
+        </property>
+        <property propertyDefinitionRef="propid-4">
+          <value xml:lang="cs">Vnitřní proces Odborný support v oblasti EG a digitalizace je součástí schopnosti Obecná schopnost Řízení architektury</value>
+        </property>
+        <property propertyDefinitionRef="propid-8">
+          <value xml:lang="cs">Odborný support v oblasti EG a digitalizace je součástí schopnosti Řízení architektury</value>
+        </property>
+        <property propertyDefinitionRef="propid-5">
+          <value xml:lang="cs">New</value>
+        </property>
+        <property propertyDefinitionRef="propid-6">
+          <value xml:lang="cs" />
+        </property>
+        <property propertyDefinitionRef="propid-9">
+          <value xml:lang="cs">architekturarizenibyzramec</value>
+        </property>
+        <property propertyDefinitionRef="propid-3">
+          <value xml:lang="cs" />
+        </property>
+      </properties>
+    </relationship>
+    <relationship identifier="vparchvsvschopnostrizarch" source="vparchvsv" target="schopnostrizarch" xsi:type="Realization">
+      <name xml:lang="cs">je součástí schopnosti</name>
+      <properties>
+        <property propertyDefinitionRef="propid-7">
+          <value xml:lang="cs">Byznysová dekompozice</value>
+        </property>
+        <property propertyDefinitionRef="propid-4">
+          <value xml:lang="cs">Vnitřní proces Využívání znalostí a výstupů architektury je součástí schopnosti Obecná schopnost Řízení architektury</value>
+        </property>
+        <property propertyDefinitionRef="propid-8">
+          <value xml:lang="cs">Využívání znalostí a výstupů architektury je součástí schopnosti Řízení architektury</value>
+        </property>
+        <property propertyDefinitionRef="propid-5">
+          <value xml:lang="cs">New</value>
+        </property>
+        <property propertyDefinitionRef="propid-6">
+          <value xml:lang="cs" />
+        </property>
+        <property propertyDefinitionRef="propid-9">
+          <value xml:lang="cs">architekturarizenibyzramec</value>
+        </property>
+        <property propertyDefinitionRef="propid-3">
+          <value xml:lang="cs" />
+        </property>
+      </properties>
+    </relationship>
+    <relationship identifier="vparchvyprocschopnostrizarch" source="vparchvyproc" target="schopnostrizarch" xsi:type="Realization">
+      <name xml:lang="cs">je součástí schopnosti</name>
+      <properties>
+        <property propertyDefinitionRef="propid-7">
+          <value xml:lang="cs">Byznysová dekompozice</value>
+        </property>
+        <property propertyDefinitionRef="propid-4">
+          <value xml:lang="cs">Vnitřní proces Využívání architektonických znalostí pro procesní řízení  je součástí schopnosti Obecná schopnost Řízení architektury</value>
+        </property>
+        <property propertyDefinitionRef="propid-8">
+          <value xml:lang="cs">Využívání architektonických znalostí pro procesní řízení  je součástí schopnosti Řízení architektury</value>
+        </property>
+        <property propertyDefinitionRef="propid-5">
+          <value xml:lang="cs">New</value>
+        </property>
+        <property propertyDefinitionRef="propid-6">
+          <value xml:lang="cs" />
+        </property>
+        <property propertyDefinitionRef="propid-9">
+          <value xml:lang="cs">architekturarizenibyzramec</value>
+        </property>
+        <property propertyDefinitionRef="propid-3">
+          <value xml:lang="cs" />
+        </property>
+      </properties>
+    </relationship>
+    <relationship identifier="vrarchsolvparchadrs" source="vrarchsol" target="vparchadrs" xsi:type="Assignment">
+      <name xml:lang="cs">zodpovídá za</name>
+      <properties>
+        <property propertyDefinitionRef="propid-7">
+          <value xml:lang="cs">Byznysová dekompozice</value>
+        </property>
+        <property propertyDefinitionRef="propid-4">
+          <value xml:lang="cs">Vnitřní role Architekt řešení zodpovídá za Vnitřní proces Tvorba návrhu architektonických rozhodnutí</value>
+        </property>
+        <property propertyDefinitionRef="propid-8">
+          <value xml:lang="cs">Architekt řešení zodpovídá za Tvorba návrhu architektonických rozhodnutí</value>
+        </property>
+        <property propertyDefinitionRef="propid-5">
+          <value xml:lang="cs">New</value>
+        </property>
+        <property propertyDefinitionRef="propid-6">
+          <value xml:lang="cs" />
+        </property>
+        <property propertyDefinitionRef="propid-9">
+          <value xml:lang="cs">architekturarizenibyzramec</value>
+        </property>
+        <property propertyDefinitionRef="propid-3">
+          <value xml:lang="cs" />
+        </property>
+      </properties>
+    </relationship>
+    <relationship identifier="vrarchsolvparchazdk" source="vrarchsol" target="vparchazdk" xsi:type="Assignment">
+      <name xml:lang="cs">zodpovídá za</name>
+      <properties>
+        <property propertyDefinitionRef="propid-7">
+          <value xml:lang="cs">Byznysová dekompozice</value>
+        </property>
+        <property propertyDefinitionRef="propid-4">
+          <value xml:lang="cs">Vnitřní role Architekt řešení zodpovídá za Vnitřní proces Dohled nad dokumentací architektonických změn</value>
+        </property>
+        <property propertyDefinitionRef="propid-8">
+          <value xml:lang="cs">Architekt řešení zodpovídá za Dohled nad dokumentací architektonických změn</value>
+        </property>
+        <property propertyDefinitionRef="propid-5">
+          <value xml:lang="cs">New</value>
+        </property>
+        <property propertyDefinitionRef="propid-6">
+          <value xml:lang="cs" />
+        </property>
+        <property propertyDefinitionRef="propid-9">
+          <value xml:lang="cs">architekturarizenibyzramec</value>
+        </property>
+        <property propertyDefinitionRef="propid-3">
+          <value xml:lang="cs" />
+        </property>
+      </properties>
+    </relationship>
+    <relationship identifier="vrarchsolvparchazn" source="vrarchsol" target="vparchazn" xsi:type="Assignment">
+      <name xml:lang="cs">zodpovídá za</name>
+      <properties>
+        <property propertyDefinitionRef="propid-7">
+          <value xml:lang="cs">Byznysová dekompozice</value>
+        </property>
+        <property propertyDefinitionRef="propid-4">
+          <value xml:lang="cs">Vnitřní role Architekt řešení zodpovídá za Vnitřní proces Návrhy architektonických změn</value>
+        </property>
+        <property propertyDefinitionRef="propid-8">
+          <value xml:lang="cs">Architekt řešení zodpovídá za Návrhy architektonických změn</value>
+        </property>
+        <property propertyDefinitionRef="propid-5">
+          <value xml:lang="cs">New</value>
+        </property>
+        <property propertyDefinitionRef="propid-6">
+          <value xml:lang="cs" />
+        </property>
+        <property propertyDefinitionRef="propid-9">
+          <value xml:lang="cs">architekturarizenibyzramec</value>
+        </property>
+        <property propertyDefinitionRef="propid-3">
+          <value xml:lang="cs" />
+        </property>
+      </properties>
+    </relationship>
+    <relationship identifier="vrarchsolvparchgenvys" source="vrarchsol" target="vparchgenvys" xsi:type="Assignment">
+      <name xml:lang="cs">zodpovídá za</name>
+      <properties>
+        <property propertyDefinitionRef="propid-7">
+          <value xml:lang="cs">Byznysová dekompozice</value>
+        </property>
+        <property propertyDefinitionRef="propid-4">
+          <value xml:lang="cs">Vnitřní role Architekt řešení zodpovídá za Vnitřní proces Generování výstupů z architektonických modelů</value>
+        </property>
+        <property propertyDefinitionRef="propid-8">
+          <value xml:lang="cs">Architekt řešení zodpovídá za Generování výstupů z architektonických modelů</value>
+        </property>
+        <property propertyDefinitionRef="propid-5">
+          <value xml:lang="cs">New</value>
+        </property>
+        <property propertyDefinitionRef="propid-6">
+          <value xml:lang="cs" />
+        </property>
+        <property propertyDefinitionRef="propid-9">
+          <value xml:lang="cs">architekturarizenibyzramec</value>
+        </property>
+        <property propertyDefinitionRef="propid-3">
+          <value xml:lang="cs" />
+        </property>
+      </properties>
+    </relationship>
+    <relationship identifier="vrarchsolvparchspraar" source="vrarchsol" target="vparchspraar" xsi:type="Assignment">
+      <name xml:lang="cs">zodpovídá za</name>
+      <properties>
+        <property propertyDefinitionRef="propid-7">
+          <value xml:lang="cs">Byznysová dekompozice</value>
+        </property>
+        <property propertyDefinitionRef="propid-4">
+          <value xml:lang="cs">Vnitřní role Architekt řešení zodpovídá za Vnitřní proces Správa architektury</value>
+        </property>
+        <property propertyDefinitionRef="propid-8">
+          <value xml:lang="cs">Architekt řešení zodpovídá za Správa architektury</value>
+        </property>
+        <property propertyDefinitionRef="propid-5">
+          <value xml:lang="cs">New</value>
+        </property>
+        <property propertyDefinitionRef="propid-6">
+          <value xml:lang="cs" />
+        </property>
+        <property propertyDefinitionRef="propid-9">
+          <value xml:lang="cs">architekturarizenibyzramec</value>
+        </property>
+        <property propertyDefinitionRef="propid-3">
+          <value xml:lang="cs" />
+        </property>
+      </properties>
+    </relationship>
+    <relationship identifier="vrhavparchgenvys" source="vrha" target="vparchgenvys" xsi:type="Assignment">
+      <name xml:lang="cs">zodpovídá za</name>
+      <properties>
+        <property propertyDefinitionRef="propid-7">
+          <value xml:lang="cs">Byznysová dekompozice</value>
+        </property>
+        <property propertyDefinitionRef="propid-4">
+          <value xml:lang="cs">Vnitřní role Hlavní architekt zodpovídá za Vnitřní proces Generování výstupů z architektonických modelů</value>
+        </property>
+        <property propertyDefinitionRef="propid-8">
+          <value xml:lang="cs">Hlavní architekt zodpovídá za Generování výstupů z architektonických modelů</value>
+        </property>
+        <property propertyDefinitionRef="propid-5">
+          <value xml:lang="cs">New</value>
+        </property>
+        <property propertyDefinitionRef="propid-6">
+          <value xml:lang="cs" />
+        </property>
+        <property propertyDefinitionRef="propid-9">
+          <value xml:lang="cs">architekturarizenibyzramec</value>
+        </property>
+        <property propertyDefinitionRef="propid-3">
+          <value xml:lang="cs" />
+        </property>
+      </properties>
+    </relationship>
+    <relationship identifier="vrhavparchrizab" source="vrha" target="vparchrizab" xsi:type="Assignment">
+      <name xml:lang="cs">zodpovídá za</name>
+      <properties>
+        <property propertyDefinitionRef="propid-7">
+          <value xml:lang="cs">Byznysová dekompozice</value>
+        </property>
+        <property propertyDefinitionRef="propid-4">
+          <value xml:lang="cs">Vnitřní role Hlavní architekt zodpovídá za Vnitřní proces Řízení a organizace Architektonického boardu</value>
+        </property>
+        <property propertyDefinitionRef="propid-8">
+          <value xml:lang="cs">Hlavní architekt zodpovídá za Řízení a organizace Architektonického boardu</value>
+        </property>
+        <property propertyDefinitionRef="propid-5">
+          <value xml:lang="cs">New</value>
+        </property>
+        <property propertyDefinitionRef="propid-6">
+          <value xml:lang="cs" />
+        </property>
+        <property propertyDefinitionRef="propid-9">
+          <value xml:lang="cs">architekturarizenibyzramec</value>
+        </property>
+        <property propertyDefinitionRef="propid-3">
+          <value xml:lang="cs" />
+        </property>
+      </properties>
+    </relationship>
+    <relationship identifier="vrhdavparchgenvys" source="vrhda" target="vparchgenvys" xsi:type="Assignment">
+      <name xml:lang="cs">zodpovídá za</name>
+      <properties>
+        <property propertyDefinitionRef="propid-7">
+          <value xml:lang="cs">Byznysová dekompozice</value>
+        </property>
+        <property propertyDefinitionRef="propid-4">
+          <value xml:lang="cs">Vnitřní role Hlavní datový architekt zodpovídá za Vnitřní proces Generování výstupů z architektonických modelů</value>
+        </property>
+        <property propertyDefinitionRef="propid-8">
+          <value xml:lang="cs">Hlavní datový architekt zodpovídá za Generování výstupů z architektonických modelů</value>
+        </property>
+        <property propertyDefinitionRef="propid-5">
+          <value xml:lang="cs">New</value>
+        </property>
+        <property propertyDefinitionRef="propid-6">
+          <value xml:lang="cs" />
+        </property>
+        <property propertyDefinitionRef="propid-9">
+          <value xml:lang="cs">architekturarizenibyzramec</value>
+        </property>
+        <property propertyDefinitionRef="propid-3">
+          <value xml:lang="cs" />
+        </property>
+      </properties>
+    </relationship>
+    <relationship identifier="vrspravaarvparchazdk" source="vrspravaar" target="vparchazdk" xsi:type="Assignment">
+      <name xml:lang="cs">zodpovídá za</name>
+      <properties>
+        <property propertyDefinitionRef="propid-7">
+          <value xml:lang="cs">Byznysová dekompozice</value>
+        </property>
+        <property propertyDefinitionRef="propid-4">
+          <value xml:lang="cs">Vnitřní role Správce architektury zodpovídá za Vnitřní proces Dohled nad dokumentací architektonických změn</value>
+        </property>
+        <property propertyDefinitionRef="propid-8">
+          <value xml:lang="cs">Správce architektury zodpovídá za Dohled nad dokumentací architektonických změn</value>
+        </property>
+        <property propertyDefinitionRef="propid-5">
+          <value xml:lang="cs">New</value>
+        </property>
+        <property propertyDefinitionRef="propid-6">
+          <value xml:lang="cs" />
+        </property>
+        <property propertyDefinitionRef="propid-9">
+          <value xml:lang="cs">architekturarizenibyzramec</value>
+        </property>
+        <property propertyDefinitionRef="propid-3">
+          <value xml:lang="cs" />
+        </property>
+      </properties>
+    </relationship>
+    <relationship identifier="vrspravaarvparchgenvys" source="vrspravaar" target="vparchgenvys" xsi:type="Assignment">
+      <name xml:lang="cs">zodpovídá za</name>
+      <properties>
+        <property propertyDefinitionRef="propid-7">
+          <value xml:lang="cs">Byznysová dekompozice</value>
+        </property>
+        <property propertyDefinitionRef="propid-4">
+          <value xml:lang="cs">Vnitřní role Správce architektury zodpovídá za Vnitřní proces Generování výstupů z architektonických modelů</value>
+        </property>
+        <property propertyDefinitionRef="propid-8">
+          <value xml:lang="cs">Správce architektury zodpovídá za Generování výstupů z architektonických modelů</value>
+        </property>
+        <property propertyDefinitionRef="propid-5">
+          <value xml:lang="cs">New</value>
+        </property>
+        <property propertyDefinitionRef="propid-6">
+          <value xml:lang="cs" />
+        </property>
+        <property propertyDefinitionRef="propid-9">
+          <value xml:lang="cs">architekturarizenibyzramec</value>
+        </property>
+        <property propertyDefinitionRef="propid-3">
+          <value xml:lang="cs" />
+        </property>
+      </properties>
+    </relationship>
+    <relationship identifier="vrspravaarvparchpoz" source="vrspravaar" target="vparchpoz" xsi:type="Assignment">
+      <name xml:lang="cs">zodpovídá za</name>
+      <properties>
+        <property propertyDefinitionRef="propid-7">
+          <value xml:lang="cs">Byznysová dekompozice</value>
+        </property>
+        <property propertyDefinitionRef="propid-4">
+          <value xml:lang="cs">Vnitřní role Správce architektury zodpovídá za Vnitřní proces Správa požadavků na architekturu a sledování jejich plnění</value>
+        </property>
+        <property propertyDefinitionRef="propid-8">
+          <value xml:lang="cs">Správce architektury zodpovídá za Správa požadavků na architekturu a sledování jejich plnění</value>
+        </property>
+        <property propertyDefinitionRef="propid-5">
+          <value xml:lang="cs">New</value>
+        </property>
+        <property propertyDefinitionRef="propid-6">
+          <value xml:lang="cs" />
+        </property>
+        <property propertyDefinitionRef="propid-9">
+          <value xml:lang="cs">architekturarizenibyzramec</value>
+        </property>
+        <property propertyDefinitionRef="propid-3">
+          <value xml:lang="cs" />
+        </property>
+      </properties>
+    </relationship>
+    <relationship identifier="vrspravaarvparchspraar" source="vrspravaar" target="vparchspraar" xsi:type="Assignment">
+      <name xml:lang="cs">zodpovídá za</name>
+      <properties>
+        <property propertyDefinitionRef="propid-7">
+          <value xml:lang="cs">Byznysová dekompozice</value>
+        </property>
+        <property propertyDefinitionRef="propid-4">
+          <value xml:lang="cs">Vnitřní role Správce architektury zodpovídá za Vnitřní proces Správa architektury</value>
+        </property>
+        <property propertyDefinitionRef="propid-8">
+          <value xml:lang="cs">Správce architektury zodpovídá za Správa architektury</value>
+        </property>
+        <property propertyDefinitionRef="propid-5">
+          <value xml:lang="cs">New</value>
+        </property>
+        <property propertyDefinitionRef="propid-6">
+          <value xml:lang="cs" />
+        </property>
+        <property propertyDefinitionRef="propid-9">
+          <value xml:lang="cs">architekturarizenibyzramec</value>
+        </property>
+        <property propertyDefinitionRef="propid-3">
+          <value xml:lang="cs" />
+        </property>
+      </properties>
+    </relationship>
+    <relationship identifier="vrspravaarvparchsprarepo" source="vrspravaar" target="vparchsprarepo" xsi:type="Assignment">
+      <name xml:lang="cs">zodpovídá za</name>
+      <properties>
+        <property propertyDefinitionRef="propid-7">
+          <value xml:lang="cs">Byznysová dekompozice</value>
+        </property>
+        <property propertyDefinitionRef="propid-4">
+          <value xml:lang="cs">Vnitřní role Správce architektury zodpovídá za Vnitřní proces Správa architektonického repository</value>
+        </property>
+        <property propertyDefinitionRef="propid-8">
+          <value xml:lang="cs">Správce architektury zodpovídá za Správa architektonického repository</value>
+        </property>
+        <property propertyDefinitionRef="propid-5">
+          <value xml:lang="cs">New</value>
+        </property>
+        <property propertyDefinitionRef="propid-6">
+          <value xml:lang="cs" />
+        </property>
+        <property propertyDefinitionRef="propid-9">
+          <value xml:lang="cs">architekturarizenibyzramec</value>
+        </property>
+        <property propertyDefinitionRef="propid-3">
+          <value xml:lang="cs" />
+        </property>
+      </properties>
+    </relationship>
+    <relationship identifier="vrtechnickyspravceisvparchadrs" source="vrtechnickyspravceis" target="vparchadrs" xsi:type="Assignment">
+      <name xml:lang="cs">zodpovídá za</name>
+      <properties>
+        <property propertyDefinitionRef="propid-7">
+          <value xml:lang="cs">Byznysová dekompozice</value>
+        </property>
+        <property propertyDefinitionRef="propid-4">
+          <value xml:lang="cs">Vnitřní role Technický správce informačního systému zodpovídá za Vnitřní proces Tvorba návrhu architektonických rozhodnutí</value>
+        </property>
+        <property propertyDefinitionRef="propid-8">
+          <value xml:lang="cs">Technický správce informačního systému zodpovídá za Tvorba návrhu architektonických rozhodnutí</value>
+        </property>
+        <property propertyDefinitionRef="propid-5">
+          <value xml:lang="cs">New</value>
+        </property>
+        <property propertyDefinitionRef="propid-6">
+          <value xml:lang="cs" />
+        </property>
+        <property propertyDefinitionRef="propid-9">
+          <value xml:lang="cs">architekturarizenibyzramec</value>
+        </property>
+        <property propertyDefinitionRef="propid-3">
+          <value xml:lang="cs" />
+        </property>
+      </properties>
+    </relationship>
+    <relationship identifier="vrtechnickyspravceisvparchvsv" source="vrtechnickyspravceis" target="vparchvsv" xsi:type="Assignment">
+      <name xml:lang="cs">zodpovídá za</name>
+      <properties>
+        <property propertyDefinitionRef="propid-7">
+          <value xml:lang="cs">Byznysová dekompozice</value>
+        </property>
+        <property propertyDefinitionRef="propid-4">
+          <value xml:lang="cs">Vnitřní role Technický správce informačního systému zodpovídá za Vnitřní proces Využívání znalostí a výstupů architektury</value>
+        </property>
+        <property propertyDefinitionRef="propid-8">
+          <value xml:lang="cs">Technický správce informačního systému zodpovídá za Využívání znalostí a výstupů architektury</value>
+        </property>
+        <property propertyDefinitionRef="propid-5">
+          <value xml:lang="cs">New</value>
+        </property>
+        <property propertyDefinitionRef="propid-6">
+          <value xml:lang="cs" />
+        </property>
+        <property propertyDefinitionRef="propid-9">
+          <value xml:lang="cs">architekturarizenibyzramec</value>
+        </property>
+        <property propertyDefinitionRef="propid-3">
+          <value xml:lang="cs" />
+        </property>
+      </properties>
+    </relationship>
+    <relationship identifier="vrtechnickyspravceisvparchvyproc" source="vrtechnickyspravceis" target="vparchvyproc" xsi:type="Assignment">
+      <name xml:lang="cs">zodpovídá za</name>
+      <properties>
+        <property propertyDefinitionRef="propid-7">
+          <value xml:lang="cs">Byznysová dekompozice</value>
+        </property>
+        <property propertyDefinitionRef="propid-4">
+          <value xml:lang="cs">Vnitřní role Technický správce informačního systému zodpovídá za Vnitřní proces Využívání architektonických znalostí pro procesní řízení</value>
+        </property>
+        <property propertyDefinitionRef="propid-8">
+          <value xml:lang="cs">Technický správce informačního systému zodpovídá za Využívání architektonických znalostí pro procesní řízení</value>
+        </property>
+        <property propertyDefinitionRef="propid-5">
+          <value xml:lang="cs">New</value>
+        </property>
+        <property propertyDefinitionRef="propid-6">
+          <value xml:lang="cs" />
+        </property>
+        <property propertyDefinitionRef="propid-9">
+          <value xml:lang="cs">architekturarizenibyzramec</value>
+        </property>
+        <property propertyDefinitionRef="propid-3">
+          <value xml:lang="cs" />
+        </property>
+      </properties>
+    </relationship>
+  </relationships>
+  <organizations>
+    <item>
+      <label xml:lang="cs">Strategy</label>
+      <item identifierRef="schopnostrizarch" />
+      <item identifierRef="schopnostcompli" />
+    </item>
+    <item>
+      <label xml:lang="cs">Business</label>
+      <item identifierRef="archboard" />
+      <item identifierRef="vparchadrn" />
+      <item identifierRef="vparchazdh" />
+      <item identifierRef="vparchedu" />
+      <item identifierRef="vparchikkz" />
+      <item identifierRef="vparchikt" />
+      <item identifierRef="vparchikv" />
+      <item identifierRef="vparchkonta" />
+      <item identifierRef="vparchplegp" />
+      <item identifierRef="vparchpoz" />
+      <item identifierRef="vparchpredp" />
+      <item identifierRef="vparchsup" />
+      <item identifierRef="vparchvsv" />
+      <item identifierRef="vparchvyproc" />
+      <item identifierRef="vedeni" />
+      <item identifierRef="vparchsp" />
+      <item identifierRef="vparchadrs" />
+      <item identifierRef="vparchazdk" />
+      <item identifierRef="vparchazn" />
+      <item identifierRef="vparchgenvys" />
+      <item identifierRef="vparchrizab" />
+      <item identifierRef="vparchspraar" />
+      <item identifierRef="vparchsprarepo" />
+      <item identifierRef="vrarchsol" />
+      <item identifierRef="vrha" />
+      <item identifierRef="vrhda" />
+      <item identifierRef="vrspravaar" />
+      <item identifierRef="vrtechnickyspravceis" />
+    </item>
+    <item>
+      <label xml:lang="cs">Relations</label>
+      <item identifierRef="archboardschopnostrizarch" />
+      <item identifierRef="archboardvparchadrn" />
+      <item identifierRef="archboardvparchazdh" />
+      <item identifierRef="archboardvparchedu" />
+      <item identifierRef="archboardvparchikkz" />
+      <item identifierRef="archboardvparchikt" />
+      <item identifierRef="archboardvparchikv" />
+      <item identifierRef="archboardvparchkonta" />
+      <item identifierRef="archboardvparchplegp" />
+      <item identifierRef="archboardvparchpoz" />
+      <item identifierRef="archboardvparchpredp" />
+      <item identifierRef="archboardvparchsup" />
+      <item identifierRef="archboardvparchvsv" />
+      <item identifierRef="archboardvparchvyproc" />
+      <item identifierRef="vedenivparchsp" />
+      <item identifierRef="vparchadrnschopnostrizarch" />
+      <item identifierRef="vparchadrsschopnostrizarch" />
+      <item identifierRef="vparchazdhschopnostrizarch" />
+      <item identifierRef="vparchazdkschopnostrizarch" />
+      <item identifierRef="vparchaznschopnostrizarch" />
+      <item identifierRef="vparcheduschopnostrizarch" />
+      <item identifierRef="vparchgenvysschopnostrizarch" />
+      <item identifierRef="vparchikkzschopnostrizarch" />
+      <item identifierRef="vparchiktschopnostrizarch" />
+      <item identifierRef="vparchikvschopnostcompli" />
+      <item identifierRef="vparchikvschopnostrizarch" />
+      <item identifierRef="vparchkontaschopnostrizarch" />
+      <item identifierRef="vparchplegpschopnostcompli" />
+      <item identifierRef="vparchplegpschopnostrizarch" />
+      <item identifierRef="vparchpozschopnostrizarch" />
+      <item identifierRef="vparchpredpschopnostrizarch" />
+      <item identifierRef="vparchrizabschopnostrizarch" />
+      <item identifierRef="vparchspraarschopnostrizarch" />
+      <item identifierRef="vparchsprareposchopnostrizarch" />
+      <item identifierRef="vparchspschopnostrizarch" />
+      <item identifierRef="vparchsupschopnostrizarch" />
+      <item identifierRef="vparchvsvschopnostrizarch" />
+      <item identifierRef="vparchvyprocschopnostrizarch" />
+      <item identifierRef="vrarchsolvparchadrs" />
+      <item identifierRef="vrarchsolvparchazdk" />
+      <item identifierRef="vrarchsolvparchazn" />
+      <item identifierRef="vrarchsolvparchgenvys" />
+      <item identifierRef="vrarchsolvparchspraar" />
+      <item identifierRef="vrhavparchgenvys" />
+      <item identifierRef="vrhavparchrizab" />
+      <item identifierRef="vrhdavparchgenvys" />
+      <item identifierRef="vrspravaarvparchazdk" />
+      <item identifierRef="vrspravaarvparchgenvys" />
+      <item identifierRef="vrspravaarvparchpoz" />
+      <item identifierRef="vrspravaarvparchspraar" />
+      <item identifierRef="vrspravaarvparchsprarepo" />
+      <item identifierRef="vrtechnickyspravceisvparchadrs" />
+      <item identifierRef="vrtechnickyspravceisvparchvsv" />
+      <item identifierRef="vrtechnickyspravceisvparchvyproc" />
+    </item>
+  </organizations>
+  <propertyDefinitions>
+    <propertyDefinition identifier="propid-4" type="string">
+      <name>FQname</name>
+    </propertyDefinition>
+    <propertyDefinition identifier="propid-7" type="string">
+      <name>Factoring</name>
+    </propertyDefinition>
+    <propertyDefinition identifier="propid-9" type="string">
+      <name>In diagrams</name>
+    </propertyDefinition>
+    <propertyDefinition identifier="propid-3" type="string">
+      <name>Packages</name>
+    </propertyDefinition>
+    <propertyDefinition identifier="propid-8" type="string">
+      <name>Statement</name>
+    </propertyDefinition>
+    <propertyDefinition identifier="propid-5" type="string">
+      <name>Status</name>
+    </propertyDefinition>
+    <propertyDefinition identifier="propid-1" type="string">
+      <name>Stereotype</name>
+    </propertyDefinition>
+    <propertyDefinition identifier="propid-2" type="string">
+      <name>Určuje</name>
+    </propertyDefinition>
+    <propertyDefinition identifier="propid-6" type="string">
+      <name>User notes</name>
+    </propertyDefinition>
+  </propertyDefinitions>
+</model>
