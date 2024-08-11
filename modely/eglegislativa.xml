@@ -1,0 +1,1992 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model xmlns="http://www.opengroup.org/xsd/archimate/3.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.opengroup.org/xsd/archimate/3.0/ http://www.opengroup.org/xsd/archimate/3.1/archimate3_Diagram.xsd" identifier="id-df062e40afb44fc8af8508549bb7a175">
+  <name xml:lang="cs">dilcicasti/eglegislativa</name>
+  <elements>
+    <element identifier="ikcr" xsi:type="Contract">
+      <name xml:lang="cs">Informační koncepce ČR</name>
+      <documentation xml:lang="cs">Informační koncepce ČR je závazným koncepčním dokumentem stanovujícím principy a zásady a cíle pro rozvoj veřejné správy a eGovernmentu. OVM a OVS se podle ní musejí řídit, stanoví to § 5 a § 5a, zákona 365/2000. / https://archi.gov.cz/ikcr-dokument:ikcr</documentation>
+      <properties>
+        <property propertyDefinitionRef="propid-1">
+          <value xml:lang="cs">Závazný předpis</value>
+        </property>
+        <property propertyDefinitionRef="propid-2">
+          <value xml:lang="cs">§ 5a odst. 1 zákona 365/2000 a UV 931 z 9.11.2022</value>
+        </property>
+        <property propertyDefinitionRef="propid-3">
+          <value xml:lang="cs" />
+        </property>
+        <property propertyDefinitionRef="propid-4">
+          <value xml:lang="cs">Závazný předpis Informační koncepce ČR</value>
+        </property>
+        <property propertyDefinitionRef="propid-5">
+          <value xml:lang="cs">Verified</value>
+        </property>
+        <property propertyDefinitionRef="propid-6">
+          <value xml:lang="cs" />
+        </property>
+      </properties>
+    </element>
+    <element identifier="legislativaEUeaa" xsi:type="Contract">
+      <name xml:lang="cs">Směrnice EU 2019/882 EAA</name>
+      <documentation xml:lang="cs">směrnice Evropského parlamentu a Rady (EU) 2019/882 o požadavcích na přístupnost u výrobků a služeb / Harmonizace požadavků na přístupnost a jejich vynucování a dohled v rámci vnitřního trhu dle povinností člen 9 Úmluvy o právech OZP / https://www.zakonyprolidi.cz/pravoeu/dokument?celex=32019L0882</documentation>
+      <properties>
+        <property propertyDefinitionRef="propid-1">
+          <value xml:lang="cs">Právní předpis</value>
+        </property>
+        <property propertyDefinitionRef="propid-2">
+          <value xml:lang="cs" />
+        </property>
+        <property propertyDefinitionRef="propid-3">
+          <value xml:lang="cs">egl0klicovalegislativa</value>
+        </property>
+        <property propertyDefinitionRef="propid-4">
+          <value xml:lang="cs">Právní předpis Směrnice EU 2019/882 EAA</value>
+        </property>
+        <property propertyDefinitionRef="propid-5">
+          <value xml:lang="cs">Updated</value>
+        </property>
+        <property propertyDefinitionRef="propid-6">
+          <value xml:lang="cs" />
+        </property>
+      </properties>
+    </element>
+    <element identifier="legislativaeidas" xsi:type="Contract">
+      <name xml:lang="cs">Nařízení EU 910/2014 EIDAS</name>
+      <documentation xml:lang="cs">Nařízení EU č. 910/2014 ze dne 23. července 2014 o elektronické identifikaci a službách vytvářejících důvěru pro elektronické transakce na vnitřním trhu / https://eur-lex.europa.eu/legal-content/CS/TXT/HTML/?uri=CELEX%3A32014R0910&amp;from=CS#d1e1759-73-1</documentation>
+      <properties>
+        <property propertyDefinitionRef="propid-1">
+          <value xml:lang="cs">Právní předpis</value>
+        </property>
+        <property propertyDefinitionRef="propid-2">
+          <value xml:lang="cs" />
+        </property>
+        <property propertyDefinitionRef="propid-3">
+          <value xml:lang="cs">egl0klicovalegislativa</value>
+        </property>
+        <property propertyDefinitionRef="propid-4">
+          <value xml:lang="cs">Právní předpis Nařízení EU 910/2014 EIDAS</value>
+        </property>
+        <property propertyDefinitionRef="propid-5">
+          <value xml:lang="cs">Updated</value>
+        </property>
+        <property propertyDefinitionRef="propid-6">
+          <value xml:lang="cs" />
+        </property>
+      </properties>
+    </element>
+    <element identifier="legislativagdpr" xsi:type="Contract">
+      <name xml:lang="cs">Nařízení EU 2016/679 GDPR</name>
+      <documentation xml:lang="cs">Nařízení Evropského parlamentu a Rady (EU) 2016/679 ze dne 27. dubna 2016 o ochraně fyzických osob v souvislosti se zpracováním osobních údajů a o volném pohybu těchto údajů  / https://www.zakonyprolidi.cz/pravoeu/dokument?celex=32016R0679</documentation>
+      <properties>
+        <property propertyDefinitionRef="propid-1">
+          <value xml:lang="cs">Právní předpis</value>
+        </property>
+        <property propertyDefinitionRef="propid-2">
+          <value xml:lang="cs" />
+        </property>
+        <property propertyDefinitionRef="propid-3">
+          <value xml:lang="cs">egl0klicovalegislativa</value>
+        </property>
+        <property propertyDefinitionRef="propid-4">
+          <value xml:lang="cs">Právní předpis Nařízení EU 2016/679 GDPR</value>
+        </property>
+        <property propertyDefinitionRef="propid-5">
+          <value xml:lang="cs">New</value>
+        </property>
+        <property propertyDefinitionRef="propid-6">
+          <value xml:lang="cs" />
+        </property>
+      </properties>
+    </element>
+    <element identifier="legislativansesss" xsi:type="Contract">
+      <name xml:lang="cs">Národní standard pro elektronické systémy spisové služby (NSESS)</name>
+      <documentation xml:lang="cs">Národní standard pro elektronické systémy spisové služby / Závazný standard podle zákona 499/2004 a vyhlášky 259/2012 obsahuje technické závazné požadavky na ESSL a ISSD a jejich funkcionality.</documentation>
+      <properties>
+        <property propertyDefinitionRef="propid-1">
+          <value xml:lang="cs">Závazný předpis</value>
+        </property>
+        <property propertyDefinitionRef="propid-2">
+          <value xml:lang="cs" />
+        </property>
+        <property propertyDefinitionRef="propid-3">
+          <value xml:lang="cs" />
+        </property>
+        <property propertyDefinitionRef="propid-4">
+          <value xml:lang="cs">Závazný předpis Národní standard pro elektronické systémy spisové služby (NSESS)</value>
+        </property>
+        <property propertyDefinitionRef="propid-5">
+          <value xml:lang="cs">Verified</value>
+        </property>
+        <property propertyDefinitionRef="propid-6">
+          <value xml:lang="cs" />
+        </property>
+      </properties>
+    </element>
+    <element identifier="legislativauv487" xsi:type="Contract">
+      <name xml:lang="cs">Usnesení vlády 487 o pravidlech společného nákupu</name>
+      <documentation xml:lang="cs">Usnesení vlády č. 487/2019 o pravidlech společného nákupu / mimo jiné udává povinnosti vyhlášení standardů pro určité komodity, které jsou následně pro všechny zadavatele závazné. / https://www.mfcr.cz/cs/aktualne/aktuality/2019/usneseni-vlady-c-487-2019-35854</documentation>
+      <properties>
+        <property propertyDefinitionRef="propid-1">
+          <value xml:lang="cs">Právní předpis</value>
+        </property>
+        <property propertyDefinitionRef="propid-2">
+          <value xml:lang="cs" />
+        </property>
+        <property propertyDefinitionRef="propid-3">
+          <value xml:lang="cs" />
+        </property>
+        <property propertyDefinitionRef="propid-4">
+          <value xml:lang="cs">Právní předpis Usnesení vlády 487 o pravidlech společného nákupu</value>
+        </property>
+        <property propertyDefinitionRef="propid-5">
+          <value xml:lang="cs">Verified</value>
+        </property>
+        <property propertyDefinitionRef="propid-6">
+          <value xml:lang="cs" />
+        </property>
+      </properties>
+    </element>
+    <element identifier="legislativauv763" xsi:type="Contract">
+      <name xml:lang="cs">UV 763/2007 o specifikacích nákupu PC</name>
+      <documentation xml:lang="cs">Usnesení vlády ze dne 11. července 2007 č. 763, o Metodice k používání některých všeobecných technických specifikací při zadávání veřejných zakázek na nákup osobních počítačůtro</documentation>
+      <properties>
+        <property propertyDefinitionRef="propid-1">
+          <value xml:lang="cs">Právní předpis</value>
+        </property>
+        <property propertyDefinitionRef="propid-2">
+          <value xml:lang="cs">zákon 134/2016</value>
+        </property>
+        <property propertyDefinitionRef="propid-3">
+          <value xml:lang="cs">egl0klicovalegislativa</value>
+        </property>
+        <property propertyDefinitionRef="propid-4">
+          <value xml:lang="cs">Právní předpis UV 763/2007 o specifikacích nákupu PC</value>
+        </property>
+        <property propertyDefinitionRef="propid-5">
+          <value xml:lang="cs">New</value>
+        </property>
+        <property propertyDefinitionRef="propid-6">
+          <value xml:lang="cs" />
+        </property>
+      </properties>
+    </element>
+    <element identifier="legislativavyhlaska190203" xsi:type="Contract">
+      <name xml:lang="cs">Vyhláška 190/2023 o bezpečnosti cloudu OVM</name>
+      <documentation xml:lang="cs">Vyhláška č. 190/2023 Sb., o bezpečnostních pravidlech pro orgány veřejné moci využívající služby poskytovatelů cloud computingu / https://www.zakonyprolidi.cz/cs/2023-190</documentation>
+      <properties>
+        <property propertyDefinitionRef="propid-1">
+          <value xml:lang="cs">Právní předpis</value>
+        </property>
+        <property propertyDefinitionRef="propid-2">
+          <value xml:lang="cs">zákon 181/2014</value>
+        </property>
+        <property propertyDefinitionRef="propid-3">
+          <value xml:lang="cs">egl0klicovalegislativa</value>
+        </property>
+        <property propertyDefinitionRef="propid-4">
+          <value xml:lang="cs">Právní předpis Vyhláška 190/2023 o bezpečnosti cloudu OVM</value>
+        </property>
+        <property propertyDefinitionRef="propid-5">
+          <value xml:lang="cs">New</value>
+        </property>
+        <property propertyDefinitionRef="propid-6">
+          <value xml:lang="cs" />
+        </property>
+      </properties>
+    </element>
+    <element identifier="legislativavyhlaska1932009" xsi:type="Contract">
+      <name xml:lang="cs">Vyhláška 193/2009 o autorizované konverzi</name>
+      <documentation xml:lang="cs">Vyhláška č. 193/2009 Sb., o stanovení podrobností provádění autorizované konverze dokumentů / https://www.zakonyprolidi.cz/cs/2009-193</documentation>
+      <properties>
+        <property propertyDefinitionRef="propid-1">
+          <value xml:lang="cs">Právní předpis</value>
+        </property>
+        <property propertyDefinitionRef="propid-2">
+          <value xml:lang="cs">zákon 300/2008</value>
+        </property>
+        <property propertyDefinitionRef="propid-3">
+          <value xml:lang="cs">egl0klicovalegislativa</value>
+        </property>
+        <property propertyDefinitionRef="propid-4">
+          <value xml:lang="cs">Právní předpis Vyhláška 193/2009 o autorizované konverzi</value>
+        </property>
+        <property propertyDefinitionRef="propid-5">
+          <value xml:lang="cs">New</value>
+        </property>
+        <property propertyDefinitionRef="propid-6">
+          <value xml:lang="cs" />
+        </property>
+      </properties>
+    </element>
+    <element identifier="legislativavyhlaska1942009" xsi:type="Contract">
+      <name xml:lang="cs">Vyhláška 194/2009 o ISDS</name>
+      <documentation xml:lang="cs">Vyhláška č. 194/2009 Sb., o stanovení podrobností užívání a provozování informačního systému datových schránek / https://www.zakonyprolidi.cz/cs/2009-194</documentation>
+      <properties>
+        <property propertyDefinitionRef="propid-1">
+          <value xml:lang="cs">Právní předpis</value>
+        </property>
+        <property propertyDefinitionRef="propid-2">
+          <value xml:lang="cs">zákon 300/2008</value>
+        </property>
+        <property propertyDefinitionRef="propid-3">
+          <value xml:lang="cs">egl0klicovalegislativa</value>
+        </property>
+        <property propertyDefinitionRef="propid-4">
+          <value xml:lang="cs">Právní předpis Vyhláška 194/2009 o ISDS</value>
+        </property>
+        <property propertyDefinitionRef="propid-5">
+          <value xml:lang="cs">New</value>
+        </property>
+        <property propertyDefinitionRef="propid-6">
+          <value xml:lang="cs" />
+        </property>
+      </properties>
+    </element>
+    <element identifier="legislativavyhlaska2592012" xsi:type="Contract">
+      <name xml:lang="cs">Vyhláška 259/2012 o podrobnostech výkonu spisové služby</name>
+      <documentation xml:lang="cs">Vyhláška č. 259/2012 Sb., o podrobnostech výkonu spisové služby / Vyhláška stanovuje povinnosti procesů a výkonu spisové služby u původců. Je prováděcím předpisem zákona 499/2004 / http://www.zakonyprolidi.cz/cs/2012-259</documentation>
+      <properties>
+        <property propertyDefinitionRef="propid-1">
+          <value xml:lang="cs">Právní předpis</value>
+        </property>
+        <property propertyDefinitionRef="propid-2">
+          <value xml:lang="cs">zákon 499/2004</value>
+        </property>
+        <property propertyDefinitionRef="propid-3">
+          <value xml:lang="cs" />
+        </property>
+        <property propertyDefinitionRef="propid-4">
+          <value xml:lang="cs">Právní předpis Vyhláška 259/2012 o podrobnostech výkonu spisové služby</value>
+        </property>
+        <property propertyDefinitionRef="propid-5">
+          <value xml:lang="cs">Verified</value>
+        </property>
+        <property propertyDefinitionRef="propid-6">
+          <value xml:lang="cs" />
+        </property>
+      </properties>
+    </element>
+    <element identifier="legislativavyhlaska3152021" xsi:type="Contract">
+      <name xml:lang="cs">Vyhláška 315/2021 o bezpečnostních kategoriích cloudu</name>
+      <documentation xml:lang="cs">Vyhláška č. 315/2021 Sb., o bezpečnostních úrovních pro využívání cloud computingu orgány veřejné moci / stanovuje jednotlivé bezpečnostní úrovně pro informační systémy provozované jejich správci v cloudu a podrobnosti těchto úrovní / https://www.zakonyprolidi.cz/cs/2021-315</documentation>
+      <properties>
+        <property propertyDefinitionRef="propid-1">
+          <value xml:lang="cs">Právní předpis</value>
+        </property>
+        <property propertyDefinitionRef="propid-2">
+          <value xml:lang="cs">Zákon 181/2014</value>
+        </property>
+        <property propertyDefinitionRef="propid-3">
+          <value xml:lang="cs" />
+        </property>
+        <property propertyDefinitionRef="propid-4">
+          <value xml:lang="cs">Právní předpis Vyhláška 315/2021 o bezpečnostních kategoriích cloudu</value>
+        </property>
+        <property propertyDefinitionRef="propid-5">
+          <value xml:lang="cs">Verified</value>
+        </property>
+        <property propertyDefinitionRef="propid-6">
+          <value xml:lang="cs" />
+        </property>
+      </properties>
+    </element>
+    <element identifier="legislativavyhlaska3162021" xsi:type="Contract">
+      <name xml:lang="cs">Vyhláška 316/2021 o zápisu cloudu</name>
+      <documentation xml:lang="cs">Vyhláška č. 316/2021 Sb., o některých požadavcích pro zápis do katalogu cloud computingu / stanovuje požadavky pro zápisy pro poskytovatele služeb, nabízené služby a využívané služby cloud computingu podle zákona o ISVS / https://www.zakonyprolidi.cz/cs/2021-316</documentation>
+      <properties>
+        <property propertyDefinitionRef="propid-1">
+          <value xml:lang="cs">Právní předpis</value>
+        </property>
+        <property propertyDefinitionRef="propid-2">
+          <value xml:lang="cs">Zákon 365/2000</value>
+        </property>
+        <property propertyDefinitionRef="propid-3">
+          <value xml:lang="cs" />
+        </property>
+        <property propertyDefinitionRef="propid-4">
+          <value xml:lang="cs">Právní předpis Vyhláška 316/2021 o zápisu cloudu</value>
+        </property>
+        <property propertyDefinitionRef="propid-5">
+          <value xml:lang="cs">Verified</value>
+        </property>
+        <property propertyDefinitionRef="propid-6">
+          <value xml:lang="cs" />
+        </property>
+      </properties>
+    </element>
+    <element identifier="legislativavyhlaska3172016" xsi:type="Contract">
+      <name xml:lang="cs">Vyhláška 317/2014 o významných informačních systémech</name>
+      <documentation xml:lang="cs">Vyhláška č. 317/2014 Sb., o významných informačních systémech a jejich určujících kritériích / https://www.zakonyprolidi.cz/cs/2014-317</documentation>
+      <properties>
+        <property propertyDefinitionRef="propid-1">
+          <value xml:lang="cs">Právní předpis</value>
+        </property>
+        <property propertyDefinitionRef="propid-2">
+          <value xml:lang="cs">Zákon 181/2014</value>
+        </property>
+        <property propertyDefinitionRef="propid-3">
+          <value xml:lang="cs" />
+        </property>
+        <property propertyDefinitionRef="propid-4">
+          <value xml:lang="cs">Právní předpis Vyhláška 317/2014 o významných informačních systémech</value>
+        </property>
+        <property propertyDefinitionRef="propid-5">
+          <value xml:lang="cs">Verified</value>
+        </property>
+        <property propertyDefinitionRef="propid-6">
+          <value xml:lang="cs" />
+        </property>
+      </properties>
+    </element>
+    <element identifier="legislativavyhlaska3602023" xsi:type="Contract">
+      <name xml:lang="cs">Vyhláška 360/2023 o dlouhodobém řízení IS</name>
+      <documentation xml:lang="cs">Vyhláška č. 360/2023 Sb., o dlouhodobém řízení / https://www.zakonyprolidi.cz/cs/2023-360 / Nová vyhláška o dlouhodobém řízení, konkretizuje povinnosti podle zákona o ISVS, zcela nahrazuje předchozí vyhlášku 529/2006</documentation>
+      <properties>
+        <property propertyDefinitionRef="propid-1">
+          <value xml:lang="cs">Právní předpis</value>
+        </property>
+        <property propertyDefinitionRef="propid-2">
+          <value xml:lang="cs">Zákon 365/2000</value>
+        </property>
+        <property propertyDefinitionRef="propid-3">
+          <value xml:lang="cs" />
+        </property>
+        <property propertyDefinitionRef="propid-4">
+          <value xml:lang="cs">Právní předpis Vyhláška 360/2023 o dlouhodobém řízení IS</value>
+        </property>
+        <property propertyDefinitionRef="propid-5">
+          <value xml:lang="cs">Verified</value>
+        </property>
+        <property propertyDefinitionRef="propid-6">
+          <value xml:lang="cs" />
+        </property>
+      </properties>
+    </element>
+    <element identifier="legislativavyhlaska4332020" xsi:type="Contract">
+      <name xml:lang="cs">Vyhláška 433/2020 o údajích v katalogu cloudu</name>
+      <documentation xml:lang="cs">Vyhláška č. 433/2020 Sb., o údajích vedených v katalogu cloud computingu / stanoví seznam a podrobnosti k vedení údajů v katalogu cloud computingu / https://www.zakonyprolidi.cz/cs/2020-433</documentation>
+      <properties>
+        <property propertyDefinitionRef="propid-1">
+          <value xml:lang="cs">Právní předpis</value>
+        </property>
+        <property propertyDefinitionRef="propid-2">
+          <value xml:lang="cs">Zákon 365/2000</value>
+        </property>
+        <property propertyDefinitionRef="propid-3">
+          <value xml:lang="cs" />
+        </property>
+        <property propertyDefinitionRef="propid-4">
+          <value xml:lang="cs">Právní předpis Vyhláška 433/2020 o údajích v katalogu cloudu</value>
+        </property>
+        <property propertyDefinitionRef="propid-5">
+          <value xml:lang="cs">Verified</value>
+        </property>
+        <property propertyDefinitionRef="propid-6">
+          <value xml:lang="cs" />
+        </property>
+      </properties>
+    </element>
+    <element identifier="legislativavyhlaska5152020" xsi:type="Contract">
+      <name xml:lang="cs">Vyhláška 515/2020 o zveřejňovaných údajích</name>
+      <documentation xml:lang="cs">Vyhláška č. 515/2020 Sb., o struktuře informací zveřejňovaných o povinném subjektu a o osnově popisu úkonů vykonávaných v rámci agendy / Prováděcí vyhláška zákona o svobodném přístupu k informacím se sestavami seznamů zveřejňovaných informací / https://www.zakonyprolidi.cz/cs/2020-515</documentation>
+      <properties>
+        <property propertyDefinitionRef="propid-1">
+          <value xml:lang="cs">Právní předpis</value>
+        </property>
+        <property propertyDefinitionRef="propid-2">
+          <value xml:lang="cs">zákon 106/1999</value>
+        </property>
+        <property propertyDefinitionRef="propid-3">
+          <value xml:lang="cs" />
+        </property>
+        <property propertyDefinitionRef="propid-4">
+          <value xml:lang="cs">Právní předpis Vyhláška 515/2020 o zveřejňovaných údajích</value>
+        </property>
+        <property propertyDefinitionRef="propid-5">
+          <value xml:lang="cs">Verified</value>
+        </property>
+        <property propertyDefinitionRef="propid-6">
+          <value xml:lang="cs" />
+        </property>
+      </properties>
+    </element>
+    <element identifier="legislativavyhlaska822018" xsi:type="Contract">
+      <name xml:lang="cs">Vyhláška 82/2018 o kybernetické bezpečnosti</name>
+      <documentation xml:lang="cs">Vyhláška č. 82/2018 Sb., o bezpečnostních opatřeních, kybernetických bezpečnostních incidentech, reaktivních opatřeních, náležitostech podání v oblasti kybernetické bezpečnosti a likvidaci dat (vyhláška o kybernetické bezpečnosti) / provádí zákon o kybernetické bezpečnosti a podrobnosti jednotlivých povinností, včetně povinností pro správce ISVS/UIS a OVM / https://www.zakonyprolidi.cz/2018-82</documentation>
+      <properties>
+        <property propertyDefinitionRef="propid-1">
+          <value xml:lang="cs">Právní předpis</value>
+        </property>
+        <property propertyDefinitionRef="propid-2">
+          <value xml:lang="cs">Zákon 181/2014</value>
+        </property>
+        <property propertyDefinitionRef="propid-3">
+          <value xml:lang="cs" />
+        </property>
+        <property propertyDefinitionRef="propid-4">
+          <value xml:lang="cs">Právní předpis Vyhláška 82/2018 o kybernetické bezpečnosti</value>
+        </property>
+        <property propertyDefinitionRef="propid-5">
+          <value xml:lang="cs">Verified</value>
+        </property>
+        <property propertyDefinitionRef="propid-6">
+          <value xml:lang="cs" />
+        </property>
+      </properties>
+    </element>
+    <element identifier="legislativazakon1061999" xsi:type="Contract">
+      <name xml:lang="cs">Zákon 106/1999 o svobodném přístupu k informacím</name>
+      <documentation xml:lang="cs">Zákon č. 106/1999 Sb., o svobodném přístupu k informacím / Zákon upravuje oblast zpřístupňování informací na žádost, oblast otevřených dat a také rozsah povinně zveřejňovaných informací subjektů veřejného sektoru. / http://www.zakonyprolidi.cz/cs/1999-106</documentation>
+      <properties>
+        <property propertyDefinitionRef="propid-1">
+          <value xml:lang="cs">Právní předpis</value>
+        </property>
+        <property propertyDefinitionRef="propid-2">
+          <value xml:lang="cs" />
+        </property>
+        <property propertyDefinitionRef="propid-3">
+          <value xml:lang="cs" />
+        </property>
+        <property propertyDefinitionRef="propid-4">
+          <value xml:lang="cs">Právní předpis Zákon 106/1999 o svobodném přístupu k informacím</value>
+        </property>
+        <property propertyDefinitionRef="propid-5">
+          <value xml:lang="cs">Verified</value>
+        </property>
+        <property propertyDefinitionRef="propid-6">
+          <value xml:lang="cs" />
+        </property>
+      </properties>
+    </element>
+    <element identifier="legislativazakon1102019" xsi:type="Contract">
+      <name xml:lang="cs">Zákon 110/2019 o GDPR</name>
+      <documentation xml:lang="cs">Zákon č. 110/2019 Sb., o zpracování osobních údajů / https://www.zakonyprolidi.cz/cs/2019-110</documentation>
+      <properties>
+        <property propertyDefinitionRef="propid-1">
+          <value xml:lang="cs">Právní předpis</value>
+        </property>
+        <property propertyDefinitionRef="propid-2">
+          <value xml:lang="cs" />
+        </property>
+        <property propertyDefinitionRef="propid-3">
+          <value xml:lang="cs">egl0klicovalegislativa</value>
+        </property>
+        <property propertyDefinitionRef="propid-4">
+          <value xml:lang="cs">Právní předpis Zákon 110/2019 o GDPR</value>
+        </property>
+        <property propertyDefinitionRef="propid-5">
+          <value xml:lang="cs">New</value>
+        </property>
+        <property propertyDefinitionRef="propid-6">
+          <value xml:lang="cs" />
+        </property>
+      </properties>
+    </element>
+    <element identifier="legislativazakon1112009" xsi:type="Contract">
+      <name xml:lang="cs">Zákon 111/2009 o základních registrech</name>
+      <documentation xml:lang="cs">Zákon č. 111/2009 Sb., o základních registrech / Upravuje existenci základních registrů a povinnosti související s jejich využíváním a s propojováním s informačními systémy. / http://www.zakonyprolidi.cz/cs/2009-111</documentation>
+      <properties>
+        <property propertyDefinitionRef="propid-1">
+          <value xml:lang="cs">Právní předpis</value>
+        </property>
+        <property propertyDefinitionRef="propid-2">
+          <value xml:lang="cs" />
+        </property>
+        <property propertyDefinitionRef="propid-3">
+          <value xml:lang="cs" />
+        </property>
+        <property propertyDefinitionRef="propid-4">
+          <value xml:lang="cs">Právní předpis Zákon 111/2009 o základních registrech</value>
+        </property>
+        <property propertyDefinitionRef="propid-5">
+          <value xml:lang="cs">Verified</value>
+        </property>
+        <property propertyDefinitionRef="propid-6">
+          <value xml:lang="cs" />
+        </property>
+      </properties>
+    </element>
+    <element identifier="legislativazakon122020" xsi:type="Contract">
+      <name xml:lang="cs">Zákon 12/2020 PDS</name>
+      <documentation xml:lang="cs">Zákon č. 12/2020 Sb., o právu na digitální služby / Zákon je hlavním předpisem zakládající právo na digitální služby a postupy pro jejich poskytování. Dále zákon mění EG zákony, aby PDS mohlo v praxi fungovat. / http://www.zakonyprolidi.cz/cs/2020-12.</documentation>
+      <properties>
+        <property propertyDefinitionRef="propid-1">
+          <value xml:lang="cs">Právní předpis</value>
+        </property>
+        <property propertyDefinitionRef="propid-2">
+          <value xml:lang="cs" />
+        </property>
+        <property propertyDefinitionRef="propid-3">
+          <value xml:lang="cs" />
+        </property>
+        <property propertyDefinitionRef="propid-4">
+          <value xml:lang="cs">Právní předpis Zákon 12/2020 PDS</value>
+        </property>
+        <property propertyDefinitionRef="propid-5">
+          <value xml:lang="cs">Verified</value>
+        </property>
+        <property propertyDefinitionRef="propid-6">
+          <value xml:lang="cs" />
+        </property>
+      </properties>
+    </element>
+    <element identifier="legislativazakon1342016" xsi:type="Contract">
+      <name xml:lang="cs">Zákon 134/2016 o veřejných zakázkách</name>
+      <documentation xml:lang="cs">Zákon č. 134/2016 Sb., o zadávání veřejných zakázek. Upravuje celou oblast povinností subjektů veřejného investování a zakázek, včetně (ale nejen) veřejných zakázek jako takových. / https://www.zakonyprolidi.cz/cs/2016-134</documentation>
+      <properties>
+        <property propertyDefinitionRef="propid-1">
+          <value xml:lang="cs">Právní předpis</value>
+        </property>
+        <property propertyDefinitionRef="propid-2">
+          <value xml:lang="cs" />
+        </property>
+        <property propertyDefinitionRef="propid-3">
+          <value xml:lang="cs" />
+        </property>
+        <property propertyDefinitionRef="propid-4">
+          <value xml:lang="cs">Právní předpis Zákon 134/2016 o veřejných zakázkách</value>
+        </property>
+        <property propertyDefinitionRef="propid-5">
+          <value xml:lang="cs">Verified</value>
+        </property>
+        <property propertyDefinitionRef="propid-6">
+          <value xml:lang="cs" />
+        </property>
+      </properties>
+    </element>
+    <element identifier="legislativazakon1812014" xsi:type="Contract">
+      <name xml:lang="cs">Zákon 181/2014 o kybernetické bezpečnosti</name>
+      <documentation xml:lang="cs">Zákon č. 181/2014 Sb., o kybernetické bezpečnosti / Zákon komplexně upravuje oblast kybernetické bezpečnosti, včetně kybernetické bezpečnosti kritické infrastruktury a klíčových systémů státu. / http://www.zakonyprolidi.cz/cs/2014-181</documentation>
+      <properties>
+        <property propertyDefinitionRef="propid-1">
+          <value xml:lang="cs">Právní předpis</value>
+        </property>
+        <property propertyDefinitionRef="propid-2">
+          <value xml:lang="cs" />
+        </property>
+        <property propertyDefinitionRef="propid-3">
+          <value xml:lang="cs" />
+        </property>
+        <property propertyDefinitionRef="propid-4">
+          <value xml:lang="cs">Právní předpis Zákon 181/2014 o kybernetické bezpečnosti</value>
+        </property>
+        <property propertyDefinitionRef="propid-5">
+          <value xml:lang="cs">Verified</value>
+        </property>
+        <property propertyDefinitionRef="propid-6">
+          <value xml:lang="cs" />
+        </property>
+      </properties>
+    </element>
+    <element identifier="legislativazakon2502017" xsi:type="Contract">
+      <name xml:lang="cs">Zákon 250/2017 o elektronické identifikaci</name>
+      <documentation xml:lang="cs">Zákon č. 250/2017 Sb., o elektronické identifikaci / Upravuje oblast eID a zejména národní elektronické prostředky a jejich vydávání a využívání a využívání a poskytování důvěryhodných služeb identifikace. / http://www.zakonyprolidi.cz/cs/2017-250</documentation>
+      <properties>
+        <property propertyDefinitionRef="propid-1">
+          <value xml:lang="cs">Právní předpis</value>
+        </property>
+        <property propertyDefinitionRef="propid-2">
+          <value xml:lang="cs" />
+        </property>
+        <property propertyDefinitionRef="propid-3">
+          <value xml:lang="cs" />
+        </property>
+        <property propertyDefinitionRef="propid-4">
+          <value xml:lang="cs">Právní předpis Zákon 250/2017 o elektronické identifikaci</value>
+        </property>
+        <property propertyDefinitionRef="propid-5">
+          <value xml:lang="cs">Verified</value>
+        </property>
+        <property propertyDefinitionRef="propid-6">
+          <value xml:lang="cs" />
+        </property>
+      </properties>
+    </element>
+    <element identifier="legislativazakon2972016" xsi:type="Contract">
+      <name xml:lang="cs">Zákon 297/2016 o službách vytvářejících důvěru</name>
+      <documentation xml:lang="cs">Zákon č. 297/2016 Sb., o službách vytvářejících důvěru pro elektronické transakce / Zákon je implementací nařízení 910/2014 EU eIDAS. Mimo jiné stanoví nový rámec pro elektronické podpisy. / http://www.zakonyprolidi.cz/cs/2016-297</documentation>
+      <properties>
+        <property propertyDefinitionRef="propid-1">
+          <value xml:lang="cs">Právní předpis</value>
+        </property>
+        <property propertyDefinitionRef="propid-2">
+          <value xml:lang="cs" />
+        </property>
+        <property propertyDefinitionRef="propid-3">
+          <value xml:lang="cs" />
+        </property>
+        <property propertyDefinitionRef="propid-4">
+          <value xml:lang="cs">Právní předpis Zákon 297/2016 o službách vytvářejících důvěru</value>
+        </property>
+        <property propertyDefinitionRef="propid-5">
+          <value xml:lang="cs">Verified</value>
+        </property>
+        <property propertyDefinitionRef="propid-6">
+          <value xml:lang="cs" />
+        </property>
+      </properties>
+    </element>
+    <element identifier="legislativazakon3002008" xsi:type="Contract">
+      <name xml:lang="cs">Zákon 300/2008 o elektronických úkonech</name>
+      <documentation xml:lang="cs">Zákon č. 300/2008 Sb., o elektronických úkonech a autorizované konverzi dokumentů / Upravuje fungování datových schránek a související povinnosti a práva. Dále upravuje autorizovanou konverzi dokumentů jak na žádost, tak i z moci úřední / http://www.zakonyprolidi.cz/cs/2008-300</documentation>
+      <properties>
+        <property propertyDefinitionRef="propid-1">
+          <value xml:lang="cs">Právní předpis</value>
+        </property>
+        <property propertyDefinitionRef="propid-2">
+          <value xml:lang="cs" />
+        </property>
+        <property propertyDefinitionRef="propid-3">
+          <value xml:lang="cs" />
+        </property>
+        <property propertyDefinitionRef="propid-4">
+          <value xml:lang="cs">Právní předpis Zákon 300/2008 o elektronických úkonech</value>
+        </property>
+        <property propertyDefinitionRef="propid-5">
+          <value xml:lang="cs">Verified</value>
+        </property>
+        <property propertyDefinitionRef="propid-6">
+          <value xml:lang="cs" />
+        </property>
+      </properties>
+    </element>
+    <element identifier="legislativazakon3652000" xsi:type="Contract">
+      <name xml:lang="cs">Zákon 365/2000 o ISVS</name>
+      <documentation xml:lang="cs">Zákon č. 365/2000 Sb., o informačních systémech veřejné správy / Upravuje celou oblast informačních systémů ve veřejné správě, práva a povinnosti, dále Portál veřejné správy, kontaktní místa a CMS a cloud / http://www.zakonyprolidi.cz/cs/2000-365</documentation>
+      <properties>
+        <property propertyDefinitionRef="propid-1">
+          <value xml:lang="cs">Právní předpis</value>
+        </property>
+        <property propertyDefinitionRef="propid-2">
+          <value xml:lang="cs" />
+        </property>
+        <property propertyDefinitionRef="propid-3">
+          <value xml:lang="cs" />
+        </property>
+        <property propertyDefinitionRef="propid-4">
+          <value xml:lang="cs">Právní předpis Zákon 365/2000 o ISVS</value>
+        </property>
+        <property propertyDefinitionRef="propid-5">
+          <value xml:lang="cs">Verified</value>
+        </property>
+        <property propertyDefinitionRef="propid-6">
+          <value xml:lang="cs" />
+        </property>
+      </properties>
+    </element>
+    <element identifier="legislativazakon4992004" xsi:type="Contract">
+      <name xml:lang="cs">Zákon 499/2004 o archivnictví a spisové službě</name>
+      <documentation xml:lang="cs">Zákon č. 499/2004 Sb., o archivnictví a spisové službě / Upravuje oblast archivů a péče o archiválie. Především ale upravuje povinnosti spisové služby a povinnosti původců a archivů v oblasti spisové služby, včetně elektronických systémů spisové služby. / http://www.zakonyprolidi.cz/cs/2004-499</documentation>
+      <properties>
+        <property propertyDefinitionRef="propid-1">
+          <value xml:lang="cs">Právní předpis</value>
+        </property>
+        <property propertyDefinitionRef="propid-2">
+          <value xml:lang="cs" />
+        </property>
+        <property propertyDefinitionRef="propid-3">
+          <value xml:lang="cs" />
+        </property>
+        <property propertyDefinitionRef="propid-4">
+          <value xml:lang="cs">Právní předpis Zákon 499/2004 o archivnictví a spisové službě</value>
+        </property>
+        <property propertyDefinitionRef="propid-5">
+          <value xml:lang="cs">Verified</value>
+        </property>
+        <property propertyDefinitionRef="propid-6">
+          <value xml:lang="cs" />
+        </property>
+      </properties>
+    </element>
+    <element identifier="legislativazakon992019" xsi:type="Contract">
+      <name xml:lang="cs">Zákon 99/2019 o přístupnosti</name>
+      <documentation xml:lang="cs">Zákon č. 99/2019 Sb., o přístupnosti internetových stránek a mobilních aplikací subjektů veřejného sektoru / Zákon o přístupnosti je novou právní úpravou přístupnosti informací a elektronických služeb veřejné správy prostřednictvím internetových stránek či mobilních aplikací povinných subjektů. Povinnými subjekty jsou subjekty podle legislativy k veřejným zakázkám, respektive k veřejnému investování. Zákon stanoví okruhy povinných subjektů, stanoví povinnost zajistit přístupnost pro internetové stránky a mobilní aplikace a jejich obsah, obsahuje povinnosti ministerstva vnitra atd. / http://www.zakonyprolidi.cz/cs/2019-99</documentation>
+      <properties>
+        <property propertyDefinitionRef="propid-1">
+          <value xml:lang="cs">Právní předpis</value>
+        </property>
+        <property propertyDefinitionRef="propid-2">
+          <value xml:lang="cs" />
+        </property>
+        <property propertyDefinitionRef="propid-3">
+          <value xml:lang="cs" />
+        </property>
+        <property propertyDefinitionRef="propid-4">
+          <value xml:lang="cs">Právní předpis Zákon 99/2019 o přístupnosti</value>
+        </property>
+        <property propertyDefinitionRef="propid-5">
+          <value xml:lang="cs">Verified</value>
+        </property>
+        <property propertyDefinitionRef="propid-6">
+          <value xml:lang="cs" />
+        </property>
+      </properties>
+    </element>
+    <element identifier="groupinglegegcore" xsi:type="Grouping">
+      <name xml:lang="cs">Klíčové EG zákony</name>
+      <properties>
+        <property propertyDefinitionRef="propid-1">
+          <value xml:lang="cs">Skupina</value>
+        </property>
+        <property propertyDefinitionRef="propid-2">
+          <value xml:lang="cs" />
+        </property>
+        <property propertyDefinitionRef="propid-3">
+          <value xml:lang="cs">egl0klicovalegislativa</value>
+        </property>
+        <property propertyDefinitionRef="propid-4">
+          <value xml:lang="cs">Skupina Klíčové EG zákony</value>
+        </property>
+        <property propertyDefinitionRef="propid-5">
+          <value xml:lang="cs">New</value>
+        </property>
+        <property propertyDefinitionRef="propid-6">
+          <value xml:lang="cs" />
+        </property>
+      </properties>
+    </element>
+  </elements>
+  <relationships>
+    <relationship identifier="groupinglegegcorelegislativazakon1061999" source="groupinglegegcore" target="legislativazakon1061999" xsi:type="Composition">
+      <name xml:lang="cs">obsahuje</name>
+      <properties>
+        <property propertyDefinitionRef="propid-7">
+          <value xml:lang="cs">Vazby legislativy</value>
+        </property>
+        <property propertyDefinitionRef="propid-4">
+          <value xml:lang="cs">Skupina Klíčové EG zákony obsahuje Právní předpis Zákon 106/1999 o svobodném přístupu k informacím</value>
+        </property>
+        <property propertyDefinitionRef="propid-8">
+          <value xml:lang="cs">Klíčové EG zákony obsahuje Zákon 106/1999 o svobodném přístupu k informacím</value>
+        </property>
+        <property propertyDefinitionRef="propid-5">
+          <value xml:lang="cs">New</value>
+        </property>
+        <property propertyDefinitionRef="propid-6">
+          <value xml:lang="cs" />
+        </property>
+        <property propertyDefinitionRef="propid-9">
+          <value xml:lang="cs" />
+        </property>
+        <property propertyDefinitionRef="propid-3">
+          <value xml:lang="cs">egl0klicovalegislativa</value>
+        </property>
+      </properties>
+    </relationship>
+    <relationship identifier="groupinglegegcorelegislativazakon1112009" source="groupinglegegcore" target="legislativazakon1112009" xsi:type="Composition">
+      <name xml:lang="cs">obsahuje</name>
+      <properties>
+        <property propertyDefinitionRef="propid-7">
+          <value xml:lang="cs">Vazby legislativy</value>
+        </property>
+        <property propertyDefinitionRef="propid-4">
+          <value xml:lang="cs">Skupina Klíčové EG zákony obsahuje Právní předpis Zákon 111/2009 o základních registrech</value>
+        </property>
+        <property propertyDefinitionRef="propid-8">
+          <value xml:lang="cs">Klíčové EG zákony obsahuje Zákon 111/2009 o základních registrech</value>
+        </property>
+        <property propertyDefinitionRef="propid-5">
+          <value xml:lang="cs">New</value>
+        </property>
+        <property propertyDefinitionRef="propid-6">
+          <value xml:lang="cs" />
+        </property>
+        <property propertyDefinitionRef="propid-9">
+          <value xml:lang="cs" />
+        </property>
+        <property propertyDefinitionRef="propid-3">
+          <value xml:lang="cs">egl0klicovalegislativa</value>
+        </property>
+      </properties>
+    </relationship>
+    <relationship identifier="groupinglegegcorelegislativazakon122020" source="groupinglegegcore" target="legislativazakon122020" xsi:type="Composition">
+      <name xml:lang="cs">obsahuje</name>
+      <properties>
+        <property propertyDefinitionRef="propid-7">
+          <value xml:lang="cs">Vazby legislativy</value>
+        </property>
+        <property propertyDefinitionRef="propid-4">
+          <value xml:lang="cs">Skupina Klíčové EG zákony obsahuje Právní předpis Zákon 12/2020 PDS</value>
+        </property>
+        <property propertyDefinitionRef="propid-8">
+          <value xml:lang="cs">Klíčové EG zákony obsahuje Zákon 12/2020 PDS</value>
+        </property>
+        <property propertyDefinitionRef="propid-5">
+          <value xml:lang="cs">New</value>
+        </property>
+        <property propertyDefinitionRef="propid-6">
+          <value xml:lang="cs" />
+        </property>
+        <property propertyDefinitionRef="propid-9">
+          <value xml:lang="cs" />
+        </property>
+        <property propertyDefinitionRef="propid-3">
+          <value xml:lang="cs">egl0klicovalegislativa</value>
+        </property>
+      </properties>
+    </relationship>
+    <relationship identifier="groupinglegegcorelegislativazakon1812014" source="groupinglegegcore" target="legislativazakon1812014" xsi:type="Composition">
+      <name xml:lang="cs">obsahuje</name>
+      <properties>
+        <property propertyDefinitionRef="propid-7">
+          <value xml:lang="cs">Vazby legislativy</value>
+        </property>
+        <property propertyDefinitionRef="propid-4">
+          <value xml:lang="cs">Skupina Klíčové EG zákony obsahuje Právní předpis Zákon 181/2014 o kybernetické bezpečnosti</value>
+        </property>
+        <property propertyDefinitionRef="propid-8">
+          <value xml:lang="cs">Klíčové EG zákony obsahuje Zákon 181/2014 o kybernetické bezpečnosti</value>
+        </property>
+        <property propertyDefinitionRef="propid-5">
+          <value xml:lang="cs">New</value>
+        </property>
+        <property propertyDefinitionRef="propid-6">
+          <value xml:lang="cs" />
+        </property>
+        <property propertyDefinitionRef="propid-9">
+          <value xml:lang="cs" />
+        </property>
+        <property propertyDefinitionRef="propid-3">
+          <value xml:lang="cs">egl0klicovalegislativa</value>
+        </property>
+      </properties>
+    </relationship>
+    <relationship identifier="groupinglegegcorelegislativazakon2502017" source="groupinglegegcore" target="legislativazakon2502017" xsi:type="Composition">
+      <name xml:lang="cs">obsahuje</name>
+      <properties>
+        <property propertyDefinitionRef="propid-7">
+          <value xml:lang="cs">Vazby legislativy</value>
+        </property>
+        <property propertyDefinitionRef="propid-4">
+          <value xml:lang="cs">Skupina Klíčové EG zákony obsahuje Právní předpis Zákon 250/2017 o elektronické identifikaci</value>
+        </property>
+        <property propertyDefinitionRef="propid-8">
+          <value xml:lang="cs">Klíčové EG zákony obsahuje Zákon 250/2017 o elektronické identifikaci</value>
+        </property>
+        <property propertyDefinitionRef="propid-5">
+          <value xml:lang="cs">New</value>
+        </property>
+        <property propertyDefinitionRef="propid-6">
+          <value xml:lang="cs" />
+        </property>
+        <property propertyDefinitionRef="propid-9">
+          <value xml:lang="cs" />
+        </property>
+        <property propertyDefinitionRef="propid-3">
+          <value xml:lang="cs">egl0klicovalegislativa</value>
+        </property>
+      </properties>
+    </relationship>
+    <relationship identifier="groupinglegegcorelegislativazakon2972016" source="groupinglegegcore" target="legislativazakon2972016" xsi:type="Composition">
+      <name xml:lang="cs">obsahuje</name>
+      <properties>
+        <property propertyDefinitionRef="propid-7">
+          <value xml:lang="cs">Vazby legislativy</value>
+        </property>
+        <property propertyDefinitionRef="propid-4">
+          <value xml:lang="cs">Skupina Klíčové EG zákony obsahuje Právní předpis Zákon 297/2016 o službách vytvářejících důvěru</value>
+        </property>
+        <property propertyDefinitionRef="propid-8">
+          <value xml:lang="cs">Klíčové EG zákony obsahuje Zákon 297/2016 o službách vytvářejících důvěru</value>
+        </property>
+        <property propertyDefinitionRef="propid-5">
+          <value xml:lang="cs">New</value>
+        </property>
+        <property propertyDefinitionRef="propid-6">
+          <value xml:lang="cs" />
+        </property>
+        <property propertyDefinitionRef="propid-9">
+          <value xml:lang="cs" />
+        </property>
+        <property propertyDefinitionRef="propid-3">
+          <value xml:lang="cs">egl0klicovalegislativa</value>
+        </property>
+      </properties>
+    </relationship>
+    <relationship identifier="groupinglegegcorelegislativazakon3002008" source="groupinglegegcore" target="legislativazakon3002008" xsi:type="Composition">
+      <name xml:lang="cs">obsahuje</name>
+      <properties>
+        <property propertyDefinitionRef="propid-7">
+          <value xml:lang="cs">Vazby legislativy</value>
+        </property>
+        <property propertyDefinitionRef="propid-4">
+          <value xml:lang="cs">Skupina Klíčové EG zákony obsahuje Právní předpis Zákon 300/2008 o elektronických úkonech</value>
+        </property>
+        <property propertyDefinitionRef="propid-8">
+          <value xml:lang="cs">Klíčové EG zákony obsahuje Zákon 300/2008 o elektronických úkonech</value>
+        </property>
+        <property propertyDefinitionRef="propid-5">
+          <value xml:lang="cs">New</value>
+        </property>
+        <property propertyDefinitionRef="propid-6">
+          <value xml:lang="cs" />
+        </property>
+        <property propertyDefinitionRef="propid-9">
+          <value xml:lang="cs" />
+        </property>
+        <property propertyDefinitionRef="propid-3">
+          <value xml:lang="cs">egl0klicovalegislativa</value>
+        </property>
+      </properties>
+    </relationship>
+    <relationship identifier="groupinglegegcorelegislativazakon3652000" source="groupinglegegcore" target="legislativazakon3652000" xsi:type="Composition">
+      <name xml:lang="cs">obsahuje</name>
+      <properties>
+        <property propertyDefinitionRef="propid-7">
+          <value xml:lang="cs">Vazby legislativy</value>
+        </property>
+        <property propertyDefinitionRef="propid-4">
+          <value xml:lang="cs">Skupina Klíčové EG zákony obsahuje Právní předpis Zákon 365/2000 o ISVS</value>
+        </property>
+        <property propertyDefinitionRef="propid-8">
+          <value xml:lang="cs">Klíčové EG zákony obsahuje Zákon 365/2000 o ISVS</value>
+        </property>
+        <property propertyDefinitionRef="propid-5">
+          <value xml:lang="cs">New</value>
+        </property>
+        <property propertyDefinitionRef="propid-6">
+          <value xml:lang="cs" />
+        </property>
+        <property propertyDefinitionRef="propid-9">
+          <value xml:lang="cs" />
+        </property>
+        <property propertyDefinitionRef="propid-3">
+          <value xml:lang="cs">egl0klicovalegislativa</value>
+        </property>
+      </properties>
+    </relationship>
+    <relationship identifier="groupinglegegcorelegislativazakon4992004" source="groupinglegegcore" target="legislativazakon4992004" xsi:type="Composition">
+      <name xml:lang="cs">obsahuje</name>
+      <properties>
+        <property propertyDefinitionRef="propid-7">
+          <value xml:lang="cs">Vazby legislativy</value>
+        </property>
+        <property propertyDefinitionRef="propid-4">
+          <value xml:lang="cs">Skupina Klíčové EG zákony obsahuje Právní předpis Zákon 499/2004 o archivnictví a spisové službě</value>
+        </property>
+        <property propertyDefinitionRef="propid-8">
+          <value xml:lang="cs">Klíčové EG zákony obsahuje Zákon 499/2004 o archivnictví a spisové službě</value>
+        </property>
+        <property propertyDefinitionRef="propid-5">
+          <value xml:lang="cs">New</value>
+        </property>
+        <property propertyDefinitionRef="propid-6">
+          <value xml:lang="cs" />
+        </property>
+        <property propertyDefinitionRef="propid-9">
+          <value xml:lang="cs" />
+        </property>
+        <property propertyDefinitionRef="propid-3">
+          <value xml:lang="cs">egl0klicovalegislativa</value>
+        </property>
+      </properties>
+    </relationship>
+    <relationship identifier="groupinglegegcorelegislativazakon992019" source="groupinglegegcore" target="legislativazakon992019" xsi:type="Composition">
+      <name xml:lang="cs">obsahuje</name>
+      <properties>
+        <property propertyDefinitionRef="propid-7">
+          <value xml:lang="cs">Vazby legislativy</value>
+        </property>
+        <property propertyDefinitionRef="propid-4">
+          <value xml:lang="cs">Skupina Klíčové EG zákony obsahuje Právní předpis Zákon 99/2019 o přístupnosti</value>
+        </property>
+        <property propertyDefinitionRef="propid-8">
+          <value xml:lang="cs">Klíčové EG zákony obsahuje Zákon 99/2019 o přístupnosti</value>
+        </property>
+        <property propertyDefinitionRef="propid-5">
+          <value xml:lang="cs">New</value>
+        </property>
+        <property propertyDefinitionRef="propid-6">
+          <value xml:lang="cs" />
+        </property>
+        <property propertyDefinitionRef="propid-9">
+          <value xml:lang="cs" />
+        </property>
+        <property propertyDefinitionRef="propid-3">
+          <value xml:lang="cs">egl0klicovalegislativa</value>
+        </property>
+      </properties>
+    </relationship>
+    <relationship identifier="id-9099301d5bd247e9adb17e1db05e61ac" source="groupinglegegcore" target="legislativazakon1342016" xsi:type="Composition" />
+    <relationship identifier="legislativaEUeaalegislativazakon992019" source="legislativaEUeaa" target="legislativazakon992019" xsi:type="Aggregation">
+      <name xml:lang="cs">je prováděn předpisem</name>
+      <properties>
+        <property propertyDefinitionRef="propid-7">
+          <value xml:lang="cs">Vazby legislativy</value>
+        </property>
+        <property propertyDefinitionRef="propid-4">
+          <value xml:lang="cs">Právní předpis Směrnice EU 2019/882 EAA je prováděn předpisem Právní předpis Zákon 99/2019 o přístupnosti</value>
+        </property>
+        <property propertyDefinitionRef="propid-8">
+          <value xml:lang="cs">Směrnice EU 2019/882 EAA je prováděn předpisem Zákon 99/2019 o přístupnosti</value>
+        </property>
+        <property propertyDefinitionRef="propid-5">
+          <value xml:lang="cs">New</value>
+        </property>
+        <property propertyDefinitionRef="propid-6">
+          <value xml:lang="cs" />
+        </property>
+        <property propertyDefinitionRef="propid-9">
+          <value xml:lang="cs" />
+        </property>
+        <property propertyDefinitionRef="propid-3">
+          <value xml:lang="cs">egl0klicovalegislativa</value>
+        </property>
+      </properties>
+    </relationship>
+    <relationship identifier="legislativaeidaslegislativazakon2502017" source="legislativaeidas" target="legislativazakon2502017" xsi:type="Aggregation">
+      <name xml:lang="cs">je prováděn předpisem</name>
+      <properties>
+        <property propertyDefinitionRef="propid-7">
+          <value xml:lang="cs">Vazby legislativy</value>
+        </property>
+        <property propertyDefinitionRef="propid-4">
+          <value xml:lang="cs">Právní předpis Nařízení EU 910/2014 EIDAS je prováděn předpisem Právní předpis Zákon 250/2017 o elektronické identifikaci</value>
+        </property>
+        <property propertyDefinitionRef="propid-8">
+          <value xml:lang="cs">Nařízení EU 910/2014 EIDAS je prováděn předpisem Zákon 250/2017 o elektronické identifikaci</value>
+        </property>
+        <property propertyDefinitionRef="propid-5">
+          <value xml:lang="cs">New</value>
+        </property>
+        <property propertyDefinitionRef="propid-6">
+          <value xml:lang="cs" />
+        </property>
+        <property propertyDefinitionRef="propid-9">
+          <value xml:lang="cs" />
+        </property>
+        <property propertyDefinitionRef="propid-3">
+          <value xml:lang="cs">egl0klicovalegislativa</value>
+        </property>
+      </properties>
+    </relationship>
+    <relationship identifier="legislativagdprlegislativazakon1102019" source="legislativagdpr" target="legislativazakon1102019" xsi:type="Aggregation">
+      <name xml:lang="cs">je prováděn předpisem</name>
+      <properties>
+        <property propertyDefinitionRef="propid-7">
+          <value xml:lang="cs">Vazby legislativy</value>
+        </property>
+        <property propertyDefinitionRef="propid-4">
+          <value xml:lang="cs">Právní předpis Nařízení EU 2016/679 GDPR je prováděn předpisem Právní předpis Zákon 110/2019 o GDPR</value>
+        </property>
+        <property propertyDefinitionRef="propid-8">
+          <value xml:lang="cs">Nařízení EU 2016/679 GDPR je prováděn předpisem Zákon 110/2019 o GDPR</value>
+        </property>
+        <property propertyDefinitionRef="propid-5">
+          <value xml:lang="cs">New</value>
+        </property>
+        <property propertyDefinitionRef="propid-6">
+          <value xml:lang="cs" />
+        </property>
+        <property propertyDefinitionRef="propid-9">
+          <value xml:lang="cs" />
+        </property>
+        <property propertyDefinitionRef="propid-3">
+          <value xml:lang="cs">egl0klicovalegislativa</value>
+        </property>
+      </properties>
+    </relationship>
+    <relationship identifier="legislativazakon1061999legislativavyhlaska5152020" source="legislativazakon1061999" target="legislativavyhlaska5152020" xsi:type="Aggregation">
+      <name xml:lang="cs">je prováděn předpisem</name>
+      <properties>
+        <property propertyDefinitionRef="propid-7">
+          <value xml:lang="cs">Vazby legislativy</value>
+        </property>
+        <property propertyDefinitionRef="propid-4">
+          <value xml:lang="cs">Právní předpis Zákon 106/1999 o svobodném přístupu k informacím je prováděn předpisem Právní předpis Vyhláška 515/2020 o zveřejňovaných údajích</value>
+        </property>
+        <property propertyDefinitionRef="propid-8">
+          <value xml:lang="cs">Zákon 106/1999 o svobodném přístupu k informacím je prováděn předpisem Vyhláška 515/2020 o zveřejňovaných údajích</value>
+        </property>
+        <property propertyDefinitionRef="propid-5">
+          <value xml:lang="cs" />
+        </property>
+        <property propertyDefinitionRef="propid-6">
+          <value xml:lang="cs" />
+        </property>
+        <property propertyDefinitionRef="propid-9">
+          <value xml:lang="cs">egl0klicovalegislativa</value>
+        </property>
+        <property propertyDefinitionRef="propid-3">
+          <value xml:lang="cs">egl0klicovalegislativa</value>
+        </property>
+      </properties>
+    </relationship>
+    <relationship identifier="legislativazakon1112009legislativavyhlaska5152020" source="legislativazakon1112009" target="legislativavyhlaska5152020" xsi:type="Aggregation">
+      <name xml:lang="cs">je prováděn předpisem</name>
+      <properties>
+        <property propertyDefinitionRef="propid-7">
+          <value xml:lang="cs">Vazby legislativy</value>
+        </property>
+        <property propertyDefinitionRef="propid-4">
+          <value xml:lang="cs">Právní předpis Zákon 111/2009 o základních registrech je prováděn předpisem Právní předpis Vyhláška 515/2020 o zveřejňovaných údajích</value>
+        </property>
+        <property propertyDefinitionRef="propid-8">
+          <value xml:lang="cs">Zákon 111/2009 o základních registrech je prováděn předpisem Vyhláška 515/2020 o zveřejňovaných údajích</value>
+        </property>
+        <property propertyDefinitionRef="propid-5">
+          <value xml:lang="cs" />
+        </property>
+        <property propertyDefinitionRef="propid-6">
+          <value xml:lang="cs" />
+        </property>
+        <property propertyDefinitionRef="propid-9">
+          <value xml:lang="cs">egl0klicovalegislativa</value>
+        </property>
+        <property propertyDefinitionRef="propid-3">
+          <value xml:lang="cs">egl0klicovalegislativa</value>
+        </property>
+      </properties>
+    </relationship>
+    <relationship identifier="legislativazakon1342016legislativauv487" source="legislativazakon1342016" target="legislativauv487" xsi:type="Aggregation">
+      <name xml:lang="cs">je prováděn předpisem</name>
+      <properties>
+        <property propertyDefinitionRef="propid-7">
+          <value xml:lang="cs">Vazby legislativy</value>
+        </property>
+        <property propertyDefinitionRef="propid-4">
+          <value xml:lang="cs">Právní předpis Zákon 134/2016 o veřejných zakázkách je prováděn předpisem Právní předpis Usnesení vlády 487 o pravidlech společného nákupu</value>
+        </property>
+        <property propertyDefinitionRef="propid-8">
+          <value xml:lang="cs">Zákon 134/2016 o veřejných zakázkách je prováděn předpisem Usnesení vlády 487 o pravidlech společného nákupu</value>
+        </property>
+        <property propertyDefinitionRef="propid-5">
+          <value xml:lang="cs" />
+        </property>
+        <property propertyDefinitionRef="propid-6">
+          <value xml:lang="cs" />
+        </property>
+        <property propertyDefinitionRef="propid-9">
+          <value xml:lang="cs">egl0klicovalegislativa</value>
+        </property>
+        <property propertyDefinitionRef="propid-3">
+          <value xml:lang="cs">egl0klicovalegislativa</value>
+        </property>
+      </properties>
+    </relationship>
+    <relationship identifier="legislativazakon1342016legislativauv763" source="legislativazakon1342016" target="legislativauv763" xsi:type="Aggregation">
+      <name xml:lang="cs">je prováděn předpisem</name>
+      <properties>
+        <property propertyDefinitionRef="propid-7">
+          <value xml:lang="cs">Vazby legislativy</value>
+        </property>
+        <property propertyDefinitionRef="propid-4">
+          <value xml:lang="cs">Právní předpis Zákon 134/2016 o veřejných zakázkách je prováděn předpisem Právní předpis UV 763/2007 o specifikacích nákupu PC</value>
+        </property>
+        <property propertyDefinitionRef="propid-8">
+          <value xml:lang="cs">Zákon 134/2016 o veřejných zakázkách je prováděn předpisem UV 763/2007 o specifikacích nákupu PC</value>
+        </property>
+        <property propertyDefinitionRef="propid-5">
+          <value xml:lang="cs">New</value>
+        </property>
+        <property propertyDefinitionRef="propid-6">
+          <value xml:lang="cs" />
+        </property>
+        <property propertyDefinitionRef="propid-9">
+          <value xml:lang="cs" />
+        </property>
+        <property propertyDefinitionRef="propid-3">
+          <value xml:lang="cs">egl0klicovalegislativa</value>
+        </property>
+      </properties>
+    </relationship>
+    <relationship identifier="legislativazakon1812014legislativavyhlaska190203" source="legislativazakon1812014" target="legislativavyhlaska190203" xsi:type="Aggregation">
+      <name xml:lang="cs">je prováděn předpisem</name>
+      <properties>
+        <property propertyDefinitionRef="propid-7">
+          <value xml:lang="cs">Vazby legislativy</value>
+        </property>
+        <property propertyDefinitionRef="propid-4">
+          <value xml:lang="cs">Právní předpis Zákon 181/2014 o kybernetické bezpečnosti je prováděn předpisem Právní předpis Vyhláška 190/2023 o bezpečnosti cloudu OVM</value>
+        </property>
+        <property propertyDefinitionRef="propid-8">
+          <value xml:lang="cs">Zákon 181/2014 o kybernetické bezpečnosti je prováděn předpisem Vyhláška 190/2023 o bezpečnosti cloudu OVM</value>
+        </property>
+        <property propertyDefinitionRef="propid-5">
+          <value xml:lang="cs">New</value>
+        </property>
+        <property propertyDefinitionRef="propid-6">
+          <value xml:lang="cs" />
+        </property>
+        <property propertyDefinitionRef="propid-9">
+          <value xml:lang="cs" />
+        </property>
+        <property propertyDefinitionRef="propid-3">
+          <value xml:lang="cs">egl0klicovalegislativa</value>
+        </property>
+      </properties>
+    </relationship>
+    <relationship identifier="legislativazakon1812014legislativavyhlaska3152021" source="legislativazakon1812014" target="legislativavyhlaska3152021" xsi:type="Aggregation">
+      <name xml:lang="cs">je prováděn předpisem</name>
+      <properties>
+        <property propertyDefinitionRef="propid-7">
+          <value xml:lang="cs">Vazby legislativy</value>
+        </property>
+        <property propertyDefinitionRef="propid-4">
+          <value xml:lang="cs">Právní předpis Zákon 181/2014 o kybernetické bezpečnosti je prováděn předpisem Právní předpis Vyhláška 315/2021 o bezpečnostních kategoriích cloudu</value>
+        </property>
+        <property propertyDefinitionRef="propid-8">
+          <value xml:lang="cs">Zákon 181/2014 o kybernetické bezpečnosti je prováděn předpisem Vyhláška 315/2021 o bezpečnostních kategoriích cloudu</value>
+        </property>
+        <property propertyDefinitionRef="propid-5">
+          <value xml:lang="cs" />
+        </property>
+        <property propertyDefinitionRef="propid-6">
+          <value xml:lang="cs" />
+        </property>
+        <property propertyDefinitionRef="propid-9">
+          <value xml:lang="cs">egl0klicovalegislativa</value>
+        </property>
+        <property propertyDefinitionRef="propid-3">
+          <value xml:lang="cs">egl0klicovalegislativa</value>
+        </property>
+      </properties>
+    </relationship>
+    <relationship identifier="legislativazakon1812014legislativavyhlaska3172016" source="legislativazakon1812014" target="legislativavyhlaska3172016" xsi:type="Aggregation">
+      <name xml:lang="cs">je prováděn předpisem</name>
+      <properties>
+        <property propertyDefinitionRef="propid-7">
+          <value xml:lang="cs">Vazby legislativy</value>
+        </property>
+        <property propertyDefinitionRef="propid-4">
+          <value xml:lang="cs">Právní předpis Zákon 181/2014 o kybernetické bezpečnosti je prováděn předpisem Právní předpis Vyhláška 317/2014 o významných informačních systémech</value>
+        </property>
+        <property propertyDefinitionRef="propid-8">
+          <value xml:lang="cs">Zákon 181/2014 o kybernetické bezpečnosti je prováděn předpisem Vyhláška 317/2014 o významných informačních systémech</value>
+        </property>
+        <property propertyDefinitionRef="propid-5">
+          <value xml:lang="cs" />
+        </property>
+        <property propertyDefinitionRef="propid-6">
+          <value xml:lang="cs" />
+        </property>
+        <property propertyDefinitionRef="propid-9">
+          <value xml:lang="cs">egl0klicovalegislativa</value>
+        </property>
+        <property propertyDefinitionRef="propid-3">
+          <value xml:lang="cs">egl0klicovalegislativa</value>
+        </property>
+      </properties>
+    </relationship>
+    <relationship identifier="legislativazakon1812014legislativavyhlaska822018" source="legislativazakon1812014" target="legislativavyhlaska822018" xsi:type="Aggregation">
+      <name xml:lang="cs">je prováděn předpisem</name>
+      <properties>
+        <property propertyDefinitionRef="propid-7">
+          <value xml:lang="cs">Vazby legislativy</value>
+        </property>
+        <property propertyDefinitionRef="propid-4">
+          <value xml:lang="cs">Právní předpis Zákon 181/2014 o kybernetické bezpečnosti je prováděn předpisem Právní předpis Vyhláška 82/2018 o kybernetické bezpečnosti</value>
+        </property>
+        <property propertyDefinitionRef="propid-8">
+          <value xml:lang="cs">Zákon 181/2014 o kybernetické bezpečnosti je prováděn předpisem Vyhláška 82/2018 o kybernetické bezpečnosti</value>
+        </property>
+        <property propertyDefinitionRef="propid-5">
+          <value xml:lang="cs" />
+        </property>
+        <property propertyDefinitionRef="propid-6">
+          <value xml:lang="cs" />
+        </property>
+        <property propertyDefinitionRef="propid-9">
+          <value xml:lang="cs">egl0klicovalegislativa</value>
+        </property>
+        <property propertyDefinitionRef="propid-3">
+          <value xml:lang="cs">egl0klicovalegislativa</value>
+        </property>
+      </properties>
+    </relationship>
+    <relationship identifier="legislativazakon3002008legislativavyhlaska1932009" source="legislativazakon3002008" target="legislativavyhlaska1932009" xsi:type="Aggregation">
+      <name xml:lang="cs">je prováděn předpisem</name>
+      <properties>
+        <property propertyDefinitionRef="propid-7">
+          <value xml:lang="cs">Vazby legislativy</value>
+        </property>
+        <property propertyDefinitionRef="propid-4">
+          <value xml:lang="cs">Právní předpis Zákon 300/2008 o elektronických úkonech je prováděn předpisem Právní předpis Vyhláška 193/2009 o autorizované konverzi</value>
+        </property>
+        <property propertyDefinitionRef="propid-8">
+          <value xml:lang="cs">Zákon 300/2008 o elektronických úkonech je prováděn předpisem Vyhláška 193/2009 o autorizované konverzi</value>
+        </property>
+        <property propertyDefinitionRef="propid-5">
+          <value xml:lang="cs">New</value>
+        </property>
+        <property propertyDefinitionRef="propid-6">
+          <value xml:lang="cs" />
+        </property>
+        <property propertyDefinitionRef="propid-9">
+          <value xml:lang="cs" />
+        </property>
+        <property propertyDefinitionRef="propid-3">
+          <value xml:lang="cs">egl0klicovalegislativa</value>
+        </property>
+      </properties>
+    </relationship>
+    <relationship identifier="legislativazakon3002008legislativavyhlaska1942009" source="legislativazakon3002008" target="legislativavyhlaska1942009" xsi:type="Aggregation">
+      <name xml:lang="cs">je prováděn předpisem</name>
+      <properties>
+        <property propertyDefinitionRef="propid-7">
+          <value xml:lang="cs">Vazby legislativy</value>
+        </property>
+        <property propertyDefinitionRef="propid-4">
+          <value xml:lang="cs">Právní předpis Zákon 300/2008 o elektronických úkonech je prováděn předpisem Právní předpis Vyhláška 194/2009 o ISDS</value>
+        </property>
+        <property propertyDefinitionRef="propid-8">
+          <value xml:lang="cs">Zákon 300/2008 o elektronických úkonech je prováděn předpisem Vyhláška 194/2009 o ISDS</value>
+        </property>
+        <property propertyDefinitionRef="propid-5">
+          <value xml:lang="cs">New</value>
+        </property>
+        <property propertyDefinitionRef="propid-6">
+          <value xml:lang="cs" />
+        </property>
+        <property propertyDefinitionRef="propid-9">
+          <value xml:lang="cs" />
+        </property>
+        <property propertyDefinitionRef="propid-3">
+          <value xml:lang="cs">egl0klicovalegislativa</value>
+        </property>
+      </properties>
+    </relationship>
+    <relationship identifier="legislativazakon3652000ikcr" source="legislativazakon3652000" target="ikcr" xsi:type="Aggregation">
+      <name xml:lang="cs">je prováděn předpisem</name>
+      <properties>
+        <property propertyDefinitionRef="propid-7">
+          <value xml:lang="cs">Vazby legislativy</value>
+        </property>
+        <property propertyDefinitionRef="propid-4">
+          <value xml:lang="cs">Právní předpis Zákon 365/2000 o ISVS je prováděn předpisem Závazný předpis Informační koncepce ČR</value>
+        </property>
+        <property propertyDefinitionRef="propid-8">
+          <value xml:lang="cs">Zákon 365/2000 o ISVS je prováděn předpisem Informační koncepce ČR</value>
+        </property>
+        <property propertyDefinitionRef="propid-5">
+          <value xml:lang="cs" />
+        </property>
+        <property propertyDefinitionRef="propid-6">
+          <value xml:lang="cs" />
+        </property>
+        <property propertyDefinitionRef="propid-9">
+          <value xml:lang="cs">egl0klicovalegislativa, egl0ridicidokumenty</value>
+        </property>
+        <property propertyDefinitionRef="propid-3">
+          <value xml:lang="cs">egl0klicovalegislativa</value>
+        </property>
+      </properties>
+    </relationship>
+    <relationship identifier="legislativazakon3652000legislativavyhlaska3162021" source="legislativazakon3652000" target="legislativavyhlaska3162021" xsi:type="Aggregation">
+      <name xml:lang="cs">je prováděn předpisem</name>
+      <properties>
+        <property propertyDefinitionRef="propid-7">
+          <value xml:lang="cs">Vazby legislativy</value>
+        </property>
+        <property propertyDefinitionRef="propid-4">
+          <value xml:lang="cs">Právní předpis Zákon 365/2000 o ISVS je prováděn předpisem Právní předpis Vyhláška 316/2021 o zápisu cloudu</value>
+        </property>
+        <property propertyDefinitionRef="propid-8">
+          <value xml:lang="cs">Zákon 365/2000 o ISVS je prováděn předpisem Vyhláška 316/2021 o zápisu cloudu</value>
+        </property>
+        <property propertyDefinitionRef="propid-5">
+          <value xml:lang="cs">New</value>
+        </property>
+        <property propertyDefinitionRef="propid-6">
+          <value xml:lang="cs" />
+        </property>
+        <property propertyDefinitionRef="propid-9">
+          <value xml:lang="cs" />
+        </property>
+        <property propertyDefinitionRef="propid-3">
+          <value xml:lang="cs">egl0klicovalegislativa</value>
+        </property>
+      </properties>
+    </relationship>
+    <relationship identifier="legislativazakon3652000legislativavyhlaska3602023" source="legislativazakon3652000" target="legislativavyhlaska3602023" xsi:type="Composition">
+      <name xml:lang="cs">je prováděn předpisem</name>
+      <properties>
+        <property propertyDefinitionRef="propid-7">
+          <value xml:lang="cs">Vazby legislativy</value>
+        </property>
+        <property propertyDefinitionRef="propid-4">
+          <value xml:lang="cs">Právní předpis Zákon 365/2000 o ISVS je prováděn předpisem Právní předpis Vyhláška 360/2023 o dlouhodobém řízení IS</value>
+        </property>
+        <property propertyDefinitionRef="propid-8">
+          <value xml:lang="cs">Zákon 365/2000 o ISVS je prováděn předpisem Vyhláška 360/2023 o dlouhodobém řízení IS</value>
+        </property>
+        <property propertyDefinitionRef="propid-5">
+          <value xml:lang="cs" />
+        </property>
+        <property propertyDefinitionRef="propid-6">
+          <value xml:lang="cs" />
+        </property>
+        <property propertyDefinitionRef="propid-9">
+          <value xml:lang="cs">egl0ridicidokumenty, egl0klicovalegislativa</value>
+        </property>
+        <property propertyDefinitionRef="propid-3">
+          <value xml:lang="cs">egl0klicovalegislativa</value>
+        </property>
+      </properties>
+    </relationship>
+    <relationship identifier="legislativazakon3652000legislativavyhlaska4332020" source="legislativazakon3652000" target="legislativavyhlaska4332020" xsi:type="Aggregation">
+      <name xml:lang="cs">je prováděn předpisem</name>
+      <properties>
+        <property propertyDefinitionRef="propid-7">
+          <value xml:lang="cs">Vazby legislativy</value>
+        </property>
+        <property propertyDefinitionRef="propid-4">
+          <value xml:lang="cs">Právní předpis Zákon 365/2000 o ISVS je prováděn předpisem Právní předpis Vyhláška 433/2020 o údajích v katalogu cloudu</value>
+        </property>
+        <property propertyDefinitionRef="propid-8">
+          <value xml:lang="cs">Zákon 365/2000 o ISVS je prováděn předpisem Vyhláška 433/2020 o údajích v katalogu cloudu</value>
+        </property>
+        <property propertyDefinitionRef="propid-5">
+          <value xml:lang="cs" />
+        </property>
+        <property propertyDefinitionRef="propid-6">
+          <value xml:lang="cs" />
+        </property>
+        <property propertyDefinitionRef="propid-9">
+          <value xml:lang="cs" />
+        </property>
+        <property propertyDefinitionRef="propid-3">
+          <value xml:lang="cs">egl0klicovalegislativa</value>
+        </property>
+      </properties>
+    </relationship>
+    <relationship identifier="legislativazakon4992004legislativansesss" source="legislativazakon4992004" target="legislativansesss" xsi:type="Aggregation">
+      <name xml:lang="cs">je prováděn předpisem</name>
+      <properties>
+        <property propertyDefinitionRef="propid-7">
+          <value xml:lang="cs">Vazby legislativy</value>
+        </property>
+        <property propertyDefinitionRef="propid-4">
+          <value xml:lang="cs">Právní předpis Zákon 499/2004 o archivnictví a spisové službě je prováděn předpisem Závazný předpis Národní standard pro elektronické systémy spisové služby (NSESS)</value>
+        </property>
+        <property propertyDefinitionRef="propid-8">
+          <value xml:lang="cs">Zákon 499/2004 o archivnictví a spisové službě je prováděn předpisem Národní standard pro elektronické systémy spisové služby (NSESS)</value>
+        </property>
+        <property propertyDefinitionRef="propid-5">
+          <value xml:lang="cs" />
+        </property>
+        <property propertyDefinitionRef="propid-6">
+          <value xml:lang="cs" />
+        </property>
+        <property propertyDefinitionRef="propid-9">
+          <value xml:lang="cs">egl0klicovalegislativa</value>
+        </property>
+        <property propertyDefinitionRef="propid-3">
+          <value xml:lang="cs">egl0klicovalegislativa</value>
+        </property>
+      </properties>
+    </relationship>
+    <relationship identifier="legislativazakon4992004legislativavyhlaska2592012" source="legislativazakon4992004" target="legislativavyhlaska2592012" xsi:type="Aggregation">
+      <name xml:lang="cs">je prováděn předpisem</name>
+      <properties>
+        <property propertyDefinitionRef="propid-7">
+          <value xml:lang="cs">Vazby legislativy</value>
+        </property>
+        <property propertyDefinitionRef="propid-4">
+          <value xml:lang="cs">Právní předpis Zákon 499/2004 o archivnictví a spisové službě je prováděn předpisem Právní předpis Vyhláška 259/2012 o podrobnostech výkonu spisové služby</value>
+        </property>
+        <property propertyDefinitionRef="propid-8">
+          <value xml:lang="cs">Zákon 499/2004 o archivnictví a spisové službě je prováděn předpisem Vyhláška 259/2012 o podrobnostech výkonu spisové služby</value>
+        </property>
+        <property propertyDefinitionRef="propid-5">
+          <value xml:lang="cs" />
+        </property>
+        <property propertyDefinitionRef="propid-6">
+          <value xml:lang="cs" />
+        </property>
+        <property propertyDefinitionRef="propid-9">
+          <value xml:lang="cs">egl0klicovalegislativa</value>
+        </property>
+        <property propertyDefinitionRef="propid-3">
+          <value xml:lang="cs">egl0klicovalegislativa</value>
+        </property>
+      </properties>
+    </relationship>
+  </relationships>
+  <organizations>
+    <item>
+      <label xml:lang="cs">Business</label>
+      <item>
+        <label xml:lang="cs">EG legislativa</label>
+        <item identifierRef="ikcr" />
+        <item identifierRef="legislativaEUeaa" />
+        <item identifierRef="legislativaeidas" />
+        <item identifierRef="legislativagdpr" />
+        <item identifierRef="legislativansesss" />
+        <item identifierRef="legislativauv487" />
+        <item identifierRef="legislativauv763" />
+        <item identifierRef="legislativavyhlaska190203" />
+        <item identifierRef="legislativavyhlaska1932009" />
+        <item identifierRef="legislativavyhlaska1942009" />
+        <item identifierRef="legislativavyhlaska2592012" />
+        <item identifierRef="legislativavyhlaska3152021" />
+        <item identifierRef="legislativavyhlaska3162021" />
+        <item identifierRef="legislativavyhlaska3172016" />
+        <item identifierRef="legislativavyhlaska3602023" />
+        <item identifierRef="legislativavyhlaska4332020" />
+        <item identifierRef="legislativavyhlaska5152020" />
+        <item identifierRef="legislativavyhlaska822018" />
+        <item identifierRef="legislativazakon1061999" />
+        <item identifierRef="legislativazakon1102019" />
+        <item identifierRef="legislativazakon1112009" />
+        <item identifierRef="legislativazakon122020" />
+        <item identifierRef="legislativazakon1342016" />
+        <item identifierRef="legislativazakon1812014" />
+        <item identifierRef="legislativazakon2502017" />
+        <item identifierRef="legislativazakon2972016" />
+        <item identifierRef="legislativazakon3002008" />
+        <item identifierRef="legislativazakon3652000" />
+        <item identifierRef="legislativazakon4992004" />
+        <item identifierRef="legislativazakon992019" />
+      </item>
+    </item>
+    <item>
+      <label xml:lang="cs">Other</label>
+      <item identifierRef="groupinglegegcore" />
+    </item>
+    <item>
+      <label xml:lang="cs">Relations</label>
+      <item identifierRef="groupinglegegcorelegislativazakon1061999" />
+      <item identifierRef="groupinglegegcorelegislativazakon1112009" />
+      <item identifierRef="groupinglegegcorelegislativazakon122020" />
+      <item identifierRef="groupinglegegcorelegislativazakon1812014" />
+      <item identifierRef="groupinglegegcorelegislativazakon2502017" />
+      <item identifierRef="groupinglegegcorelegislativazakon2972016" />
+      <item identifierRef="groupinglegegcorelegislativazakon3002008" />
+      <item identifierRef="groupinglegegcorelegislativazakon3652000" />
+      <item identifierRef="groupinglegegcorelegislativazakon4992004" />
+      <item identifierRef="groupinglegegcorelegislativazakon992019" />
+      <item identifierRef="id-9099301d5bd247e9adb17e1db05e61ac" />
+      <item identifierRef="legislativaEUeaalegislativazakon992019" />
+      <item identifierRef="legislativaeidaslegislativazakon2502017" />
+      <item identifierRef="legislativagdprlegislativazakon1102019" />
+      <item identifierRef="legislativazakon1061999legislativavyhlaska5152020" />
+      <item identifierRef="legislativazakon1112009legislativavyhlaska5152020" />
+      <item identifierRef="legislativazakon1342016legislativauv487" />
+      <item identifierRef="legislativazakon1342016legislativauv763" />
+      <item identifierRef="legislativazakon1812014legislativavyhlaska190203" />
+      <item identifierRef="legislativazakon1812014legislativavyhlaska3152021" />
+      <item identifierRef="legislativazakon1812014legislativavyhlaska3172016" />
+      <item identifierRef="legislativazakon1812014legislativavyhlaska822018" />
+      <item identifierRef="legislativazakon3002008legislativavyhlaska1932009" />
+      <item identifierRef="legislativazakon3002008legislativavyhlaska1942009" />
+      <item identifierRef="legislativazakon3652000ikcr" />
+      <item identifierRef="legislativazakon3652000legislativavyhlaska3162021" />
+      <item identifierRef="legislativazakon3652000legislativavyhlaska3602023" />
+      <item identifierRef="legislativazakon3652000legislativavyhlaska4332020" />
+      <item identifierRef="legislativazakon4992004legislativansesss" />
+      <item identifierRef="legislativazakon4992004legislativavyhlaska2592012" />
+    </item>
+    <item>
+      <label xml:lang="cs">Views</label>
+      <item identifierRef="id-229d8118e13e49f292c0b6bc8ba699a6" />
+    </item>
+  </organizations>
+  <propertyDefinitions>
+    <propertyDefinition identifier="propid-4" type="string">
+      <name>FQname</name>
+    </propertyDefinition>
+    <propertyDefinition identifier="propid-7" type="string">
+      <name>Factoring</name>
+    </propertyDefinition>
+    <propertyDefinition identifier="propid-9" type="string">
+      <name>In diagrams</name>
+    </propertyDefinition>
+    <propertyDefinition identifier="propid-3" type="string">
+      <name>Packages</name>
+    </propertyDefinition>
+    <propertyDefinition identifier="propid-8" type="string">
+      <name>Statement</name>
+    </propertyDefinition>
+    <propertyDefinition identifier="propid-5" type="string">
+      <name>Status</name>
+    </propertyDefinition>
+    <propertyDefinition identifier="propid-1" type="string">
+      <name>Stereotype</name>
+    </propertyDefinition>
+    <propertyDefinition identifier="propid-2" type="string">
+      <name>Určuje</name>
+    </propertyDefinition>
+    <propertyDefinition identifier="propid-6" type="string">
+      <name>User notes</name>
+    </propertyDefinition>
+  </propertyDefinitions>
+  <views>
+    <diagrams>
+      <view identifier="id-229d8118e13e49f292c0b6bc8ba699a6" xsi:type="Diagram">
+        <name xml:lang="cs">Klíčová EG legislativa</name>
+        <node identifier="id-1e9d43a93e3649a7bb5f5e5b14b5876a" elementRef="groupinglegegcore" xsi:type="Element" x="204" y="36" w="277" h="853">
+          <style>
+            <fillColor r="255" g="255" b="255" a="100" />
+            <lineColor r="92" g="92" b="92" a="100" />
+            <font name="Segoe UI" size="9">
+              <color r="0" g="0" b="0" />
+            </font>
+          </style>
+          <node identifier="id-4ed552bfb41d4e7d9685718e71b3711f" elementRef="legislativazakon1061999" xsi:type="Element" x="228" y="72" w="217" h="55">
+            <style>
+              <fillColor r="255" g="255" b="181" a="100" />
+              <lineColor r="92" g="92" b="92" a="100" />
+              <font name="Segoe UI" size="9">
+                <color r="0" g="0" b="0" />
+              </font>
+            </style>
+          </node>
+          <node identifier="id-82360018363c48ab89383346919e7e56" elementRef="legislativazakon1112009" xsi:type="Element" x="228" y="144" w="217" h="55">
+            <style>
+              <fillColor r="255" g="255" b="181" a="100" />
+              <lineColor r="92" g="92" b="92" a="100" />
+              <font name="Segoe UI" size="9">
+                <color r="0" g="0" b="0" />
+              </font>
+            </style>
+          </node>
+          <node identifier="id-1e33f06243db4d05ab22412acedc3bb2" elementRef="legislativazakon122020" xsi:type="Element" x="228" y="288" w="217" h="55">
+            <style>
+              <fillColor r="255" g="255" b="181" a="100" />
+              <lineColor r="92" g="92" b="92" a="100" />
+              <font name="Segoe UI" size="9">
+                <color r="0" g="0" b="0" />
+              </font>
+            </style>
+          </node>
+          <node identifier="id-657dd06028c2443baaa40cb751d9cb47" elementRef="legislativazakon1342016" xsi:type="Element" x="228" y="216" w="217" h="55">
+            <style>
+              <fillColor r="255" g="255" b="181" a="100" />
+              <lineColor r="92" g="92" b="92" a="100" />
+              <font name="Segoe UI" size="9">
+                <color r="0" g="0" b="0" />
+              </font>
+            </style>
+          </node>
+          <node identifier="id-323ba4dab1b4416bb8f3f46a6870c4f8" elementRef="legislativazakon1812014" xsi:type="Element" x="228" y="360" w="217" h="55">
+            <style>
+              <fillColor r="255" g="255" b="181" a="100" />
+              <lineColor r="92" g="92" b="92" a="100" />
+              <font name="Segoe UI" size="9">
+                <color r="0" g="0" b="0" />
+              </font>
+            </style>
+          </node>
+          <node identifier="id-db2f47357ec34ec688a494c6f2e2c1ab" elementRef="legislativazakon2502017" xsi:type="Element" x="228" y="432" w="217" h="55">
+            <style>
+              <fillColor r="255" g="255" b="181" a="100" />
+              <lineColor r="92" g="92" b="92" a="100" />
+              <font name="Segoe UI" size="9">
+                <color r="0" g="0" b="0" />
+              </font>
+            </style>
+          </node>
+          <node identifier="id-cdcc4baf9fad4af6bc7fa0a36b8d3b4d" elementRef="legislativazakon3002008" xsi:type="Element" x="228" y="504" w="217" h="55">
+            <style>
+              <fillColor r="255" g="255" b="181" a="100" />
+              <lineColor r="92" g="92" b="92" a="100" />
+              <font name="Segoe UI" size="9">
+                <color r="0" g="0" b="0" />
+              </font>
+            </style>
+          </node>
+          <node identifier="id-93ff5f988ccb4b9ea480f210b6558349" elementRef="legislativazakon3652000" xsi:type="Element" x="228" y="576" w="217" h="55">
+            <style>
+              <fillColor r="255" g="255" b="181" a="100" />
+              <lineColor r="92" g="92" b="92" a="100" />
+              <font name="Segoe UI" size="9">
+                <color r="0" g="0" b="0" />
+              </font>
+            </style>
+          </node>
+          <node identifier="id-08214631310b4ba5ac2289e122141a9a" elementRef="legislativazakon4992004" xsi:type="Element" x="228" y="804" w="217" h="55">
+            <style>
+              <fillColor r="255" g="255" b="181" a="100" />
+              <lineColor r="92" g="92" b="92" a="100" />
+              <font name="Segoe UI" size="9">
+                <color r="0" g="0" b="0" />
+              </font>
+            </style>
+          </node>
+          <node identifier="id-bbf973c6f2714bb6ab3c5d81ade0dc8c" elementRef="legislativazakon992019" xsi:type="Element" x="228" y="732" w="217" h="55">
+            <style>
+              <fillColor r="255" g="255" b="181" a="100" />
+              <lineColor r="92" g="92" b="92" a="100" />
+              <font name="Segoe UI" size="9">
+                <color r="0" g="0" b="0" />
+              </font>
+            </style>
+          </node>
+          <node identifier="id-8bc6566e5c0f47a38d6bdee10725dd86" elementRef="legislativazakon2972016" xsi:type="Element" x="228" y="660" w="217" h="55">
+            <style>
+              <fillColor r="255" g="255" b="181" a="100" />
+              <lineColor r="92" g="92" b="92" a="100" />
+              <font name="Segoe UI" size="9">
+                <color r="0" g="0" b="0" />
+              </font>
+            </style>
+          </node>
+        </node>
+        <node identifier="id-cc115e691a564ea4862c4446856ab2bb" elementRef="legislativavyhlaska822018" xsi:type="Element" x="780" y="324" w="193" h="55">
+          <style>
+            <fillColor r="255" g="255" b="181" a="100" />
+            <lineColor r="92" g="92" b="92" a="100" />
+            <font name="Segoe UI" size="9">
+              <color r="0" g="0" b="0" />
+            </font>
+          </style>
+        </node>
+        <node identifier="id-cfe0129afc98465fb1ecd5f1f0bdb4f4" elementRef="legislativavyhlaska190203" xsi:type="Element" x="780" y="264" w="193" h="55">
+          <style>
+            <fillColor r="255" g="255" b="181" a="100" />
+            <lineColor r="92" g="92" b="92" a="100" />
+            <font name="Segoe UI" size="9">
+              <color r="0" g="0" b="0" />
+            </font>
+          </style>
+        </node>
+        <node identifier="id-1f9703e1ae1646e49e3999d7b387c9ae" elementRef="legislativavyhlaska1932009" xsi:type="Element" x="780" y="516" w="193" h="37">
+          <style>
+            <fillColor r="255" g="255" b="181" a="100" />
+            <lineColor r="92" g="92" b="92" a="100" />
+            <font name="Segoe UI" size="9">
+              <color r="0" g="0" b="0" />
+            </font>
+          </style>
+        </node>
+        <node identifier="id-32cd8efd0744477ca7b4efd1fa915a8f" elementRef="legislativavyhlaska1942009" xsi:type="Element" x="780" y="468" w="193" h="37">
+          <style>
+            <fillColor r="255" g="255" b="181" a="100" />
+            <lineColor r="92" g="92" b="92" a="100" />
+            <font name="Segoe UI" size="9">
+              <color r="0" g="0" b="0" />
+            </font>
+          </style>
+        </node>
+        <node identifier="id-f7aeaeda7bbf4f14b736316509f93dd3" elementRef="legislativavyhlaska2592012" xsi:type="Element" x="780" y="780" w="193" h="55">
+          <style>
+            <fillColor r="255" g="255" b="181" a="100" />
+            <lineColor r="92" g="92" b="92" a="100" />
+            <font name="Segoe UI" size="9">
+              <color r="0" g="0" b="0" />
+            </font>
+          </style>
+        </node>
+        <node identifier="id-a5687fa60afc4d9f9574974f45d68c56" elementRef="legislativavyhlaska3152021" xsi:type="Element" x="780" y="384" w="193" h="55">
+          <style>
+            <fillColor r="255" g="255" b="181" a="100" />
+            <lineColor r="92" g="92" b="92" a="100" />
+            <font name="Segoe UI" size="9">
+              <color r="0" g="0" b="0" />
+            </font>
+          </style>
+        </node>
+        <node identifier="id-2613f25228ce4050b3c05bd599e97405" elementRef="legislativavyhlaska3162021" xsi:type="Element" x="780" y="624" w="193" h="37">
+          <style>
+            <fillColor r="255" g="255" b="181" a="100" />
+            <lineColor r="92" g="92" b="92" a="100" />
+            <font name="Segoe UI" size="9">
+              <color r="0" g="0" b="0" />
+            </font>
+          </style>
+        </node>
+        <node identifier="id-73a8a0178f1540359fc11bacee093ed6" elementRef="legislativavyhlaska3172016" xsi:type="Element" x="780" y="204" w="193" h="55">
+          <style>
+            <fillColor r="255" g="255" b="181" a="100" />
+            <lineColor r="92" g="92" b="92" a="100" />
+            <font name="Segoe UI" size="9">
+              <color r="0" g="0" b="0" />
+            </font>
+          </style>
+        </node>
+        <node identifier="id-a337520ac72b4da0a8f7af08b3e2624e" elementRef="legislativavyhlaska4332020" xsi:type="Element" x="780" y="720" w="193" h="37">
+          <style>
+            <fillColor r="255" g="255" b="181" a="100" />
+            <lineColor r="92" g="92" b="92" a="100" />
+            <font name="Segoe UI" size="9">
+              <color r="0" g="0" b="0" />
+            </font>
+          </style>
+        </node>
+        <node identifier="id-e75cec68c2794f20873c0211be560a02" elementRef="legislativavyhlaska5152020" xsi:type="Element" x="780" y="36" w="193" h="37">
+          <style>
+            <fillColor r="255" g="255" b="181" a="100" />
+            <lineColor r="92" g="92" b="92" a="100" />
+            <font name="Segoe UI" size="9">
+              <color r="0" g="0" b="0" />
+            </font>
+          </style>
+        </node>
+        <node identifier="id-dcde60b2edcb42378dbd414518497e42" elementRef="legislativauv487" xsi:type="Element" x="780" y="132" w="193" h="55">
+          <style>
+            <fillColor r="255" g="255" b="181" a="100" />
+            <lineColor r="92" g="92" b="92" a="100" />
+            <font name="Segoe UI" size="9">
+              <color r="0" g="0" b="0" />
+            </font>
+          </style>
+        </node>
+        <node identifier="id-bb03d3b69846496296441b42f7d66f2a" elementRef="legislativauv763" xsi:type="Element" x="780" y="84" w="193" h="37">
+          <style>
+            <fillColor r="255" g="255" b="181" a="100" />
+            <lineColor r="92" g="92" b="92" a="100" />
+            <font name="Segoe UI" size="9">
+              <color r="0" g="0" b="0" />
+            </font>
+          </style>
+        </node>
+        <node identifier="id-ccf0f6d82871436e8f0030d560bb31c9" elementRef="ikcr" xsi:type="Element" x="780" y="672" w="193" h="37">
+          <style>
+            <fillColor r="255" g="255" b="181" a="100" />
+            <lineColor r="92" g="92" b="92" a="100" />
+            <font name="Segoe UI" size="9">
+              <color r="0" g="0" b="0" />
+            </font>
+          </style>
+        </node>
+        <node identifier="id-f8c53abef60f4f6c895345c0c24632b6" elementRef="legislativansesss" xsi:type="Element" x="780" y="852" w="193" h="55">
+          <style>
+            <fillColor r="255" g="255" b="181" a="100" />
+            <lineColor r="92" g="92" b="92" a="100" />
+            <font name="Segoe UI" size="9">
+              <color r="0" g="0" b="0" />
+            </font>
+          </style>
+        </node>
+        <node identifier="id-78739eeab79a447ba2f29807985e6e46" elementRef="legislativavyhlaska3602023" xsi:type="Element" x="780" y="576" w="193" h="43">
+          <style>
+            <fillColor r="255" g="255" b="181" a="100" />
+            <lineColor r="92" g="92" b="92" a="100" />
+            <font name="Segoe UI" size="9">
+              <color r="0" g="0" b="0" />
+            </font>
+          </style>
+        </node>
+        <connection identifier="id-fc543eb993a74b77aee6dcceb629cc56" relationshipRef="legislativazakon1061999legislativavyhlaska5152020" xsi:type="Relationship" source="id-4ed552bfb41d4e7d9685718e71b3711f" target="id-e75cec68c2794f20873c0211be560a02">
+          <style>
+            <lineColor r="0" g="0" b="0" />
+            <font name="Segoe UI" size="9">
+              <color r="0" g="0" b="0" />
+            </font>
+          </style>
+        </connection>
+        <connection identifier="id-2007bff866a04139a2c61cfa9dab01e1" relationshipRef="legislativazakon1112009legislativavyhlaska5152020" xsi:type="Relationship" source="id-82360018363c48ab89383346919e7e56" target="id-e75cec68c2794f20873c0211be560a02">
+          <style>
+            <lineColor r="0" g="0" b="0" />
+            <font name="Segoe UI" size="9">
+              <color r="0" g="0" b="0" />
+            </font>
+          </style>
+        </connection>
+        <connection identifier="id-3899f0e9548f43e6b49762c6f7a4946f" relationshipRef="legislativazakon1342016legislativauv487" xsi:type="Relationship" source="id-657dd06028c2443baaa40cb751d9cb47" target="id-dcde60b2edcb42378dbd414518497e42">
+          <style>
+            <lineColor r="0" g="0" b="0" />
+            <font name="Segoe UI" size="9">
+              <color r="0" g="0" b="0" />
+            </font>
+          </style>
+        </connection>
+        <connection identifier="id-7a48d03abce54acfa855adab061af970" relationshipRef="legislativazakon1342016legislativauv763" xsi:type="Relationship" source="id-657dd06028c2443baaa40cb751d9cb47" target="id-bb03d3b69846496296441b42f7d66f2a">
+          <style>
+            <lineColor r="0" g="0" b="0" />
+            <font name="Segoe UI" size="9">
+              <color r="0" g="0" b="0" />
+            </font>
+          </style>
+        </connection>
+        <connection identifier="id-8d7c84bd281f47b2adef63ecc93d4f85" relationshipRef="legislativazakon1812014legislativavyhlaska822018" xsi:type="Relationship" source="id-323ba4dab1b4416bb8f3f46a6870c4f8" target="id-cc115e691a564ea4862c4446856ab2bb">
+          <style>
+            <lineColor r="0" g="0" b="0" />
+            <font name="Segoe UI" size="9">
+              <color r="0" g="0" b="0" />
+            </font>
+          </style>
+        </connection>
+        <connection identifier="id-021e2de064d946ab95f5f50547dd6cb1" relationshipRef="legislativazakon1812014legislativavyhlaska190203" xsi:type="Relationship" source="id-323ba4dab1b4416bb8f3f46a6870c4f8" target="id-cfe0129afc98465fb1ecd5f1f0bdb4f4">
+          <style>
+            <lineColor r="0" g="0" b="0" />
+            <font name="Segoe UI" size="9">
+              <color r="0" g="0" b="0" />
+            </font>
+          </style>
+        </connection>
+        <connection identifier="id-25fcb568337f4631a15d9faf091fa8c6" relationshipRef="legislativazakon1812014legislativavyhlaska3152021" xsi:type="Relationship" source="id-323ba4dab1b4416bb8f3f46a6870c4f8" target="id-a5687fa60afc4d9f9574974f45d68c56">
+          <style>
+            <lineColor r="0" g="0" b="0" />
+            <font name="Segoe UI" size="9">
+              <color r="0" g="0" b="0" />
+            </font>
+          </style>
+        </connection>
+        <connection identifier="id-9e72c57142c741f98e643adffb8a8e1c" relationshipRef="legislativazakon1812014legislativavyhlaska3172016" xsi:type="Relationship" source="id-323ba4dab1b4416bb8f3f46a6870c4f8" target="id-73a8a0178f1540359fc11bacee093ed6">
+          <style>
+            <lineColor r="0" g="0" b="0" />
+            <font name="Segoe UI" size="9">
+              <color r="0" g="0" b="0" />
+            </font>
+          </style>
+        </connection>
+        <connection identifier="id-3a94b8a037be4d21a36f0c2ee23c47be" relationshipRef="legislativazakon3002008legislativavyhlaska1932009" xsi:type="Relationship" source="id-cdcc4baf9fad4af6bc7fa0a36b8d3b4d" target="id-1f9703e1ae1646e49e3999d7b387c9ae">
+          <style>
+            <lineColor r="0" g="0" b="0" />
+            <font name="Segoe UI" size="9">
+              <color r="0" g="0" b="0" />
+            </font>
+          </style>
+        </connection>
+        <connection identifier="id-c93fc639514648598a7aea83e2a1ec32" relationshipRef="legislativazakon3002008legislativavyhlaska1942009" xsi:type="Relationship" source="id-cdcc4baf9fad4af6bc7fa0a36b8d3b4d" target="id-32cd8efd0744477ca7b4efd1fa915a8f">
+          <style>
+            <lineColor r="0" g="0" b="0" />
+            <font name="Segoe UI" size="9">
+              <color r="0" g="0" b="0" />
+            </font>
+          </style>
+        </connection>
+        <connection identifier="id-749f007b3cee4952ad0fc123c3cc7d5a" relationshipRef="legislativazakon3652000legislativavyhlaska3162021" xsi:type="Relationship" source="id-93ff5f988ccb4b9ea480f210b6558349" target="id-2613f25228ce4050b3c05bd599e97405">
+          <style>
+            <lineColor r="0" g="0" b="0" />
+            <font name="Segoe UI" size="9">
+              <color r="0" g="0" b="0" />
+            </font>
+          </style>
+        </connection>
+        <connection identifier="id-696e27fcd46a468fb3d8e774eb1e0d37" relationshipRef="legislativazakon3652000legislativavyhlaska3602023" xsi:type="Relationship" source="id-93ff5f988ccb4b9ea480f210b6558349" target="id-78739eeab79a447ba2f29807985e6e46">
+          <style>
+            <lineColor r="0" g="0" b="0" />
+            <font name="Segoe UI" size="9">
+              <color r="0" g="0" b="0" />
+            </font>
+          </style>
+        </connection>
+        <connection identifier="id-d7d4edf7e94249f791d027ab988950f8" relationshipRef="legislativazakon3652000legislativavyhlaska4332020" xsi:type="Relationship" source="id-93ff5f988ccb4b9ea480f210b6558349" target="id-a337520ac72b4da0a8f7af08b3e2624e">
+          <style>
+            <lineColor r="0" g="0" b="0" />
+            <font name="Segoe UI" size="9">
+              <color r="0" g="0" b="0" />
+            </font>
+          </style>
+        </connection>
+        <connection identifier="id-3de19712ece0442093e626fa3c298b6c" relationshipRef="legislativazakon3652000ikcr" xsi:type="Relationship" source="id-93ff5f988ccb4b9ea480f210b6558349" target="id-ccf0f6d82871436e8f0030d560bb31c9">
+          <style>
+            <lineColor r="0" g="0" b="0" />
+            <font name="Segoe UI" size="9">
+              <color r="0" g="0" b="0" />
+            </font>
+          </style>
+        </connection>
+        <connection identifier="id-9bc36b4b44db4dfe8bc24c08301f0f97" relationshipRef="legislativazakon4992004legislativavyhlaska2592012" xsi:type="Relationship" source="id-08214631310b4ba5ac2289e122141a9a" target="id-f7aeaeda7bbf4f14b736316509f93dd3">
+          <style>
+            <lineColor r="0" g="0" b="0" />
+            <font name="Segoe UI" size="9">
+              <color r="0" g="0" b="0" />
+            </font>
+          </style>
+        </connection>
+        <connection identifier="id-875d3d34af3e42ef874b22f5171afd25" relationshipRef="legislativazakon4992004legislativansesss" xsi:type="Relationship" source="id-08214631310b4ba5ac2289e122141a9a" target="id-f8c53abef60f4f6c895345c0c24632b6">
+          <style>
+            <lineColor r="0" g="0" b="0" />
+            <font name="Segoe UI" size="9">
+              <color r="0" g="0" b="0" />
+            </font>
+          </style>
+        </connection>
+      </view>
+    </diagrams>
+  </views>
+</model>
