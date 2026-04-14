@@ -1,5 +1,5 @@
 {
-  "exportDate": "2026-04-14T18:28:24.424Z",
+  "exportDate": "2026-04-14T19:11:20.304Z",
   "archimateVersion": "3.2",
   "model": {
     "id": "cz-egdilna-jaksecokresli",
@@ -1061,6 +1061,35 @@
   ],
   "diagrams": [],
   "adr": [],
-  "notes": [],
+  "notes": [
+    {
+      "id": "note-1776193831848",
+      "name": "Šablona pro prvek do edu materiálu",
+      "author": "Michal Rada",
+      "tags": [
+        "Šablona"
+      ],
+      "content": "* {Název}: {Popis} / zanese se na vrstvě **{Vrstva}** jako prvek typu **{Typ}** se stereotypem **{Stereotyp}**",
+      "linkedElements": [],
+      "linkedRelationships": [],
+      "created": "2026-04-14T19:10:31.848Z",
+      "updated": "2026-04-14T19:10:31.848Z",
+      "versions": []
+    },
+    {
+      "id": "note-1776193877282",
+      "name": "Šablona vazby pro edu materiály",
+      "author": "Michal Rada",
+      "tags": [
+        "Šablona"
+      ],
+      "content": "* {Zdroj} {Název} {Cíl}: {Popis} / zanese se jako vazba **{Typ}** z prvku **{Zdroj} ({ZdrojTyp})** do prvku **{Cíl} ({CílTyp})** ideálně s názvem **{Název}**",
+      "linkedElements": [],
+      "linkedRelationships": [],
+      "created": "2026-04-14T19:11:17.282Z",
+      "updated": "2026-04-14T19:11:17.282Z",
+      "versions": []
+    }
+  ],
   "tasks": []
 }
