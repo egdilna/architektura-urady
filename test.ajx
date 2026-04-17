@@ -1,0 +1,27 @@
+{
+  "exportDate": "2026-04-17T10:03:10.742Z",
+  "archimateVersion": "3.2",
+  "model": {
+    "id": "id-model-001",
+    "name": "",
+    "version": "",
+    "documentation": "",
+    "dublinCore": {
+      "creator": "",
+      "publisher": "",
+      "date": "",
+      "language": "cs",
+      "rights": "",
+      "subject": "",
+      "description": ""
+    },
+    "properties": [],
+    "ghPath": "egdilna/architektura-urady/test.ajx"
+  },
+  "elements": [],
+  "relationships": [],
+  "diagrams": [],
+  "adr": [],
+  "notes": [],
+  "tasks": []
+}
