@@ -1,10 +1,10 @@
 {
-  "exportDate": "2026-04-17T10:03:25.006Z",
+  "exportDate": "2026-04-17T10:12:51.360Z",
   "archimateVersion": "3.2",
   "model": {
-    "id": "id-model-001",
-    "name": "",
-    "version": "",
+    "id": "cz.egdilna.testid-model-001",
+    "name": "Testovací model pro ukázku;",
+    "version": "0.1",
     "documentation": "",
     "dublinCore": {
       "creator": "",
@@ -18,8 +18,39 @@
     "properties": [],
     "ghPath": "egdilna/architektura-urady/test.ajx"
   },
-  "elements": [],
-  "relationships": [],
+  "elements": [
+    {
+      "id": "archeditor",
+      "layer": "application",
+      "type": "ApplicationComponent",
+      "stereotype": "Aplikace",
+      "name": "ArchiMate editor",
+      "určuje": "",
+      "příznaky": "test, ukázka",
+      "description": "Tohle je super nástroj, je na https://egdilna.github.io/nastroje/archimate"
+    },
+    {
+      "id": "procarch",
+      "layer": "business",
+      "type": "BusinessProcess",
+      "stereotype": "proces",
+      "name": "´Tvorba architektury",
+      "určuje": "",
+      "příznaky": "test, ukázka",
+      "description": "dělání architektury v ArchiMate"
+    }
+  ],
+  "relationships": [
+    {
+      "id": "archeditorprocarch",
+      "sourceId": "archeditor",
+      "targetId": "procarch",
+      "type": "Serving",
+      "name": "slouží pro",
+      "description": "",
+      "příznaky": "ukázka"
+    }
+  ],
   "diagrams": [],
   "adr": [],
   "notes": [],
